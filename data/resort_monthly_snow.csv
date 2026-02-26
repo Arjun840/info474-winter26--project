@@ -1,0 +1,3273 @@
+ID,Resort,Month,Snow
+1,Hemsedal,2022-12-01,100.0
+1,Hemsedal,2022-11-01,88.58
+1,Hemsedal,2022-05-01,100.0
+1,Hemsedal,2022-04-01,100.0
+1,Hemsedal,2022-03-01,100.0
+1,Hemsedal,2022-02-01,100.0
+1,Hemsedal,2022-01-01,99.21
+2,Geilosiden Geilo,2022-12-01,100.0
+2,Geilosiden Geilo,2022-11-01,100.0
+2,Geilosiden Geilo,2022-05-01,100.0
+2,Geilosiden Geilo,2022-04-01,100.0
+2,Geilosiden Geilo,2022-03-01,100.0
+2,Geilosiden Geilo,2022-02-01,100.0
+2,Geilosiden Geilo,2022-01-01,100.0
+3,Golm,2022-12-01,95.28
+3,Golm,2022-11-01,11.02
+3,Golm,2022-05-01,1.18
+3,Golm,2022-04-01,11.42
+3,Golm,2022-03-01,21.65
+3,Golm,2022-02-01,96.06
+3,Golm,2022-01-01,75.2
+119,Silvretta Montafon,2022-12-01,95.28
+119,Silvretta Montafon,2022-11-01,11.02
+119,Silvretta Montafon,2022-05-01,1.18
+119,Silvretta Montafon,2022-04-01,11.42
+119,Silvretta Montafon,2022-03-01,21.65
+119,Silvretta Montafon,2022-02-01,96.06
+119,Silvretta Montafon,2022-01-01,75.2
+309,Brandnertal-Brand-?Bu?rserberg,2022-12-01,95.28
+309,Brandnertal-Brand-?Bu?rserberg,2022-11-01,11.02
+309,Brandnertal-Brand-?Bu?rserberg,2022-05-01,1.18
+309,Brandnertal-Brand-?Bu?rserberg,2022-04-01,11.42
+309,Brandnertal-Brand-?Bu?rserberg,2022-03-01,21.65
+309,Brandnertal-Brand-?Bu?rserberg,2022-02-01,96.06
+309,Brandnertal-Brand-?Bu?rserberg,2022-01-01,75.2
+4,Red Mountain Resort-Rossland,2022-12-01,98.03
+4,Red Mountain Resort-Rossland,2022-11-01,95.67
+4,Red Mountain Resort-Rossland,2022-06-01,5.91
+4,Red Mountain Resort-Rossland,2022-04-01,96.06
+4,Red Mountain Resort-Rossland,2022-03-01,100.0
+4,Red Mountain Resort-Rossland,2022-02-01,96.06
+4,Red Mountain Resort-Rossland,2022-01-01,98.03
+5,Hafjell,2022-12-01,100.0
+5,Hafjell,2022-11-01,77.17
+5,Hafjell,2022-04-01,100.0
+5,Hafjell,2022-03-01,100.0
+5,Hafjell,2022-02-01,100.0
+5,Hafjell,2022-01-01,99.61
+6,Voss,2022-12-01,100.0
+6,Voss,2022-11-01,2.36
+6,Voss,2022-10-01,100.0
+6,Voss,2022-05-01,99.21
+6,Voss,2022-04-01,100.0
+6,Voss,2022-03-01,100.0
+6,Voss,2022-02-01,100.0
+6,Voss,2022-01-01,100.0
+7,Porter,2022-06-01,1.97
+8,Nevados de Chilla?n,2022-07-01,5.12
+9,Hochschwarzeck,2022-12-01,95.28
+9,Hochschwarzeck,2022-09-01,0.79
+9,Hochschwarzeck,2022-04-01,9.06
+9,Hochschwarzeck,2022-03-01,17.32
+9,Hochschwarzeck,2022-02-01,98.82
+9,Hochschwarzeck,2022-01-01,95.28
+472,Go?tschen-Bischofswiesen,2022-12-01,95.28
+472,Go?tschen-Bischofswiesen,2022-09-01,0.79
+472,Go?tschen-Bischofswiesen,2022-04-01,9.06
+472,Go?tschen-Bischofswiesen,2022-03-01,17.32
+472,Go?tschen-Bischofswiesen,2022-02-01,98.82
+472,Go?tschen-Bischofswiesen,2022-01-01,95.28
+10,Rossfeld - Berchtesgaden - Oberau,2022-12-01,35.43
+10,Rossfeld - Berchtesgaden - Oberau,2022-11-01,0.39
+10,Rossfeld - Berchtesgaden - Oberau,2022-04-01,0.79
+10,Rossfeld - Berchtesgaden - Oberau,2022-03-01,0.79
+10,Rossfeld - Berchtesgaden - Oberau,2022-02-01,56.69
+10,Rossfeld - Berchtesgaden - Oberau,2022-01-01,72.44
+456,Gaissau-Hintersee,2022-12-01,35.43
+456,Gaissau-Hintersee,2022-11-01,0.39
+456,Gaissau-Hintersee,2022-04-01,0.79
+456,Gaissau-Hintersee,2022-03-01,0.79
+456,Gaissau-Hintersee,2022-02-01,56.69
+456,Gaissau-Hintersee,2022-01-01,72.44
+11,Fernie,2022-12-01,98.43
+11,Fernie,2022-11-01,97.24
+11,Fernie,2022-09-01,12.99
+11,Fernie,2022-03-01,96.06
+11,Fernie,2022-02-01,100.0
+11,Fernie,2022-01-01,98.82
+12,Sun Peaks,2022-12-01,95.67
+12,Sun Peaks,2022-11-01,94.09
+12,Sun Peaks,2022-04-01,96.85
+12,Sun Peaks,2022-03-01,90.94
+12,Sun Peaks,2022-02-01,98.43
+12,Sun Peaks,2022-01-01,99.21
+13,Panorama,2022-12-01,100.0
+13,Panorama,2022-11-01,100.0
+13,Panorama,2022-04-01,1.97
+13,Panorama,2022-03-01,50.79
+13,Panorama,2022-02-01,98.03
+13,Panorama,2022-01-01,96.06
+14,Brauneck Lenggries ?Wegscheid,2022-12-01,85.04
+14,Brauneck Lenggries ?Wegscheid,2022-04-01,3.94
+14,Brauneck Lenggries ?Wegscheid,2022-03-01,2.36
+14,Brauneck Lenggries ?Wegscheid,2022-02-01,97.24
+14,Brauneck Lenggries ?Wegscheid,2022-01-01,96.06
+469,Christlum-Achenkirch,2022-12-01,85.04
+469,Christlum-Achenkirch,2022-04-01,3.94
+469,Christlum-Achenkirch,2022-03-01,2.36
+469,Christlum-Achenkirch,2022-02-01,97.24
+469,Christlum-Achenkirch,2022-01-01,96.06
+15,Zermatt - Matterhorn,2022-12-01,100.0
+15,Zermatt - Matterhorn,2022-11-01,99.21
+15,Zermatt - Matterhorn,2022-05-01,4.33
+15,Zermatt - Matterhorn,2022-04-01,31.89
+15,Zermatt - Matterhorn,2022-03-01,100.0
+15,Zermatt - Matterhorn,2022-02-01,100.0
+15,Zermatt - Matterhorn,2022-01-01,91.34
+129,Champoluc (Monterosa Ski),2022-12-01,100.0
+129,Champoluc (Monterosa Ski),2022-11-01,99.21
+129,Champoluc (Monterosa Ski),2022-05-01,4.33
+129,Champoluc (Monterosa Ski),2022-04-01,31.89
+129,Champoluc (Monterosa Ski),2022-03-01,100.0
+129,Champoluc (Monterosa Ski),2022-02-01,100.0
+129,Champoluc (Monterosa Ski),2022-01-01,91.34
+134,Cervinia,2022-12-01,100.0
+134,Cervinia,2022-11-01,99.21
+134,Cervinia,2022-05-01,4.33
+134,Cervinia,2022-04-01,31.89
+134,Cervinia,2022-03-01,100.0
+134,Cervinia,2022-02-01,100.0
+134,Cervinia,2022-01-01,91.34
+16,Treble Cone,2022-12-01,1.18
+16,Treble Cone,2022-11-01,47.24
+16,Treble Cone,2022-10-01,100.0
+16,Treble Cone,2022-09-01,100.0
+16,Treble Cone,2022-08-01,100.0
+16,Treble Cone,2022-07-01,100.0
+16,Treble Cone,2022-06-01,95.28
+16,Treble Cone,2022-05-01,31.89
+17,Val Gardena,2022-12-01,100.0
+17,Val Gardena,2022-11-01,2.36
+17,Val Gardena,2022-04-01,0.39
+17,Val Gardena,2022-02-01,12.2
+17,Val Gardena,2022-01-01,87.01
+285,Alpe di Siusi-Seiser Alm-,2022-12-01,100.0
+285,Alpe di Siusi-Seiser Alm-,2022-11-01,2.36
+285,Alpe di Siusi-Seiser Alm-,2022-04-01,0.39
+285,Alpe di Siusi-Seiser Alm-,2022-02-01,12.2
+285,Alpe di Siusi-Seiser Alm-,2022-01-01,87.01
+18,Gressoney - La-Trinite (Monterosa Ski),2022-12-01,100.0
+18,Gressoney - La-Trinite (Monterosa Ski),2022-11-01,20.47
+18,Gressoney - La-Trinite (Monterosa Ski),2022-10-01,19.29
+18,Gressoney - La-Trinite (Monterosa Ski),2022-09-01,8.66
+18,Gressoney - La-Trinite (Monterosa Ski),2022-08-01,8.27
+18,Gressoney - La-Trinite (Monterosa Ski),2022-07-01,7.48
+18,Gressoney - La-Trinite (Monterosa Ski),2022-06-01,10.24
+18,Gressoney - La-Trinite (Monterosa Ski),2022-05-01,41.73
+18,Gressoney - La-Trinite (Monterosa Ski),2022-04-01,78.74
+18,Gressoney - La-Trinite (Monterosa Ski),2022-03-01,100.0
+18,Gressoney - La-Trinite (Monterosa Ski),2022-02-01,100.0
+18,Gressoney - La-Trinite (Monterosa Ski),2022-01-01,99.21
+19,Les Gets (Les Portes du Soleil),2022-12-01,98.82
+19,Les Gets (Les Portes du Soleil),2022-05-01,0.79
+19,Les Gets (Les Portes du Soleil),2022-04-01,48.82
+19,Les Gets (Les Portes du Soleil),2022-03-01,98.82
+19,Les Gets (Les Portes du Soleil),2022-02-01,96.85
+19,Les Gets (Les Portes du Soleil),2022-01-01,96.06
+152,Le Grand Massif-Flaine-?Les Carroz-?Morillon-?Samoe?ns-?Sixt,2022-12-01,98.82
+152,Le Grand Massif-Flaine-?Les Carroz-?Morillon-?Samoe?ns-?Sixt,2022-05-01,0.79
+152,Le Grand Massif-Flaine-?Les Carroz-?Morillon-?Samoe?ns-?Sixt,2022-04-01,48.82
+152,Le Grand Massif-Flaine-?Les Carroz-?Morillon-?Samoe?ns-?Sixt,2022-03-01,98.82
+152,Le Grand Massif-Flaine-?Les Carroz-?Morillon-?Samoe?ns-?Sixt,2022-02-01,96.85
+152,Le Grand Massif-Flaine-?Les Carroz-?Morillon-?Samoe?ns-?Sixt,2022-01-01,96.06
+357,Praz de Lys-?Sommand-Taninges-?Mieussy-,2022-12-01,98.82
+357,Praz de Lys-?Sommand-Taninges-?Mieussy-,2022-05-01,0.79
+357,Praz de Lys-?Sommand-Taninges-?Mieussy-,2022-04-01,48.82
+357,Praz de Lys-?Sommand-Taninges-?Mieussy-,2022-03-01,98.82
+357,Praz de Lys-?Sommand-Taninges-?Mieussy-,2022-02-01,96.85
+357,Praz de Lys-?Sommand-Taninges-?Mieussy-,2022-01-01,96.06
+20,Espace San Bernardo – La Rosière/?La Thuile,2022-12-01,100.0
+20,Espace San Bernardo – La Rosière/?La Thuile,2022-11-01,100.0
+20,Espace San Bernardo – La Rosière/?La Thuile,2022-10-01,12.6
+20,Espace San Bernardo – La Rosière/?La Thuile,2022-07-01,0.39
+20,Espace San Bernardo – La Rosière/?La Thuile,2022-06-01,11.42
+20,Espace San Bernardo – La Rosière/?La Thuile,2022-05-01,77.17
+20,Espace San Bernardo – La Rosière/?La Thuile,2022-04-01,98.03
+20,Espace San Bernardo – La Rosière/?La Thuile,2022-03-01,100.0
+20,Espace San Bernardo – La Rosière/?La Thuile,2022-02-01,100.0
+20,Espace San Bernardo – La Rosière/?La Thuile,2022-01-01,100.0
+32,La Thuile / La Rosière - Espace San Bernardo,2022-12-01,100.0
+32,La Thuile / La Rosière - Espace San Bernardo,2022-11-01,100.0
+32,La Thuile / La Rosière - Espace San Bernardo,2022-10-01,12.6
+32,La Thuile / La Rosière - Espace San Bernardo,2022-07-01,0.39
+32,La Thuile / La Rosière - Espace San Bernardo,2022-06-01,11.42
+32,La Thuile / La Rosière - Espace San Bernardo,2022-05-01,77.17
+32,La Thuile / La Rosière - Espace San Bernardo,2022-04-01,98.03
+32,La Thuile / La Rosière - Espace San Bernardo,2022-03-01,100.0
+32,La Thuile / La Rosière - Espace San Bernardo,2022-02-01,100.0
+32,La Thuile / La Rosière - Espace San Bernardo,2022-01-01,100.0
+70,Sainte-Foy-Tarentaise,2022-12-01,100.0
+70,Sainte-Foy-Tarentaise,2022-11-01,100.0
+70,Sainte-Foy-Tarentaise,2022-10-01,12.6
+70,Sainte-Foy-Tarentaise,2022-07-01,0.39
+70,Sainte-Foy-Tarentaise,2022-06-01,11.42
+70,Sainte-Foy-Tarentaise,2022-05-01,77.17
+70,Sainte-Foy-Tarentaise,2022-04-01,98.03
+70,Sainte-Foy-Tarentaise,2022-03-01,100.0
+70,Sainte-Foy-Tarentaise,2022-02-01,100.0
+70,Sainte-Foy-Tarentaise,2022-01-01,100.0
+21,The Lecht,2022-12-01,99.61
+21,The Lecht,2022-11-01,7.87
+21,The Lecht,2022-02-01,66.93
+21,The Lecht,2022-01-01,51.97
+22,Steamboat,2022-11-01,0.79
+22,Steamboat,2022-06-01,5.91
+22,Steamboat,2022-03-01,10.24
+22,Steamboat,2022-02-01,11.02
+22,Steamboat,2022-01-01,38.19
+23,Howelsen Hill-Steamboat Springs,2022-12-01,100.0
+23,Howelsen Hill-Steamboat Springs,2022-11-01,62.6
+23,Howelsen Hill-Steamboat Springs,2022-04-01,15.35
+23,Howelsen Hill-Steamboat Springs,2022-03-01,100.0
+23,Howelsen Hill-Steamboat Springs,2022-02-01,100.0
+23,Howelsen Hill-Steamboat Springs,2022-01-01,100.0
+24,Les Contamines-?Hauteluce,2022-12-01,95.28
+24,Les Contamines-?Hauteluce,2022-11-01,16.93
+24,Les Contamines-?Hauteluce,2022-04-01,0.79
+24,Les Contamines-?Hauteluce,2022-03-01,92.52
+24,Les Contamines-?Hauteluce,2022-02-01,99.61
+24,Les Contamines-?Hauteluce,2022-01-01,99.21
+60,Espace Diamant-Les Saisies/?Notre-Dame-de-Bellecombe/?Praz sur Arly/?Flumet/?Crest-Voland,2022-12-01,95.28
+60,Espace Diamant-Les Saisies/?Notre-Dame-de-Bellecombe/?Praz sur Arly/?Flumet/?Crest-Voland,2022-11-01,16.93
+60,Espace Diamant-Les Saisies/?Notre-Dame-de-Bellecombe/?Praz sur Arly/?Flumet/?Crest-Voland,2022-04-01,0.79
+60,Espace Diamant-Les Saisies/?Notre-Dame-de-Bellecombe/?Praz sur Arly/?Flumet/?Crest-Voland,2022-03-01,92.52
+60,Espace Diamant-Les Saisies/?Notre-Dame-de-Bellecombe/?Praz sur Arly/?Flumet/?Crest-Voland,2022-02-01,99.61
+60,Espace Diamant-Les Saisies/?Notre-Dame-de-Bellecombe/?Praz sur Arly/?Flumet/?Crest-Voland,2022-01-01,99.21
+153,Mege?ve-?Saint-Gervais,2022-12-01,95.28
+153,Mege?ve-?Saint-Gervais,2022-11-01,16.93
+153,Mege?ve-?Saint-Gervais,2022-04-01,0.79
+153,Mege?ve-?Saint-Gervais,2022-03-01,92.52
+153,Mege?ve-?Saint-Gervais,2022-02-01,99.61
+153,Mege?ve-?Saint-Gervais,2022-01-01,99.21
+25,Crested Butte,2022-12-01,100.0
+25,Crested Butte,2022-11-01,100.0
+25,Crested Butte,2022-10-01,22.83
+25,Crested Butte,2022-05-01,3.94
+25,Crested Butte,2022-04-01,94.88
+25,Crested Butte,2022-03-01,98.82
+25,Crested Butte,2022-02-01,98.43
+25,Crested Butte,2022-01-01,98.82
+26,Jackson Hole,2022-11-01,6.3
+27,Park City,2022-12-01,100.0
+27,Park City,2022-11-01,100.0
+27,Park City,2022-10-01,12.2
+27,Park City,2022-04-01,8.66
+27,Park City,2022-03-01,98.43
+27,Park City,2022-02-01,100.0
+27,Park City,2022-01-01,100.0
+28,Nevis Range,2022-12-01,83.07
+28,Nevis Range,2022-02-01,98.03
+28,Nevis Range,2022-01-01,100.0
+29,Arapahoe Basin,2022-12-01,3.94
+29,Arapahoe Basin,2022-02-01,25.59
+29,Arapahoe Basin,2022-01-01,33.07
+30,The Remarkables,2022-12-01,3.54
+30,The Remarkables,2022-11-01,5.51
+30,The Remarkables,2022-10-01,92.91
+30,The Remarkables,2022-09-01,98.03
+30,The Remarkables,2022-08-01,99.21
+30,The Remarkables,2022-07-01,100.0
+30,The Remarkables,2022-06-01,100.0
+30,The Remarkables,2022-05-01,50.79
+31,Valchiavenna – Madesimo/?Campodolcino,2022-12-01,97.64
+31,Valchiavenna – Madesimo/?Campodolcino,2022-11-01,77.17
+31,Valchiavenna – Madesimo/?Campodolcino,2022-05-01,4.72
+31,Valchiavenna – Madesimo/?Campodolcino,2022-04-01,29.13
+31,Valchiavenna – Madesimo/?Campodolcino,2022-03-01,77.95
+31,Valchiavenna – Madesimo/?Campodolcino,2022-02-01,97.64
+31,Valchiavenna – Madesimo/?Campodolcino,2022-01-01,81.5
+33,Livigno – Carosello/?Mottolino,2022-12-01,96.06
+33,Livigno – Carosello/?Mottolino,2022-11-01,91.34
+33,Livigno – Carosello/?Mottolino,2022-05-01,12.99
+33,Livigno – Carosello/?Mottolino,2022-04-01,60.63
+33,Livigno – Carosello/?Mottolino,2022-03-01,94.88
+33,Livigno – Carosello/?Mottolino,2022-02-01,94.88
+33,Livigno – Carosello/?Mottolino,2022-01-01,96.46
+34,Madonna di Campiglio-?Pinzolo-?Folga?rida-?Marilleva,2022-12-01,100.0
+34,Madonna di Campiglio-?Pinzolo-?Folga?rida-?Marilleva,2022-11-01,34.25
+34,Madonna di Campiglio-?Pinzolo-?Folga?rida-?Marilleva,2022-05-01,1.57
+34,Madonna di Campiglio-?Pinzolo-?Folga?rida-?Marilleva,2022-04-01,59.45
+34,Madonna di Campiglio-?Pinzolo-?Folga?rida-?Marilleva,2022-03-01,66.14
+34,Madonna di Campiglio-?Pinzolo-?Folga?rida-?Marilleva,2022-02-01,90.94
+34,Madonna di Campiglio-?Pinzolo-?Folga?rida-?Marilleva,2022-01-01,93.31
+35,Wagrain (Ski amedé),2022-12-01,87.4
+35,Wagrain (Ski amedé),2022-11-01,13.39
+35,Wagrain (Ski amedé),2022-04-01,12.6
+35,Wagrain (Ski amedé),2022-03-01,98.43
+35,Wagrain (Ski amedé),2022-02-01,97.24
+35,Wagrain (Ski amedé),2022-01-01,97.64
+106,Flachau (Ski amedé),2022-12-01,87.4
+106,Flachau (Ski amedé),2022-11-01,13.39
+106,Flachau (Ski amedé),2022-04-01,12.6
+106,Flachau (Ski amedé),2022-03-01,98.43
+106,Flachau (Ski amedé),2022-02-01,97.24
+106,Flachau (Ski amedé),2022-01-01,97.64
+117,Zauchensee,2022-12-01,87.4
+117,Zauchensee,2022-11-01,13.39
+117,Zauchensee,2022-04-01,12.6
+117,Zauchensee,2022-03-01,98.43
+117,Zauchensee,2022-02-01,97.24
+117,Zauchensee,2022-01-01,97.64
+474,Monte Popolo-Eben im Pongau,2022-12-01,87.4
+474,Monte Popolo-Eben im Pongau,2022-11-01,13.39
+474,Monte Popolo-Eben im Pongau,2022-04-01,12.6
+474,Monte Popolo-Eben im Pongau,2022-03-01,98.43
+474,Monte Popolo-Eben im Pongau,2022-02-01,97.24
+474,Monte Popolo-Eben im Pongau,2022-01-01,97.64
+36,Kaunertal Glacier (Kaunertaler Gletscher),2022-12-01,99.61
+36,Kaunertal Glacier (Kaunertaler Gletscher),2022-11-01,99.61
+36,Kaunertal Glacier (Kaunertaler Gletscher),2022-10-01,8.66
+36,Kaunertal Glacier (Kaunertaler Gletscher),2022-09-01,5.91
+36,Kaunertal Glacier (Kaunertaler Gletscher),2022-06-01,4.33
+36,Kaunertal Glacier (Kaunertaler Gletscher),2022-05-01,68.11
+36,Kaunertal Glacier (Kaunertaler Gletscher),2022-04-01,100.0
+36,Kaunertal Glacier (Kaunertaler Gletscher),2022-03-01,100.0
+36,Kaunertal Glacier (Kaunertaler Gletscher),2022-02-01,100.0
+36,Kaunertal Glacier (Kaunertaler Gletscher),2022-01-01,99.21
+249,Nauders am Reschenpass-Bergkastel,2022-12-01,99.61
+249,Nauders am Reschenpass-Bergkastel,2022-11-01,99.61
+249,Nauders am Reschenpass-Bergkastel,2022-10-01,8.66
+249,Nauders am Reschenpass-Bergkastel,2022-09-01,5.91
+249,Nauders am Reschenpass-Bergkastel,2022-06-01,4.33
+249,Nauders am Reschenpass-Bergkastel,2022-05-01,68.11
+249,Nauders am Reschenpass-Bergkastel,2022-04-01,100.0
+249,Nauders am Reschenpass-Bergkastel,2022-03-01,100.0
+249,Nauders am Reschenpass-Bergkastel,2022-02-01,100.0
+249,Nauders am Reschenpass-Bergkastel,2022-01-01,99.21
+37,Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus),2022-12-01,100.0
+37,Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus),2022-11-01,90.94
+37,Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus),2022-05-01,3.94
+37,Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus),2022-04-01,100.0
+37,Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus),2022-03-01,96.85
+37,Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus),2022-02-01,97.64
+37,Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus),2022-01-01,92.13
+114,Fieberbrunn - Saalbach Hinterglemm Leogang (Skicircus),2022-12-01,100.0
+114,Fieberbrunn - Saalbach Hinterglemm Leogang (Skicircus),2022-11-01,90.94
+114,Fieberbrunn - Saalbach Hinterglemm Leogang (Skicircus),2022-05-01,3.94
+114,Fieberbrunn - Saalbach Hinterglemm Leogang (Skicircus),2022-04-01,100.0
+114,Fieberbrunn - Saalbach Hinterglemm Leogang (Skicircus),2022-03-01,96.85
+114,Fieberbrunn - Saalbach Hinterglemm Leogang (Skicircus),2022-02-01,97.64
+114,Fieberbrunn - Saalbach Hinterglemm Leogang (Skicircus),2022-01-01,92.13
+38,Sestriere ski resort (Via Lattea),2022-12-01,98.03
+38,Sestriere ski resort (Via Lattea),2022-11-01,94.49
+38,Sestriere ski resort (Via Lattea),2022-05-01,18.5
+38,Sestriere ski resort (Via Lattea),2022-04-01,78.35
+38,Sestriere ski resort (Via Lattea),2022-03-01,100.0
+38,Sestriere ski resort (Via Lattea),2022-02-01,98.43
+38,Sestriere ski resort (Via Lattea),2022-01-01,97.24
+39,Reither Kogel-Reith im Alpbachtal,2022-12-01,100.0
+39,Reither Kogel-Reith im Alpbachtal,2022-11-01,11.42
+39,Reither Kogel-Reith im Alpbachtal,2022-04-01,7.48
+39,Reither Kogel-Reith im Alpbachtal,2022-03-01,8.66
+39,Reither Kogel-Reith im Alpbachtal,2022-02-01,97.24
+39,Reither Kogel-Reith im Alpbachtal,2022-01-01,100.0
+107,Ski Juwel Alpbachtal Wildscho?nau,2022-12-01,100.0
+107,Ski Juwel Alpbachtal Wildscho?nau,2022-11-01,11.42
+107,Ski Juwel Alpbachtal Wildscho?nau,2022-04-01,7.48
+107,Ski Juwel Alpbachtal Wildscho?nau,2022-03-01,8.66
+107,Ski Juwel Alpbachtal Wildscho?nau,2022-02-01,97.24
+107,Ski Juwel Alpbachtal Wildscho?nau,2022-01-01,100.0
+228,Kaltenbach-Hochzillertal-?Hochfu?gen-SKi-optimal-,2022-12-01,100.0
+228,Kaltenbach-Hochzillertal-?Hochfu?gen-SKi-optimal-,2022-11-01,11.42
+228,Kaltenbach-Hochzillertal-?Hochfu?gen-SKi-optimal-,2022-04-01,7.48
+228,Kaltenbach-Hochzillertal-?Hochfu?gen-SKi-optimal-,2022-03-01,8.66
+228,Kaltenbach-Hochzillertal-?Hochfu?gen-SKi-optimal-,2022-02-01,97.24
+228,Kaltenbach-Hochzillertal-?Hochfu?gen-SKi-optimal-,2022-01-01,100.0
+40,Kicking Horse - Golden,2022-12-01,96.85
+40,Kicking Horse - Golden,2022-11-01,97.24
+40,Kicking Horse - Golden,2022-09-01,9.45
+40,Kicking Horse - Golden,2022-07-01,3.94
+40,Kicking Horse - Golden,2022-06-01,24.8
+40,Kicking Horse - Golden,2022-04-01,100.0
+40,Kicking Horse - Golden,2022-03-01,98.03
+40,Kicking Horse - Golden,2022-02-01,99.61
+40,Kicking Horse - Golden,2022-01-01,94.09
+41,Grandvalira – Pas de la Casa/?Grau Roig/?Soldeu/?El Tarter/?Canillo/?Encamp,2022-12-01,100.0
+41,Grandvalira – Pas de la Casa/?Grau Roig/?Soldeu/?El Tarter/?Canillo/?Encamp,2022-11-01,32.28
+41,Grandvalira – Pas de la Casa/?Grau Roig/?Soldeu/?El Tarter/?Canillo/?Encamp,2022-05-01,10.24
+41,Grandvalira – Pas de la Casa/?Grau Roig/?Soldeu/?El Tarter/?Canillo/?Encamp,2022-04-01,100.0
+41,Grandvalira – Pas de la Casa/?Grau Roig/?Soldeu/?El Tarter/?Canillo/?Encamp,2022-03-01,99.61
+41,Grandvalira – Pas de la Casa/?Grau Roig/?Soldeu/?El Tarter/?Canillo/?Encamp,2022-02-01,100.0
+41,Grandvalira – Pas de la Casa/?Grau Roig/?Soldeu/?El Tarter/?Canillo/?Encamp,2022-01-01,100.0
+85,El Tarter – Pas de la Casa/?Grau Roig/?Soldeu/?Canillo/?Encamp (Grandvalira),2022-12-01,100.0
+85,El Tarter – Pas de la Casa/?Grau Roig/?Soldeu/?Canillo/?Encamp (Grandvalira),2022-11-01,32.28
+85,El Tarter – Pas de la Casa/?Grau Roig/?Soldeu/?Canillo/?Encamp (Grandvalira),2022-05-01,10.24
+85,El Tarter – Pas de la Casa/?Grau Roig/?Soldeu/?Canillo/?Encamp (Grandvalira),2022-04-01,100.0
+85,El Tarter – Pas de la Casa/?Grau Roig/?Soldeu/?Canillo/?Encamp (Grandvalira),2022-03-01,99.61
+85,El Tarter – Pas de la Casa/?Grau Roig/?Soldeu/?Canillo/?Encamp (Grandvalira),2022-02-01,100.0
+85,El Tarter – Pas de la Casa/?Grau Roig/?Soldeu/?Canillo/?Encamp (Grandvalira),2022-01-01,100.0
+156,Soldeu-Pas de la Casa/?Grau Roig/?El Tarter/?Canillo/?Encamp (Grandvalira),2022-12-01,100.0
+156,Soldeu-Pas de la Casa/?Grau Roig/?El Tarter/?Canillo/?Encamp (Grandvalira),2022-11-01,32.28
+156,Soldeu-Pas de la Casa/?Grau Roig/?El Tarter/?Canillo/?Encamp (Grandvalira),2022-05-01,10.24
+156,Soldeu-Pas de la Casa/?Grau Roig/?El Tarter/?Canillo/?Encamp (Grandvalira),2022-04-01,100.0
+156,Soldeu-Pas de la Casa/?Grau Roig/?El Tarter/?Canillo/?Encamp (Grandvalira),2022-03-01,99.61
+156,Soldeu-Pas de la Casa/?Grau Roig/?El Tarter/?Canillo/?Encamp (Grandvalira),2022-02-01,100.0
+156,Soldeu-Pas de la Casa/?Grau Roig/?El Tarter/?Canillo/?Encamp (Grandvalira),2022-01-01,100.0
+42,Rinerhorn (Davos Klosters),2022-12-01,100.0
+42,Rinerhorn (Davos Klosters),2022-11-01,100.0
+42,Rinerhorn (Davos Klosters),2022-10-01,14.17
+42,Rinerhorn (Davos Klosters),2022-09-01,10.63
+42,Rinerhorn (Davos Klosters),2022-06-01,12.2
+42,Rinerhorn (Davos Klosters),2022-05-01,35.83
+42,Rinerhorn (Davos Klosters),2022-04-01,96.85
+42,Rinerhorn (Davos Klosters),2022-03-01,100.0
+42,Rinerhorn (Davos Klosters),2022-02-01,100.0
+42,Rinerhorn (Davos Klosters),2022-01-01,100.0
+141,St. Moritz - Corviglia,2022-12-01,100.0
+141,St. Moritz - Corviglia,2022-11-01,100.0
+141,St. Moritz - Corviglia,2022-10-01,14.17
+141,St. Moritz - Corviglia,2022-09-01,10.63
+141,St. Moritz - Corviglia,2022-06-01,12.2
+141,St. Moritz - Corviglia,2022-05-01,35.83
+141,St. Moritz - Corviglia,2022-04-01,96.85
+141,St. Moritz - Corviglia,2022-03-01,100.0
+141,St. Moritz - Corviglia,2022-02-01,100.0
+141,St. Moritz - Corviglia,2022-01-01,100.0
+43,Madrisa (Davos Klosters),2022-12-01,97.24
+43,Madrisa (Davos Klosters),2022-11-01,79.13
+43,Madrisa (Davos Klosters),2022-09-01,0.79
+43,Madrisa (Davos Klosters),2022-05-01,3.54
+43,Madrisa (Davos Klosters),2022-04-01,65.35
+43,Madrisa (Davos Klosters),2022-03-01,94.88
+43,Madrisa (Davos Klosters),2022-02-01,96.06
+43,Madrisa (Davos Klosters),2022-01-01,96.85
+44,Jakobshorn (Davos Klosters),2022-12-01,97.24
+44,Jakobshorn (Davos Klosters),2022-11-01,79.13
+44,Jakobshorn (Davos Klosters),2022-09-01,0.79
+44,Jakobshorn (Davos Klosters),2022-05-01,3.54
+44,Jakobshorn (Davos Klosters),2022-04-01,65.35
+44,Jakobshorn (Davos Klosters),2022-03-01,94.88
+44,Jakobshorn (Davos Klosters),2022-02-01,96.06
+44,Jakobshorn (Davos Klosters),2022-01-01,96.85
+110,Gargellen,2022-12-01,97.24
+110,Gargellen,2022-11-01,79.13
+110,Gargellen,2022-09-01,0.79
+110,Gargellen,2022-05-01,3.54
+110,Gargellen,2022-04-01,65.35
+110,Gargellen,2022-03-01,94.88
+110,Gargellen,2022-02-01,96.06
+110,Gargellen,2022-01-01,96.85
+201,Parsenn (Davos Klosters),2022-12-01,97.24
+201,Parsenn (Davos Klosters),2022-11-01,79.13
+201,Parsenn (Davos Klosters),2022-09-01,0.79
+201,Parsenn (Davos Klosters),2022-05-01,3.54
+201,Parsenn (Davos Klosters),2022-04-01,65.35
+201,Parsenn (Davos Klosters),2022-03-01,94.88
+201,Parsenn (Davos Klosters),2022-02-01,96.06
+201,Parsenn (Davos Klosters),2022-01-01,96.85
+45,Glacier 3000 / Les Diablerets,2022-12-01,84.65
+45,Glacier 3000 / Les Diablerets,2022-11-01,5.91
+45,Glacier 3000 / Les Diablerets,2022-05-01,11.42
+45,Glacier 3000 / Les Diablerets,2022-04-01,66.14
+45,Glacier 3000 / Les Diablerets,2022-03-01,81.89
+45,Glacier 3000 / Les Diablerets,2022-02-01,98.43
+45,Glacier 3000 / Les Diablerets,2022-01-01,95.28
+144,Villars -? Gryon / Les Diablerets,2022-12-01,84.65
+144,Villars -? Gryon / Les Diablerets,2022-11-01,5.91
+144,Villars -? Gryon / Les Diablerets,2022-05-01,11.42
+144,Villars -? Gryon / Les Diablerets,2022-04-01,66.14
+144,Villars -? Gryon / Les Diablerets,2022-03-01,81.89
+144,Villars -? Gryon / Les Diablerets,2022-02-01,98.43
+144,Villars -? Gryon / Les Diablerets,2022-01-01,95.28
+290,Leysin,2022-12-01,84.65
+290,Leysin,2022-11-01,5.91
+290,Leysin,2022-05-01,11.42
+290,Leysin,2022-04-01,66.14
+290,Leysin,2022-03-01,81.89
+290,Leysin,2022-02-01,98.43
+290,Leysin,2022-01-01,95.28
+381,Les Mosses-?La Le?cherette,2022-12-01,84.65
+381,Les Mosses-?La Le?cherette,2022-11-01,5.91
+381,Les Mosses-?La Le?cherette,2022-05-01,11.42
+381,Les Mosses-?La Le?cherette,2022-04-01,66.14
+381,Les Mosses-?La Le?cherette,2022-03-01,81.89
+381,Les Mosses-?La Le?cherette,2022-02-01,98.43
+381,Les Mosses-?La Le?cherette,2022-01-01,95.28
+46,Big White,2022-12-01,100.0
+46,Big White,2022-11-01,100.0
+46,Big White,2022-05-01,3.94
+46,Big White,2022-04-01,70.47
+46,Big White,2022-03-01,90.55
+46,Big White,2022-02-01,100.0
+46,Big White,2022-01-01,100.0
+47,Obergurgl-Hochgurgl,2022-12-01,100.0
+47,Obergurgl-Hochgurgl,2022-11-01,66.54
+47,Obergurgl-Hochgurgl,2022-10-01,3.54
+47,Obergurgl-Hochgurgl,2022-05-01,10.24
+47,Obergurgl-Hochgurgl,2022-04-01,46.85
+47,Obergurgl-Hochgurgl,2022-03-01,100.0
+47,Obergurgl-Hochgurgl,2022-02-01,98.82
+47,Obergurgl-Hochgurgl,2022-01-01,92.91
+55,Stubai Glacier,2022-12-01,100.0
+55,Stubai Glacier,2022-11-01,66.54
+55,Stubai Glacier,2022-10-01,3.54
+55,Stubai Glacier,2022-05-01,10.24
+55,Stubai Glacier,2022-04-01,46.85
+55,Stubai Glacier,2022-03-01,100.0
+55,Stubai Glacier,2022-02-01,98.82
+55,Stubai Glacier,2022-01-01,92.91
+96,Sölden,2022-12-01,100.0
+96,Sölden,2022-11-01,66.54
+96,Sölden,2022-10-01,3.54
+96,Sölden,2022-05-01,10.24
+96,Sölden,2022-04-01,46.85
+96,Sölden,2022-03-01,100.0
+96,Sölden,2022-02-01,98.82
+96,Sölden,2022-01-01,92.91
+432,Pfelders-Moos in Passeier-,2022-12-01,100.0
+432,Pfelders-Moos in Passeier-,2022-11-01,66.54
+432,Pfelders-Moos in Passeier-,2022-10-01,3.54
+432,Pfelders-Moos in Passeier-,2022-05-01,10.24
+432,Pfelders-Moos in Passeier-,2022-04-01,46.85
+432,Pfelders-Moos in Passeier-,2022-03-01,100.0
+432,Pfelders-Moos in Passeier-,2022-02-01,98.82
+432,Pfelders-Moos in Passeier-,2022-01-01,92.91
+48,Coronet Peak,2022-11-01,1.97
+48,Coronet Peak,2022-10-01,27.95
+48,Coronet Peak,2022-09-01,76.77
+48,Coronet Peak,2022-08-01,91.73
+48,Coronet Peak,2022-07-01,98.43
+48,Coronet Peak,2022-06-01,93.7
+48,Coronet Peak,2022-05-01,59.84
+49,Les Deux alpes,2022-12-01,98.43
+49,Les Deux alpes,2022-11-01,99.61
+49,Les Deux alpes,2022-10-01,20.08
+49,Les Deux alpes,2022-09-01,1.57
+49,Les Deux alpes,2022-08-01,1.18
+49,Les Deux alpes,2022-07-01,3.15
+49,Les Deux alpes,2022-06-01,15.35
+49,Les Deux alpes,2022-05-01,50.79
+49,Les Deux alpes,2022-04-01,96.46
+49,Les Deux alpes,2022-03-01,100.0
+49,Les Deux alpes,2022-02-01,98.43
+49,Les Deux alpes,2022-01-01,98.82
+68,Alpe d'Huez,2022-12-01,98.43
+68,Alpe d'Huez,2022-11-01,99.61
+68,Alpe d'Huez,2022-10-01,20.08
+68,Alpe d'Huez,2022-09-01,1.57
+68,Alpe d'Huez,2022-08-01,1.18
+68,Alpe d'Huez,2022-07-01,3.15
+68,Alpe d'Huez,2022-06-01,15.35
+68,Alpe d'Huez,2022-05-01,50.79
+68,Alpe d'Huez,2022-04-01,96.46
+68,Alpe d'Huez,2022-03-01,100.0
+68,Alpe d'Huez,2022-02-01,98.43
+68,Alpe d'Huez,2022-01-01,98.82
+50,Valle Nevado,2022-11-01,31.5
+50,Valle Nevado,2022-10-01,81.5
+50,Valle Nevado,2022-09-01,97.64
+50,Valle Nevado,2022-08-01,100.0
+50,Valle Nevado,2022-07-01,100.0
+50,Valle Nevado,2022-06-01,97.24
+50,Valle Nevado,2022-05-01,77.95
+50,Valle Nevado,2022-04-01,13.78
+50,Valle Nevado,2022-02-01,1.57
+51,Ben Lomond,2022-08-01,0.79
+52,Portillo,2022-12-01,0.39
+52,Portillo,2022-11-01,56.69
+52,Portillo,2022-10-01,90.55
+52,Portillo,2022-09-01,97.24
+52,Portillo,2022-08-01,99.21
+52,Portillo,2022-07-01,98.43
+52,Portillo,2022-06-01,93.31
+52,Portillo,2022-05-01,94.09
+52,Portillo,2022-04-01,18.9
+52,Portillo,2022-03-01,0.39
+53,Catedral Alta Patagonia,2022-11-01,1.97
+53,Catedral Alta Patagonia,2022-10-01,90.16
+53,Catedral Alta Patagonia,2022-09-01,93.7
+53,Catedral Alta Patagonia,2022-08-01,97.64
+53,Catedral Alta Patagonia,2022-07-01,95.28
+53,Catedral Alta Patagonia,2022-06-01,92.52
+53,Catedral Alta Patagonia,2022-05-01,57.48
+54,Whistler,2022-12-01,98.03
+54,Whistler,2022-11-01,96.06
+54,Whistler,2022-09-01,0.39
+54,Whistler,2022-08-01,1.18
+54,Whistler,2022-06-01,0.39
+54,Whistler,2022-05-01,11.02
+54,Whistler,2022-04-01,14.17
+54,Whistler,2022-03-01,95.67
+54,Whistler,2022-02-01,100.0
+54,Whistler,2022-01-01,100.0
+56,Fonna Glacier,2022-12-01,99.61
+56,Fonna Glacier,2022-11-01,16.14
+56,Fonna Glacier,2022-05-01,100.0
+56,Fonna Glacier,2022-04-01,68.9
+56,Fonna Glacier,2022-03-01,96.06
+56,Fonna Glacier,2022-02-01,90.16
+56,Fonna Glacier,2022-01-01,100.0
+57,Tignes - ?Val d'Ise?re,2022-12-01,100.0
+57,Tignes - ?Val d'Ise?re,2022-11-01,99.61
+57,Tignes - ?Val d'Ise?re,2022-10-01,20.87
+57,Tignes - ?Val d'Ise?re,2022-09-01,4.33
+57,Tignes - ?Val d'Ise?re,2022-08-01,1.57
+57,Tignes - ?Val d'Ise?re,2022-07-01,3.54
+57,Tignes - ?Val d'Ise?re,2022-06-01,23.62
+57,Tignes - ?Val d'Ise?re,2022-05-01,80.31
+57,Tignes - ?Val d'Ise?re,2022-04-01,98.82
+57,Tignes - ?Val d'Ise?re,2022-03-01,100.0
+57,Tignes - ?Val d'Ise?re,2022-02-01,100.0
+57,Tignes - ?Val d'Ise?re,2022-01-01,100.0
+172,Val Cenis-Lanslevillard-?Lanslebourg-?Termignon,2022-12-01,100.0
+172,Val Cenis-Lanslevillard-?Lanslebourg-?Termignon,2022-11-01,99.61
+172,Val Cenis-Lanslevillard-?Lanslebourg-?Termignon,2022-10-01,20.87
+172,Val Cenis-Lanslevillard-?Lanslebourg-?Termignon,2022-09-01,4.33
+172,Val Cenis-Lanslevillard-?Lanslebourg-?Termignon,2022-08-01,1.57
+172,Val Cenis-Lanslevillard-?Lanslebourg-?Termignon,2022-07-01,3.54
+172,Val Cenis-Lanslevillard-?Lanslebourg-?Termignon,2022-06-01,23.62
+172,Val Cenis-Lanslevillard-?Lanslebourg-?Termignon,2022-05-01,80.31
+172,Val Cenis-Lanslevillard-?Lanslebourg-?Termignon,2022-04-01,98.82
+172,Val Cenis-Lanslevillard-?Lanslebourg-?Termignon,2022-03-01,100.0
+172,Val Cenis-Lanslevillard-?Lanslebourg-?Termignon,2022-02-01,100.0
+172,Val Cenis-Lanslevillard-?Lanslebourg-?Termignon,2022-01-01,100.0
+58,La Plagne (Paradiski),2022-12-01,94.49
+58,La Plagne (Paradiski),2022-11-01,92.52
+58,La Plagne (Paradiski),2022-05-01,17.32
+58,La Plagne (Paradiski),2022-04-01,99.61
+58,La Plagne (Paradiski),2022-03-01,98.03
+58,La Plagne (Paradiski),2022-02-01,97.64
+58,La Plagne (Paradiski),2022-01-01,95.67
+379,Are?ches-Beaufort-,2022-12-01,94.49
+379,Are?ches-Beaufort-,2022-11-01,92.52
+379,Are?ches-Beaufort-,2022-05-01,17.32
+379,Are?ches-Beaufort-,2022-04-01,99.61
+379,Are?ches-Beaufort-,2022-03-01,98.03
+379,Are?ches-Beaufort-,2022-02-01,97.64
+379,Are?ches-Beaufort-,2022-01-01,95.67
+59,Les Orres,2022-12-01,80.71
+59,Les Orres,2022-11-01,0.39
+59,Les Orres,2022-04-01,0.39
+59,Les Orres,2022-03-01,2.36
+59,Les Orres,2022-02-01,28.74
+59,Les Orres,2022-01-01,74.41
+61,Avoriaz (Les Portes du Soleil),2022-12-01,95.67
+61,Avoriaz (Les Portes du Soleil),2022-11-01,1.97
+61,Avoriaz (Les Portes du Soleil),2022-05-01,16.14
+61,Avoriaz (Les Portes du Soleil),2022-04-01,90.16
+61,Avoriaz (Les Portes du Soleil),2022-03-01,95.67
+61,Avoriaz (Les Portes du Soleil),2022-02-01,95.28
+61,Avoriaz (Les Portes du Soleil),2022-01-01,91.34
+62,Cha?tel (Les Portes du Soleil),2022-12-01,94.88
+62,Cha?tel (Les Portes du Soleil),2022-11-01,1.97
+62,Cha?tel (Les Portes du Soleil),2022-04-01,16.54
+62,Cha?tel (Les Portes du Soleil),2022-03-01,24.02
+62,Cha?tel (Les Portes du Soleil),2022-02-01,57.87
+62,Cha?tel (Les Portes du Soleil),2022-01-01,96.06
+63,Le Lys - Cauterets,2022-12-01,96.06
+63,Le Lys - Cauterets,2022-11-01,48.82
+63,Le Lys - Cauterets,2022-10-01,3.94
+63,Le Lys - Cauterets,2022-06-01,1.18
+63,Le Lys - Cauterets,2022-05-01,33.07
+63,Le Lys - Cauterets,2022-04-01,100.0
+63,Le Lys - Cauterets,2022-03-01,99.61
+63,Le Lys - Cauterets,2022-02-01,99.61
+63,Le Lys - Cauterets,2022-01-01,96.85
+64,Pont d'Espagne - Cauterets,2022-12-01,96.06
+64,Pont d'Espagne - Cauterets,2022-11-01,48.82
+64,Pont d'Espagne - Cauterets,2022-10-01,3.94
+64,Pont d'Espagne - Cauterets,2022-06-01,1.18
+64,Pont d'Espagne - Cauterets,2022-05-01,33.07
+64,Pont d'Espagne - Cauterets,2022-04-01,100.0
+64,Pont d'Espagne - Cauterets,2022-03-01,99.61
+64,Pont d'Espagne - Cauterets,2022-02-01,99.61
+64,Pont d'Espagne - Cauterets,2022-01-01,96.85
+65,La Grave - La Meije,2022-12-01,98.03
+65,La Grave - La Meije,2022-11-01,85.83
+65,La Grave - La Meije,2022-10-01,0.39
+65,La Grave - La Meije,2022-05-01,15.75
+65,La Grave - La Meije,2022-04-01,66.93
+65,La Grave - La Meije,2022-03-01,96.85
+65,La Grave - La Meije,2022-02-01,98.43
+65,La Grave - La Meije,2022-01-01,98.82
+160,Galibier Thabor-Valmeinier-?Valloire,2022-12-01,98.03
+160,Galibier Thabor-Valmeinier-?Valloire,2022-11-01,85.83
+160,Galibier Thabor-Valmeinier-?Valloire,2022-10-01,0.39
+160,Galibier Thabor-Valmeinier-?Valloire,2022-05-01,15.75
+160,Galibier Thabor-Valmeinier-?Valloire,2022-04-01,66.93
+160,Galibier Thabor-Valmeinier-?Valloire,2022-03-01,96.85
+160,Galibier Thabor-Valmeinier-?Valloire,2022-02-01,98.43
+160,Galibier Thabor-Valmeinier-?Valloire,2022-01-01,98.82
+288,Les Karellis,2022-12-01,98.03
+288,Les Karellis,2022-11-01,85.83
+288,Les Karellis,2022-10-01,0.39
+288,Les Karellis,2022-05-01,15.75
+288,Les Karellis,2022-04-01,66.93
+288,Les Karellis,2022-03-01,96.85
+288,Les Karellis,2022-02-01,98.43
+288,Les Karellis,2022-01-01,98.82
+400,Albiez-Montrond,2022-12-01,98.03
+400,Albiez-Montrond,2022-11-01,85.83
+400,Albiez-Montrond,2022-10-01,0.39
+400,Albiez-Montrond,2022-05-01,15.75
+400,Albiez-Montrond,2022-04-01,66.93
+400,Albiez-Montrond,2022-03-01,96.85
+400,Albiez-Montrond,2022-02-01,98.43
+400,Albiez-Montrond,2022-01-01,98.82
+66,Courchevel (Les 3 Valle?es),2022-12-01,99.61
+66,Courchevel (Les 3 Valle?es),2022-11-01,97.24
+66,Courchevel (Les 3 Valle?es),2022-10-01,1.57
+66,Courchevel (Les 3 Valle?es),2022-06-01,0.39
+66,Courchevel (Les 3 Valle?es),2022-05-01,38.19
+66,Courchevel (Les 3 Valle?es),2022-04-01,100.0
+66,Courchevel (Les 3 Valle?es),2022-03-01,100.0
+66,Courchevel (Les 3 Valle?es),2022-02-01,100.0
+66,Courchevel (Les 3 Valle?es),2022-01-01,99.21
+67,Saint Martin de Belleville (Les 3 Valle?es),2022-12-01,99.61
+67,Saint Martin de Belleville (Les 3 Valle?es),2022-11-01,97.24
+67,Saint Martin de Belleville (Les 3 Valle?es),2022-10-01,1.57
+67,Saint Martin de Belleville (Les 3 Valle?es),2022-06-01,0.39
+67,Saint Martin de Belleville (Les 3 Valle?es),2022-05-01,38.19
+67,Saint Martin de Belleville (Les 3 Valle?es),2022-04-01,100.0
+67,Saint Martin de Belleville (Les 3 Valle?es),2022-03-01,100.0
+67,Saint Martin de Belleville (Les 3 Valle?es),2022-02-01,100.0
+67,Saint Martin de Belleville (Les 3 Valle?es),2022-01-01,99.21
+69,La Tania-Val Thorens/?Les Menuires/?Me?ribel (Les 3 Valle?es),2022-12-01,99.61
+69,La Tania-Val Thorens/?Les Menuires/?Me?ribel (Les 3 Valle?es),2022-11-01,97.24
+69,La Tania-Val Thorens/?Les Menuires/?Me?ribel (Les 3 Valle?es),2022-10-01,1.57
+69,La Tania-Val Thorens/?Les Menuires/?Me?ribel (Les 3 Valle?es),2022-06-01,0.39
+69,La Tania-Val Thorens/?Les Menuires/?Me?ribel (Les 3 Valle?es),2022-05-01,38.19
+69,La Tania-Val Thorens/?Les Menuires/?Me?ribel (Les 3 Valle?es),2022-04-01,100.0
+69,La Tania-Val Thorens/?Les Menuires/?Me?ribel (Les 3 Valle?es),2022-03-01,100.0
+69,La Tania-Val Thorens/?Les Menuires/?Me?ribel (Les 3 Valle?es),2022-02-01,100.0
+69,La Tania-Val Thorens/?Les Menuires/?Me?ribel (Les 3 Valle?es),2022-01-01,99.21
+74,Val Thorens (Les 3 Valle?es),2022-12-01,99.61
+74,Val Thorens (Les 3 Valle?es),2022-11-01,97.24
+74,Val Thorens (Les 3 Valle?es),2022-10-01,1.57
+74,Val Thorens (Les 3 Valle?es),2022-06-01,0.39
+74,Val Thorens (Les 3 Valle?es),2022-05-01,38.19
+74,Val Thorens (Les 3 Valle?es),2022-04-01,100.0
+74,Val Thorens (Les 3 Valle?es),2022-03-01,100.0
+74,Val Thorens (Les 3 Valle?es),2022-02-01,100.0
+74,Val Thorens (Les 3 Valle?es),2022-01-01,99.21
+149,Me?ribel (Les 3 Valle?es),2022-12-01,99.61
+149,Me?ribel (Les 3 Valle?es),2022-11-01,97.24
+149,Me?ribel (Les 3 Valle?es),2022-10-01,1.57
+149,Me?ribel (Les 3 Valle?es),2022-06-01,0.39
+149,Me?ribel (Les 3 Valle?es),2022-05-01,38.19
+149,Me?ribel (Les 3 Valle?es),2022-04-01,100.0
+149,Me?ribel (Les 3 Valle?es),2022-03-01,100.0
+149,Me?ribel (Les 3 Valle?es),2022-02-01,100.0
+149,Me?ribel (Les 3 Valle?es),2022-01-01,99.21
+150,?Les Menuires (Les 3 Valle?es),2022-12-01,99.61
+150,?Les Menuires (Les 3 Valle?es),2022-11-01,97.24
+150,?Les Menuires (Les 3 Valle?es),2022-10-01,1.57
+150,?Les Menuires (Les 3 Valle?es),2022-06-01,0.39
+150,?Les Menuires (Les 3 Valle?es),2022-05-01,38.19
+150,?Les Menuires (Les 3 Valle?es),2022-04-01,100.0
+150,?Les Menuires (Les 3 Valle?es),2022-03-01,100.0
+150,?Les Menuires (Les 3 Valle?es),2022-02-01,100.0
+150,?Les Menuires (Les 3 Valle?es),2022-01-01,99.21
+71,Les Arcs /? Peisey-Vallandry (Paradiski),2022-12-01,0.39
+72,Montgene?vre (Via Lattea),2022-12-01,98.03
+72,Montgene?vre (Via Lattea),2022-11-01,15.35
+72,Montgene?vre (Via Lattea),2022-04-01,1.57
+72,Montgene?vre (Via Lattea),2022-03-01,21.65
+72,Montgene?vre (Via Lattea),2022-02-01,94.49
+72,Montgene?vre (Via Lattea),2022-01-01,92.13
+75,Serre Chevalier-Brianc?on/?Chantemerle/?Villeneuve-la-Salle/?Le Mone?tier-les-Bains,2022-12-01,98.03
+75,Serre Chevalier-Brianc?on/?Chantemerle/?Villeneuve-la-Salle/?Le Mone?tier-les-Bains,2022-11-01,15.35
+75,Serre Chevalier-Brianc?on/?Chantemerle/?Villeneuve-la-Salle/?Le Mone?tier-les-Bains,2022-04-01,1.57
+75,Serre Chevalier-Brianc?on/?Chantemerle/?Villeneuve-la-Salle/?Le Mone?tier-les-Bains,2022-03-01,21.65
+75,Serre Chevalier-Brianc?on/?Chantemerle/?Villeneuve-la-Salle/?Le Mone?tier-les-Bains,2022-02-01,94.49
+75,Serre Chevalier-Brianc?on/?Chantemerle/?Villeneuve-la-Salle/?Le Mone?tier-les-Bains,2022-01-01,92.13
+73,Bonneval sur Arc,2022-12-01,100.0
+73,Bonneval sur Arc,2022-11-01,99.21
+73,Bonneval sur Arc,2022-10-01,33.07
+73,Bonneval sur Arc,2022-09-01,6.3
+73,Bonneval sur Arc,2022-08-01,6.69
+73,Bonneval sur Arc,2022-07-01,8.66
+73,Bonneval sur Arc,2022-06-01,25.98
+73,Bonneval sur Arc,2022-05-01,83.07
+73,Bonneval sur Arc,2022-04-01,100.0
+73,Bonneval sur Arc,2022-03-01,100.0
+73,Bonneval sur Arc,2022-02-01,100.0
+73,Bonneval sur Arc,2022-01-01,99.61
+76,Kleine Scheidegg / ?Ma?nnlichen-Grindelwald / ?Wengen,2022-12-01,94.09
+76,Kleine Scheidegg / ?Ma?nnlichen-Grindelwald / ?Wengen,2022-11-01,38.98
+76,Kleine Scheidegg / ?Ma?nnlichen-Grindelwald / ?Wengen,2022-08-01,0.39
+76,Kleine Scheidegg / ?Ma?nnlichen-Grindelwald / ?Wengen,2022-06-01,1.18
+76,Kleine Scheidegg / ?Ma?nnlichen-Grindelwald / ?Wengen,2022-04-01,0.39
+76,Kleine Scheidegg / ?Ma?nnlichen-Grindelwald / ?Wengen,2022-02-01,95.67
+76,Kleine Scheidegg / ?Ma?nnlichen-Grindelwald / ?Wengen,2022-01-01,96.85
+325,Schilthorn-Mu?rren-?Lauterbrunnen,2022-12-01,94.09
+325,Schilthorn-Mu?rren-?Lauterbrunnen,2022-11-01,38.98
+325,Schilthorn-Mu?rren-?Lauterbrunnen,2022-08-01,0.39
+325,Schilthorn-Mu?rren-?Lauterbrunnen,2022-06-01,1.18
+325,Schilthorn-Mu?rren-?Lauterbrunnen,2022-04-01,0.39
+325,Schilthorn-Mu?rren-?Lauterbrunnen,2022-02-01,95.67
+325,Schilthorn-Mu?rren-?Lauterbrunnen,2022-01-01,96.85
+77,Balme-?Les Autannes-Vallorcine-?Le Tour,2022-12-01,39.76
+78,Grands Montets-Argentie?re (Chamonix),2022-12-01,100.0
+78,Grands Montets-Argentie?re (Chamonix),2022-11-01,94.49
+78,Grands Montets-Argentie?re (Chamonix),2022-10-01,46.06
+78,Grands Montets-Argentie?re (Chamonix),2022-09-01,13.78
+78,Grands Montets-Argentie?re (Chamonix),2022-08-01,17.72
+78,Grands Montets-Argentie?re (Chamonix),2022-07-01,18.9
+78,Grands Montets-Argentie?re (Chamonix),2022-06-01,28.35
+78,Grands Montets-Argentie?re (Chamonix),2022-05-01,46.46
+78,Grands Montets-Argentie?re (Chamonix),2022-04-01,62.6
+78,Grands Montets-Argentie?re (Chamonix),2022-03-01,70.08
+78,Grands Montets-Argentie?re (Chamonix),2022-02-01,94.09
+78,Grands Montets-Argentie?re (Chamonix),2022-01-01,96.85
+124,Courmayeur / Che?crouit -? Val Veny,2022-12-01,100.0
+124,Courmayeur / Che?crouit -? Val Veny,2022-11-01,94.49
+124,Courmayeur / Che?crouit -? Val Veny,2022-10-01,46.06
+124,Courmayeur / Che?crouit -? Val Veny,2022-09-01,13.78
+124,Courmayeur / Che?crouit -? Val Veny,2022-08-01,17.72
+124,Courmayeur / Che?crouit -? Val Veny,2022-07-01,18.9
+124,Courmayeur / Che?crouit -? Val Veny,2022-06-01,28.35
+124,Courmayeur / Che?crouit -? Val Veny,2022-05-01,46.46
+124,Courmayeur / Che?crouit -? Val Veny,2022-04-01,62.6
+124,Courmayeur / Che?crouit -? Val Veny,2022-03-01,70.08
+124,Courmayeur / Che?crouit -? Val Veny,2022-02-01,94.09
+124,Courmayeur / Che?crouit -? Val Veny,2022-01-01,96.85
+301,Bre?vent-?Fle?ge?re-Chamonix-,2022-12-01,100.0
+301,Bre?vent-?Fle?ge?re-Chamonix-,2022-11-01,94.49
+301,Bre?vent-?Fle?ge?re-Chamonix-,2022-10-01,46.06
+301,Bre?vent-?Fle?ge?re-Chamonix-,2022-09-01,13.78
+301,Bre?vent-?Fle?ge?re-Chamonix-,2022-08-01,17.72
+301,Bre?vent-?Fle?ge?re-Chamonix-,2022-07-01,18.9
+301,Bre?vent-?Fle?ge?re-Chamonix-,2022-06-01,28.35
+301,Bre?vent-?Fle?ge?re-Chamonix-,2022-05-01,46.46
+301,Bre?vent-?Fle?ge?re-Chamonix-,2022-04-01,62.6
+301,Bre?vent-?Fle?ge?re-Chamonix-,2022-03-01,70.08
+301,Bre?vent-?Fle?ge?re-Chamonix-,2022-02-01,94.09
+301,Bre?vent-?Fle?ge?re-Chamonix-,2022-01-01,96.85
+303,Les Houches-?Saint-Gervais-Prarion-?Bellevue-Chamonix-,2022-12-01,100.0
+303,Les Houches-?Saint-Gervais-Prarion-?Bellevue-Chamonix-,2022-11-01,94.49
+303,Les Houches-?Saint-Gervais-Prarion-?Bellevue-Chamonix-,2022-10-01,46.06
+303,Les Houches-?Saint-Gervais-Prarion-?Bellevue-Chamonix-,2022-09-01,13.78
+303,Les Houches-?Saint-Gervais-Prarion-?Bellevue-Chamonix-,2022-08-01,17.72
+303,Les Houches-?Saint-Gervais-Prarion-?Bellevue-Chamonix-,2022-07-01,18.9
+303,Les Houches-?Saint-Gervais-Prarion-?Bellevue-Chamonix-,2022-06-01,28.35
+303,Les Houches-?Saint-Gervais-Prarion-?Bellevue-Chamonix-,2022-05-01,46.46
+303,Les Houches-?Saint-Gervais-Prarion-?Bellevue-Chamonix-,2022-04-01,62.6
+303,Les Houches-?Saint-Gervais-Prarion-?Bellevue-Chamonix-,2022-03-01,70.08
+303,Les Houches-?Saint-Gervais-Prarion-?Bellevue-Chamonix-,2022-02-01,94.09
+303,Les Houches-?Saint-Gervais-Prarion-?Bellevue-Chamonix-,2022-01-01,96.85
+79,Winter Park Resort,2022-12-01,100.0
+79,Winter Park Resort,2022-11-01,97.64
+79,Winter Park Resort,2022-10-01,8.66
+79,Winter Park Resort,2022-06-01,1.57
+79,Winter Park Resort,2022-05-01,40.16
+79,Winter Park Resort,2022-04-01,98.03
+79,Winter Park Resort,2022-03-01,96.46
+79,Winter Park Resort,2022-02-01,96.85
+79,Winter Park Resort,2022-01-01,100.0
+80,Arcali?s-Ordino (Vallnord),2022-12-01,96.06
+80,Arcali?s-Ordino (Vallnord),2022-11-01,42.13
+80,Arcali?s-Ordino (Vallnord),2022-05-01,20.47
+80,Arcali?s-Ordino (Vallnord),2022-04-01,88.58
+80,Arcali?s-Ordino (Vallnord),2022-03-01,88.98
+80,Arcali?s-Ordino (Vallnord),2022-02-01,96.85
+80,Arcali?s-Ordino (Vallnord),2022-01-01,94.09
+275,Pal-?Arinsal-La Massana-Vallnord-,2022-12-01,96.06
+275,Pal-?Arinsal-La Massana-Vallnord-,2022-11-01,42.13
+275,Pal-?Arinsal-La Massana-Vallnord-,2022-05-01,20.47
+275,Pal-?Arinsal-La Massana-Vallnord-,2022-04-01,88.58
+275,Pal-?Arinsal-La Massana-Vallnord-,2022-03-01,88.98
+275,Pal-?Arinsal-La Massana-Vallnord-,2022-02-01,96.85
+275,Pal-?Arinsal-La Massana-Vallnord-,2022-01-01,94.09
+81,Ruka,2022-11-01,100.0
+81,Ruka,2022-05-01,27.95
+81,Ruka,2022-04-01,100.0
+81,Ruka,2022-03-01,100.0
+81,Ruka,2022-02-01,100.0
+81,Ruka,2022-01-01,100.0
+82,Levi,2022-11-01,100.0
+82,Levi,2022-10-01,39.76
+82,Levi,2022-05-01,14.17
+82,Levi,2022-04-01,100.0
+82,Levi,2022-03-01,100.0
+82,Levi,2022-02-01,100.0
+83,Niseko,2022-12-01,100.0
+83,Niseko,2022-10-01,4.72
+83,Niseko,2022-05-01,50.0
+83,Niseko,2022-04-01,100.0
+83,Niseko,2022-03-01,100.0
+83,Niseko,2022-02-01,100.0
+83,Niseko,2022-01-01,100.0
+84,Kranjska Gora,2022-12-01,96.06
+84,Kranjska Gora,2022-10-01,1.97
+84,Kranjska Gora,2022-04-01,90.94
+84,Kranjska Gora,2022-03-01,88.19
+84,Kranjska Gora,2022-02-01,95.67
+84,Kranjska Gora,2022-01-01,96.06
+86,Bansko,2022-12-01,3.15
+86,Bansko,2022-05-01,3.54
+86,Bansko,2022-04-01,17.32
+86,Bansko,2022-03-01,31.1
+86,Bansko,2022-02-01,81.1
+86,Bansko,2022-01-01,48.43
+87,Alta,2022-12-01,66.54
+87,Alta,2022-01-01,33.07
+88,Aspen Mountain,2022-12-01,97.24
+88,Aspen Mountain,2022-11-01,91.73
+88,Aspen Mountain,2022-10-01,33.07
+88,Aspen Mountain,2022-07-01,1.97
+88,Aspen Mountain,2022-05-01,5.91
+88,Aspen Mountain,2022-04-01,78.74
+88,Aspen Mountain,2022-03-01,98.43
+88,Aspen Mountain,2022-02-01,98.43
+88,Aspen Mountain,2022-01-01,97.24
+89,Aspen Highlands,2022-12-01,100.0
+89,Aspen Highlands,2022-11-01,95.67
+89,Aspen Highlands,2022-10-01,36.22
+89,Aspen Highlands,2022-04-01,91.34
+89,Aspen Highlands,2022-03-01,100.0
+89,Aspen Highlands,2022-02-01,99.61
+89,Aspen Highlands,2022-01-01,98.82
+90,Squaw Valley,2022-12-01,6.69
+90,Squaw Valley,2022-11-01,1.57
+91,Vail,2022-12-01,100.0
+91,Vail,2022-11-01,96.85
+91,Vail,2022-10-01,100.0
+91,Vail,2022-08-01,0.39
+91,Vail,2022-06-01,0.39
+91,Vail,2022-05-01,30.31
+91,Vail,2022-04-01,98.03
+91,Vail,2022-03-01,96.85
+91,Vail,2022-02-01,100.0
+91,Vail,2022-01-01,98.43
+92,Kitzsteinhorn - Kaprun,2022-12-01,94.09
+92,Kitzsteinhorn - Kaprun,2022-11-01,97.64
+92,Kitzsteinhorn - Kaprun,2022-10-01,2.36
+92,Kitzsteinhorn - Kaprun,2022-09-01,0.39
+92,Kitzsteinhorn - Kaprun,2022-08-01,0.39
+92,Kitzsteinhorn - Kaprun,2022-07-01,0.39
+92,Kitzsteinhorn - Kaprun,2022-06-01,2.76
+92,Kitzsteinhorn - Kaprun,2022-05-01,20.47
+92,Kitzsteinhorn - Kaprun,2022-04-01,75.2
+92,Kitzsteinhorn - Kaprun,2022-03-01,98.03
+92,Kitzsteinhorn - Kaprun,2022-02-01,99.21
+92,Kitzsteinhorn - Kaprun,2022-01-01,96.46
+308,Grossglockner Heiligenblut,2022-12-01,94.09
+308,Grossglockner Heiligenblut,2022-11-01,97.64
+308,Grossglockner Heiligenblut,2022-10-01,2.36
+308,Grossglockner Heiligenblut,2022-09-01,0.39
+308,Grossglockner Heiligenblut,2022-08-01,0.39
+308,Grossglockner Heiligenblut,2022-07-01,0.39
+308,Grossglockner Heiligenblut,2022-06-01,2.76
+308,Grossglockner Heiligenblut,2022-05-01,20.47
+308,Grossglockner Heiligenblut,2022-04-01,75.2
+308,Grossglockner Heiligenblut,2022-03-01,98.03
+308,Grossglockner Heiligenblut,2022-02-01,99.21
+308,Grossglockner Heiligenblut,2022-01-01,96.46
+372,Großglockner Resort Kals-Matrei,2022-12-01,94.09
+372,Großglockner Resort Kals-Matrei,2022-11-01,97.64
+372,Großglockner Resort Kals-Matrei,2022-10-01,2.36
+372,Großglockner Resort Kals-Matrei,2022-09-01,0.39
+372,Großglockner Resort Kals-Matrei,2022-08-01,0.39
+372,Großglockner Resort Kals-Matrei,2022-07-01,0.39
+372,Großglockner Resort Kals-Matrei,2022-06-01,2.76
+372,Großglockner Resort Kals-Matrei,2022-05-01,20.47
+372,Großglockner Resort Kals-Matrei,2022-04-01,75.2
+372,Großglockner Resort Kals-Matrei,2022-03-01,98.03
+372,Großglockner Resort Kals-Matrei,2022-02-01,99.21
+372,Großglockner Resort Kals-Matrei,2022-01-01,96.46
+93,Snowbasin,2022-12-01,100.0
+93,Snowbasin,2022-11-01,82.28
+93,Snowbasin,2022-10-01,3.15
+93,Snowbasin,2022-05-01,18.5
+93,Snowbasin,2022-04-01,61.02
+93,Snowbasin,2022-03-01,85.83
+93,Snowbasin,2022-02-01,95.67
+93,Snowbasin,2022-01-01,99.21
+94,Beaver Creek,2022-12-01,100.0
+94,Beaver Creek,2022-11-01,67.32
+94,Beaver Creek,2022-10-01,32.68
+94,Beaver Creek,2022-04-01,65.35
+94,Beaver Creek,2022-03-01,100.0
+94,Beaver Creek,2022-02-01,100.0
+94,Beaver Creek,2022-01-01,100.0
+95,Glencoe Mountain,2022-12-01,67.72
+95,Glencoe Mountain,2022-11-01,44.09
+95,Glencoe Mountain,2022-06-01,0.39
+95,Glencoe Mountain,2022-03-01,0.39
+95,Glencoe Mountain,2022-02-01,98.43
+95,Glencoe Mountain,2022-01-01,100.0
+97,Kuühtai,2022-12-01,96.85
+97,Kuühtai,2022-11-01,92.91
+97,Kuühtai,2022-09-01,0.39
+97,Kuühtai,2022-04-01,100.0
+97,Kuühtai,2022-03-01,96.85
+97,Kuühtai,2022-02-01,96.06
+97,Kuühtai,2022-01-01,93.31
+417,Hochoetz-Oetz,2022-12-01,96.85
+417,Hochoetz-Oetz,2022-11-01,92.91
+417,Hochoetz-Oetz,2022-09-01,0.39
+417,Hochoetz-Oetz,2022-04-01,100.0
+417,Hochoetz-Oetz,2022-03-01,96.85
+417,Hochoetz-Oetz,2022-02-01,96.06
+417,Hochoetz-Oetz,2022-01-01,93.31
+98,Breckenridge,2022-02-01,6.3
+99,Obertauern,2022-12-01,92.52
+99,Obertauern,2022-11-01,55.51
+99,Obertauern,2022-09-01,14.17
+99,Obertauern,2022-05-01,3.54
+99,Obertauern,2022-04-01,100.0
+99,Obertauern,2022-03-01,98.43
+99,Obertauern,2022-02-01,99.21
+99,Obertauern,2022-01-01,96.46
+255,Katschberg,2022-12-01,92.52
+255,Katschberg,2022-11-01,55.51
+255,Katschberg,2022-09-01,14.17
+255,Katschberg,2022-05-01,3.54
+255,Katschberg,2022-04-01,100.0
+255,Katschberg,2022-03-01,98.43
+255,Katschberg,2022-02-01,99.21
+255,Katschberg,2022-01-01,96.46
+333,Grosseck-?Speiereck-Mauterndorf-?St. Michael,2022-12-01,92.52
+333,Grosseck-?Speiereck-Mauterndorf-?St. Michael,2022-11-01,55.51
+333,Grosseck-?Speiereck-Mauterndorf-?St. Michael,2022-09-01,14.17
+333,Grosseck-?Speiereck-Mauterndorf-?St. Michael,2022-05-01,3.54
+333,Grosseck-?Speiereck-Mauterndorf-?St. Michael,2022-04-01,100.0
+333,Grosseck-?Speiereck-Mauterndorf-?St. Michael,2022-03-01,98.43
+333,Grosseck-?Speiereck-Mauterndorf-?St. Michael,2022-02-01,99.21
+333,Grosseck-?Speiereck-Mauterndorf-?St. Michael,2022-01-01,96.46
+424,Fanningberg,2022-12-01,92.52
+424,Fanningberg,2022-11-01,55.51
+424,Fanningberg,2022-09-01,14.17
+424,Fanningberg,2022-05-01,3.54
+424,Fanningberg,2022-04-01,100.0
+424,Fanningberg,2022-03-01,98.43
+424,Fanningberg,2022-02-01,99.21
+424,Fanningberg,2022-01-01,96.46
+100,Elfer Neustift,2022-12-01,92.52
+100,Elfer Neustift,2022-11-01,99.21
+100,Elfer Neustift,2022-09-01,1.18
+100,Elfer Neustift,2022-04-01,9.45
+100,Elfer Neustift,2022-03-01,88.58
+100,Elfer Neustift,2022-02-01,99.21
+100,Elfer Neustift,2022-01-01,93.7
+105,Axamer Lizum,2022-12-01,92.52
+105,Axamer Lizum,2022-11-01,99.21
+105,Axamer Lizum,2022-09-01,1.18
+105,Axamer Lizum,2022-04-01,9.45
+105,Axamer Lizum,2022-03-01,88.58
+105,Axamer Lizum,2022-02-01,99.21
+105,Axamer Lizum,2022-01-01,93.7
+101,Serfaus-Fiss-Ladis,2022-12-01,100.0
+101,Serfaus-Fiss-Ladis,2022-11-01,72.05
+101,Serfaus-Fiss-Ladis,2022-05-01,0.39
+101,Serfaus-Fiss-Ladis,2022-04-01,13.39
+101,Serfaus-Fiss-Ladis,2022-03-01,14.57
+101,Serfaus-Fiss-Ladis,2022-02-01,100.0
+101,Serfaus-Fiss-Ladis,2022-01-01,91.34
+102,Hochko?nig-Maria Alm/?Dienten/?Mu?hlbach,2022-12-01,100.0
+102,Hochko?nig-Maria Alm/?Dienten/?Mu?hlbach,2022-11-01,3.94
+102,Hochko?nig-Maria Alm/?Dienten/?Mu?hlbach,2022-04-01,1.57
+102,Hochko?nig-Maria Alm/?Dienten/?Mu?hlbach,2022-03-01,90.55
+102,Hochko?nig-Maria Alm/?Dienten/?Mu?hlbach,2022-02-01,96.85
+102,Hochko?nig-Maria Alm/?Dienten/?Mu?hlbach,2022-01-01,94.88
+240,Zell am See,2022-12-01,100.0
+240,Zell am See,2022-11-01,3.94
+240,Zell am See,2022-04-01,1.57
+240,Zell am See,2022-03-01,90.55
+240,Zell am See,2022-02-01,96.85
+240,Zell am See,2022-01-01,94.88
+103,Mayrhofen-Penken/?Ahorn/?Rastkogel/?Eggalm,2022-12-01,100.0
+103,Mayrhofen-Penken/?Ahorn/?Rastkogel/?Eggalm,2022-11-01,52.36
+103,Mayrhofen-Penken/?Ahorn/?Rastkogel/?Eggalm,2022-09-01,0.39
+103,Mayrhofen-Penken/?Ahorn/?Rastkogel/?Eggalm,2022-04-01,93.31
+103,Mayrhofen-Penken/?Ahorn/?Rastkogel/?Eggalm,2022-03-01,87.01
+103,Mayrhofen-Penken/?Ahorn/?Rastkogel/?Eggalm,2022-02-01,97.64
+103,Mayrhofen-Penken/?Ahorn/?Rastkogel/?Eggalm,2022-01-01,93.31
+104,St. Anton (Ski Arlberg),2022-12-01,98.43
+104,St. Anton (Ski Arlberg),2022-11-01,96.06
+104,St. Anton (Ski Arlberg),2022-10-01,4.33
+104,St. Anton (Ski Arlberg),2022-09-01,27.56
+104,St. Anton (Ski Arlberg),2022-06-01,3.54
+104,St. Anton (Ski Arlberg),2022-05-01,11.81
+104,St. Anton (Ski Arlberg),2022-04-01,100.0
+104,St. Anton (Ski Arlberg),2022-03-01,100.0
+104,St. Anton (Ski Arlberg),2022-02-01,99.61
+104,St. Anton (Ski Arlberg),2022-01-01,94.88
+111,Lech (Ski Arlberg),2022-12-01,98.43
+111,Lech (Ski Arlberg),2022-11-01,96.06
+111,Lech (Ski Arlberg),2022-10-01,4.33
+111,Lech (Ski Arlberg),2022-09-01,27.56
+111,Lech (Ski Arlberg),2022-06-01,3.54
+111,Lech (Ski Arlberg),2022-05-01,11.81
+111,Lech (Ski Arlberg),2022-04-01,100.0
+111,Lech (Ski Arlberg),2022-03-01,100.0
+111,Lech (Ski Arlberg),2022-02-01,99.61
+111,Lech (Ski Arlberg),2022-01-01,94.88
+120,Zürs (Ski Arlberg),2022-12-01,98.43
+120,Zürs (Ski Arlberg),2022-11-01,96.06
+120,Zürs (Ski Arlberg),2022-10-01,4.33
+120,Zürs (Ski Arlberg),2022-09-01,27.56
+120,Zürs (Ski Arlberg),2022-06-01,3.54
+120,Zürs (Ski Arlberg),2022-05-01,11.81
+120,Zürs (Ski Arlberg),2022-04-01,100.0
+120,Zürs (Ski Arlberg),2022-03-01,100.0
+120,Zürs (Ski Arlberg),2022-02-01,99.61
+120,Zürs (Ski Arlberg),2022-01-01,94.88
+108,Ischgl,2022-12-01,97.64
+108,Ischgl,2022-11-01,96.85
+108,Ischgl,2022-10-01,2.36
+108,Ischgl,2022-09-01,1.97
+108,Ischgl,2022-05-01,10.63
+108,Ischgl,2022-04-01,31.1
+108,Ischgl,2022-03-01,98.82
+108,Ischgl,2022-02-01,100.0
+108,Ischgl,2022-01-01,99.21
+258,Scuol-Motta Naluns,2022-12-01,97.64
+258,Scuol-Motta Naluns,2022-11-01,96.85
+258,Scuol-Motta Naluns,2022-10-01,2.36
+258,Scuol-Motta Naluns,2022-09-01,1.97
+258,Scuol-Motta Naluns,2022-05-01,10.63
+258,Scuol-Motta Naluns,2022-04-01,31.1
+258,Scuol-Motta Naluns,2022-03-01,98.82
+258,Scuol-Motta Naluns,2022-02-01,100.0
+258,Scuol-Motta Naluns,2022-01-01,99.21
+109,Bad Gastein,2022-12-01,90.16
+109,Bad Gastein,2022-11-01,70.87
+109,Bad Gastein,2022-09-01,0.79
+109,Bad Gastein,2022-05-01,2.36
+109,Bad Gastein,2022-04-01,70.47
+109,Bad Gastein,2022-03-01,91.73
+109,Bad Gastein,2022-02-01,93.7
+109,Bad Gastein,2022-01-01,96.06
+222,Graukogel-Bad Gastein,2022-12-01,90.16
+222,Graukogel-Bad Gastein,2022-11-01,70.87
+222,Graukogel-Bad Gastein,2022-09-01,0.79
+222,Graukogel-Bad Gastein,2022-05-01,2.36
+222,Graukogel-Bad Gastein,2022-04-01,70.47
+222,Graukogel-Bad Gastein,2022-03-01,91.73
+222,Graukogel-Bad Gastein,2022-02-01,93.7
+222,Graukogel-Bad Gastein,2022-01-01,96.06
+252,Grossarltal-?Dorfgastein,2022-12-01,90.16
+252,Grossarltal-?Dorfgastein,2022-11-01,70.87
+252,Grossarltal-?Dorfgastein,2022-09-01,0.79
+252,Grossarltal-?Dorfgastein,2022-05-01,2.36
+252,Grossarltal-?Dorfgastein,2022-04-01,70.47
+252,Grossarltal-?Dorfgastein,2022-03-01,91.73
+252,Grossarltal-?Dorfgastein,2022-02-01,93.7
+252,Grossarltal-?Dorfgastein,2022-01-01,96.06
+112,Kitzbühel / Kirchberg (KitzSki),2022-12-01,96.85
+112,Kitzbühel / Kirchberg (KitzSki),2022-11-01,53.94
+112,Kitzbühel / Kirchberg (KitzSki),2022-09-01,3.54
+112,Kitzbühel / Kirchberg (KitzSki),2022-05-01,1.97
+112,Kitzbühel / Kirchberg (KitzSki),2022-04-01,95.28
+112,Kitzbühel / Kirchberg (KitzSki),2022-03-01,99.61
+112,Kitzbühel / Kirchberg (KitzSki),2022-02-01,99.21
+112,Kitzbühel / Kirchberg (KitzSki),2022-01-01,98.03
+277,Wildkogel-Neukirchen-?Bramberg,2022-12-01,96.85
+277,Wildkogel-Neukirchen-?Bramberg,2022-11-01,53.94
+277,Wildkogel-Neukirchen-?Bramberg,2022-09-01,3.54
+277,Wildkogel-Neukirchen-?Bramberg,2022-05-01,1.97
+277,Wildkogel-Neukirchen-?Bramberg,2022-04-01,95.28
+277,Wildkogel-Neukirchen-?Bramberg,2022-03-01,99.61
+277,Wildkogel-Neukirchen-?Bramberg,2022-02-01,99.21
+277,Wildkogel-Neukirchen-?Bramberg,2022-01-01,98.03
+465,Kitzbu?heler Horn,2022-12-01,96.85
+465,Kitzbu?heler Horn,2022-11-01,53.94
+465,Kitzbu?heler Horn,2022-09-01,3.54
+465,Kitzbu?heler Horn,2022-05-01,1.97
+465,Kitzbu?heler Horn,2022-04-01,95.28
+465,Kitzbu?heler Horn,2022-03-01,99.61
+465,Kitzbu?heler Horn,2022-02-01,99.21
+465,Kitzbu?heler Horn,2022-01-01,98.03
+113,Galtu?r,2022-12-01,100.0
+113,Galtu?r,2022-11-01,100.0
+113,Galtu?r,2022-10-01,53.15
+113,Galtu?r,2022-09-01,46.85
+113,Galtu?r,2022-08-01,5.91
+113,Galtu?r,2022-07-01,10.24
+113,Galtu?r,2022-06-01,47.64
+113,Galtu?r,2022-05-01,94.88
+113,Galtu?r,2022-04-01,100.0
+113,Galtu?r,2022-03-01,100.0
+113,Galtu?r,2022-02-01,100.0
+113,Galtu?r,2022-01-01,100.0
+115,Schladming (4-Berge-Skischauke),2022-12-01,96.06
+115,Schladming (4-Berge-Skischauke),2022-11-01,29.92
+115,Schladming (4-Berge-Skischauke),2022-09-01,0.39
+115,Schladming (4-Berge-Skischauke),2022-05-01,0.39
+115,Schladming (4-Berge-Skischauke),2022-04-01,40.55
+115,Schladming (4-Berge-Skischauke),2022-03-01,99.21
+115,Schladming (4-Berge-Skischauke),2022-02-01,97.64
+115,Schladming (4-Berge-Skischauke),2022-01-01,98.82
+445,Ramsau am Dachstein-Rittisberg,2022-12-01,96.06
+445,Ramsau am Dachstein-Rittisberg,2022-11-01,29.92
+445,Ramsau am Dachstein-Rittisberg,2022-09-01,0.39
+445,Ramsau am Dachstein-Rittisberg,2022-05-01,0.39
+445,Ramsau am Dachstein-Rittisberg,2022-04-01,40.55
+445,Ramsau am Dachstein-Rittisberg,2022-03-01,99.21
+445,Ramsau am Dachstein-Rittisberg,2022-02-01,97.64
+445,Ramsau am Dachstein-Rittisberg,2022-01-01,98.82
+116,Ellmau (SkiWelt Wilder Kaiser-Brixental),2022-12-01,68.5
+116,Ellmau (SkiWelt Wilder Kaiser-Brixental),2022-11-01,11.81
+116,Ellmau (SkiWelt Wilder Kaiser-Brixental),2022-04-01,1.57
+116,Ellmau (SkiWelt Wilder Kaiser-Brixental),2022-03-01,33.46
+116,Ellmau (SkiWelt Wilder Kaiser-Brixental),2022-02-01,99.21
+116,Ellmau (SkiWelt Wilder Kaiser-Brixental),2022-01-01,99.61
+122,St. Johann in Tirol,2022-12-01,68.5
+122,St. Johann in Tirol,2022-11-01,11.81
+122,St. Johann in Tirol,2022-04-01,1.57
+122,St. Johann in Tirol,2022-03-01,33.46
+122,St. Johann in Tirol,2022-02-01,99.21
+122,St. Johann in Tirol,2022-01-01,99.61
+442,Kirchdorf,2022-12-01,68.5
+442,Kirchdorf,2022-11-01,11.81
+442,Kirchdorf,2022-04-01,1.57
+442,Kirchdorf,2022-03-01,33.46
+442,Kirchdorf,2022-02-01,99.21
+442,Kirchdorf,2022-01-01,99.61
+118,Westendorf (SkiWelt Wilder Kaiser-Brixental),2022-12-01,100.0
+118,Westendorf (SkiWelt Wilder Kaiser-Brixental),2022-11-01,98.03
+118,Westendorf (SkiWelt Wilder Kaiser-Brixental),2022-09-01,0.39
+118,Westendorf (SkiWelt Wilder Kaiser-Brixental),2022-04-01,1.97
+118,Westendorf (SkiWelt Wilder Kaiser-Brixental),2022-03-01,98.82
+118,Westendorf (SkiWelt Wilder Kaiser-Brixental),2022-02-01,93.7
+118,Westendorf (SkiWelt Wilder Kaiser-Brixental),2022-01-01,92.13
+205,Oberau (Wildscho?nau),2022-12-01,100.0
+205,Oberau (Wildscho?nau),2022-11-01,98.03
+205,Oberau (Wildscho?nau),2022-09-01,0.39
+205,Oberau (Wildscho?nau),2022-04-01,1.97
+205,Oberau (Wildscho?nau),2022-03-01,98.82
+205,Oberau (Wildscho?nau),2022-02-01,93.7
+205,Oberau (Wildscho?nau),2022-01-01,92.13
+121,Söll (SkiWelt Wilder Kaiser-Brixental),2022-12-01,70.47
+121,Söll (SkiWelt Wilder Kaiser-Brixental),2022-03-01,6.3
+121,Söll (SkiWelt Wilder Kaiser-Brixental),2022-02-01,94.49
+121,Söll (SkiWelt Wilder Kaiser-Brixental),2022-01-01,98.03
+439,Sudelfeld-Bayrischzell,2022-12-01,70.47
+439,Sudelfeld-Bayrischzell,2022-03-01,6.3
+439,Sudelfeld-Bayrischzell,2022-02-01,94.49
+439,Sudelfeld-Bayrischzell,2022-01-01,98.03
+123,St. Christoph (Ski Arlberg),2022-12-01,30.31
+123,St. Christoph (Ski Arlberg),2022-11-01,0.39
+123,St. Christoph (Ski Arlberg),2022-02-01,1.18
+123,St. Christoph (Ski Arlberg),2022-01-01,1.97
+125,Sierra Nevada-Pradollano,2022-12-01,0.39
+125,Sierra Nevada-Pradollano,2022-04-01,1.18
+125,Sierra Nevada-Pradollano,2022-03-01,2.76
+125,Sierra Nevada-Pradollano,2022-01-01,2.36
+126,Cortina d'Ampezzo,2022-12-01,96.85
+126,Cortina d'Ampezzo,2022-11-01,65.75
+126,Cortina d'Ampezzo,2022-05-01,3.15
+126,Cortina d'Ampezzo,2022-04-01,81.89
+126,Cortina d'Ampezzo,2022-03-01,99.21
+126,Cortina d'Ampezzo,2022-02-01,98.03
+126,Cortina d'Ampezzo,2022-01-01,96.06
+127,Val Senales Glacier,2022-12-01,99.61
+127,Val Senales Glacier,2022-11-01,98.43
+127,Val Senales Glacier,2022-10-01,88.58
+127,Val Senales Glacier,2022-09-01,66.93
+127,Val Senales Glacier,2022-08-01,51.18
+127,Val Senales Glacier,2022-07-01,56.69
+127,Val Senales Glacier,2022-06-01,78.35
+127,Val Senales Glacier,2022-05-01,94.88
+127,Val Senales Glacier,2022-04-01,100.0
+127,Val Senales Glacier,2022-03-01,100.0
+127,Val Senales Glacier,2022-02-01,100.0
+127,Val Senales Glacier,2022-01-01,97.64
+414,Pitztal Glacier-Pitztaler Gletscher-,2022-12-01,99.61
+414,Pitztal Glacier-Pitztaler Gletscher-,2022-11-01,98.43
+414,Pitztal Glacier-Pitztaler Gletscher-,2022-10-01,88.58
+414,Pitztal Glacier-Pitztaler Gletscher-,2022-09-01,66.93
+414,Pitztal Glacier-Pitztaler Gletscher-,2022-08-01,51.18
+414,Pitztal Glacier-Pitztaler Gletscher-,2022-07-01,56.69
+414,Pitztal Glacier-Pitztaler Gletscher-,2022-06-01,78.35
+414,Pitztal Glacier-Pitztaler Gletscher-,2022-05-01,94.88
+414,Pitztal Glacier-Pitztaler Gletscher-,2022-04-01,100.0
+414,Pitztal Glacier-Pitztaler Gletscher-,2022-03-01,100.0
+414,Pitztal Glacier-Pitztaler Gletscher-,2022-02-01,100.0
+414,Pitztal Glacier-Pitztaler Gletscher-,2022-01-01,97.64
+128,Saas-Fee,2022-12-01,96.06
+128,Saas-Fee,2022-11-01,95.28
+128,Saas-Fee,2022-10-01,0.39
+128,Saas-Fee,2022-05-01,5.12
+128,Saas-Fee,2022-04-01,25.2
+128,Saas-Fee,2022-03-01,88.19
+128,Saas-Fee,2022-02-01,94.09
+128,Saas-Fee,2022-01-01,95.67
+494,Gra?chen,2022-12-01,96.06
+494,Gra?chen,2022-11-01,95.28
+494,Gra?chen,2022-10-01,0.39
+494,Gra?chen,2022-05-01,5.12
+494,Gra?chen,2022-04-01,25.2
+494,Gra?chen,2022-03-01,88.19
+494,Gra?chen,2022-02-01,94.09
+494,Gra?chen,2022-01-01,95.67
+130,Kronplatz (Plan de Corones),2022-12-01,100.0
+130,Kronplatz (Plan de Corones),2022-11-01,99.21
+130,Kronplatz (Plan de Corones),2022-05-01,2.36
+130,Kronplatz (Plan de Corones),2022-04-01,100.0
+130,Kronplatz (Plan de Corones),2022-03-01,96.06
+130,Kronplatz (Plan de Corones),2022-02-01,97.64
+130,Kronplatz (Plan de Corones),2022-01-01,95.67
+167,Alta Badia,2022-12-01,100.0
+167,Alta Badia,2022-11-01,99.21
+167,Alta Badia,2022-05-01,2.36
+167,Alta Badia,2022-04-01,100.0
+167,Alta Badia,2022-03-01,96.06
+167,Alta Badia,2022-02-01,97.64
+167,Alta Badia,2022-01-01,95.67
+131,Formigal,2022-12-01,96.06
+131,Formigal,2022-11-01,14.17
+131,Formigal,2022-10-01,0.39
+131,Formigal,2022-05-01,18.9
+131,Formigal,2022-04-01,100.0
+131,Formigal,2022-03-01,95.67
+131,Formigal,2022-02-01,93.7
+131,Formigal,2022-01-01,98.43
+393,Gourette-Eaux Bonnes-,2022-12-01,96.06
+393,Gourette-Eaux Bonnes-,2022-11-01,14.17
+393,Gourette-Eaux Bonnes-,2022-10-01,0.39
+393,Gourette-Eaux Bonnes-,2022-05-01,18.9
+393,Gourette-Eaux Bonnes-,2022-04-01,100.0
+393,Gourette-Eaux Bonnes-,2022-03-01,95.67
+393,Gourette-Eaux Bonnes-,2022-02-01,93.7
+393,Gourette-Eaux Bonnes-,2022-01-01,98.43
+132,Baqueira / ?Beret,2022-12-01,84.25
+132,Baqueira / ?Beret,2022-11-01,12.99
+132,Baqueira / ?Beret,2022-05-01,8.66
+132,Baqueira / ?Beret,2022-04-01,66.14
+132,Baqueira / ?Beret,2022-03-01,75.59
+132,Baqueira / ?Beret,2022-02-01,75.2
+132,Baqueira / ?Beret,2022-01-01,93.7
+133,Sauze d’Oulx (Via Lattea),2022-12-01,98.43
+133,Sauze d’Oulx (Via Lattea),2022-11-01,97.24
+133,Sauze d’Oulx (Via Lattea),2022-10-01,5.91
+133,Sauze d’Oulx (Via Lattea),2022-06-01,3.94
+133,Sauze d’Oulx (Via Lattea),2022-05-01,50.0
+133,Sauze d’Oulx (Via Lattea),2022-04-01,96.06
+133,Sauze d’Oulx (Via Lattea),2022-03-01,100.0
+133,Sauze d’Oulx (Via Lattea),2022-02-01,99.61
+133,Sauze d’Oulx (Via Lattea),2022-01-01,97.24
+335,Pragelato,2022-12-01,98.43
+335,Pragelato,2022-11-01,97.24
+335,Pragelato,2022-10-01,5.91
+335,Pragelato,2022-06-01,3.94
+335,Pragelato,2022-05-01,50.0
+335,Pragelato,2022-04-01,96.06
+335,Pragelato,2022-03-01,100.0
+335,Pragelato,2022-02-01,99.61
+335,Pragelato,2022-01-01,97.24
+135,Wasserngrat (Gstaad),2022-12-01,96.46
+135,Wasserngrat (Gstaad),2022-11-01,100.0
+135,Wasserngrat (Gstaad),2022-10-01,15.75
+135,Wasserngrat (Gstaad),2022-09-01,6.69
+135,Wasserngrat (Gstaad),2022-07-01,0.79
+135,Wasserngrat (Gstaad),2022-06-01,9.45
+135,Wasserngrat (Gstaad),2022-05-01,42.13
+135,Wasserngrat (Gstaad),2022-04-01,99.21
+135,Wasserngrat (Gstaad),2022-03-01,99.61
+135,Wasserngrat (Gstaad),2022-02-01,98.03
+135,Wasserngrat (Gstaad),2022-01-01,96.06
+136,Wispile (Gstaad),2022-12-01,96.46
+136,Wispile (Gstaad),2022-11-01,100.0
+136,Wispile (Gstaad),2022-10-01,15.75
+136,Wispile (Gstaad),2022-09-01,6.69
+136,Wispile (Gstaad),2022-07-01,0.79
+136,Wispile (Gstaad),2022-06-01,9.45
+136,Wispile (Gstaad),2022-05-01,42.13
+136,Wispile (Gstaad),2022-04-01,99.21
+136,Wispile (Gstaad),2022-03-01,99.61
+136,Wispile (Gstaad),2022-02-01,98.03
+136,Wispile (Gstaad),2022-01-01,96.06
+297,Anze?re,2022-12-01,96.46
+297,Anze?re,2022-11-01,100.0
+297,Anze?re,2022-10-01,15.75
+297,Anze?re,2022-09-01,6.69
+297,Anze?re,2022-07-01,0.79
+297,Anze?re,2022-06-01,9.45
+297,Anze?re,2022-05-01,42.13
+297,Anze?re,2022-04-01,99.21
+297,Anze?re,2022-03-01,99.61
+297,Anze?re,2022-02-01,98.03
+297,Anze?re,2022-01-01,96.06
+137,Crans-Montana,2022-12-01,94.09
+137,Crans-Montana,2022-11-01,78.74
+137,Crans-Montana,2022-10-01,5.91
+137,Crans-Montana,2022-09-01,1.57
+137,Crans-Montana,2022-06-01,2.76
+137,Crans-Montana,2022-05-01,8.66
+137,Crans-Montana,2022-04-01,49.61
+137,Crans-Montana,2022-03-01,99.21
+137,Crans-Montana,2022-02-01,97.64
+137,Crans-Montana,2022-01-01,94.88
+219,Adelboden-?Lenk-Chuenisba?rgli-?Silleren-?Hahnenmoos-?Metsch,2022-12-01,94.09
+219,Adelboden-?Lenk-Chuenisba?rgli-?Silleren-?Hahnenmoos-?Metsch,2022-11-01,78.74
+219,Adelboden-?Lenk-Chuenisba?rgli-?Silleren-?Hahnenmoos-?Metsch,2022-10-01,5.91
+219,Adelboden-?Lenk-Chuenisba?rgli-?Silleren-?Hahnenmoos-?Metsch,2022-09-01,1.57
+219,Adelboden-?Lenk-Chuenisba?rgli-?Silleren-?Hahnenmoos-?Metsch,2022-06-01,2.76
+219,Adelboden-?Lenk-Chuenisba?rgli-?Silleren-?Hahnenmoos-?Metsch,2022-05-01,8.66
+219,Adelboden-?Lenk-Chuenisba?rgli-?Silleren-?Hahnenmoos-?Metsch,2022-04-01,49.61
+219,Adelboden-?Lenk-Chuenisba?rgli-?Silleren-?Hahnenmoos-?Metsch,2022-03-01,99.21
+219,Adelboden-?Lenk-Chuenisba?rgli-?Silleren-?Hahnenmoos-?Metsch,2022-02-01,97.64
+219,Adelboden-?Lenk-Chuenisba?rgli-?Silleren-?Hahnenmoos-?Metsch,2022-01-01,94.88
+473,Torrent-Leukerbad,2022-12-01,94.09
+473,Torrent-Leukerbad,2022-11-01,78.74
+473,Torrent-Leukerbad,2022-10-01,5.91
+473,Torrent-Leukerbad,2022-09-01,1.57
+473,Torrent-Leukerbad,2022-06-01,2.76
+473,Torrent-Leukerbad,2022-05-01,8.66
+473,Torrent-Leukerbad,2022-04-01,49.61
+473,Torrent-Leukerbad,2022-03-01,99.21
+473,Torrent-Leukerbad,2022-02-01,97.64
+473,Torrent-Leukerbad,2022-01-01,94.88
+138,Brunni - Engelberg,2022-12-01,83.46
+138,Brunni - Engelberg,2022-11-01,11.81
+138,Brunni - Engelberg,2022-09-01,2.76
+138,Brunni - Engelberg,2022-05-01,1.97
+138,Brunni - Engelberg,2022-04-01,19.69
+138,Brunni - Engelberg,2022-03-01,50.79
+138,Brunni - Engelberg,2022-02-01,91.34
+138,Brunni - Engelberg,2022-01-01,94.49
+247,Titlis-Engelberg,2022-12-01,83.46
+247,Titlis-Engelberg,2022-11-01,11.81
+247,Titlis-Engelberg,2022-09-01,2.76
+247,Titlis-Engelberg,2022-05-01,1.97
+247,Titlis-Engelberg,2022-04-01,19.69
+247,Titlis-Engelberg,2022-03-01,50.79
+247,Titlis-Engelberg,2022-02-01,91.34
+247,Titlis-Engelberg,2022-01-01,94.49
+377,Melchsee-Frutt-Kerns-,2022-12-01,83.46
+377,Melchsee-Frutt-Kerns-,2022-11-01,11.81
+377,Melchsee-Frutt-Kerns-,2022-09-01,2.76
+377,Melchsee-Frutt-Kerns-,2022-05-01,1.97
+377,Melchsee-Frutt-Kerns-,2022-04-01,19.69
+377,Melchsee-Frutt-Kerns-,2022-03-01,50.79
+377,Melchsee-Frutt-Kerns-,2022-02-01,91.34
+377,Melchsee-Frutt-Kerns-,2022-01-01,94.49
+452,Klewenalp-?Stockhu?tte-Beckenried-?Emmetten,2022-12-01,83.46
+452,Klewenalp-?Stockhu?tte-Beckenried-?Emmetten,2022-11-01,11.81
+452,Klewenalp-?Stockhu?tte-Beckenried-?Emmetten,2022-09-01,2.76
+452,Klewenalp-?Stockhu?tte-Beckenried-?Emmetten,2022-05-01,1.97
+452,Klewenalp-?Stockhu?tte-Beckenried-?Emmetten,2022-04-01,19.69
+452,Klewenalp-?Stockhu?tte-Beckenried-?Emmetten,2022-03-01,50.79
+452,Klewenalp-?Stockhu?tte-Beckenried-?Emmetten,2022-02-01,91.34
+452,Klewenalp-?Stockhu?tte-Beckenried-?Emmetten,2022-01-01,94.49
+139,Arosa Lenzerheide,2022-12-01,97.64
+139,Arosa Lenzerheide,2022-11-01,95.28
+139,Arosa Lenzerheide,2022-05-01,7.09
+139,Arosa Lenzerheide,2022-04-01,88.58
+139,Arosa Lenzerheide,2022-03-01,98.43
+139,Arosa Lenzerheide,2022-02-01,98.03
+139,Arosa Lenzerheide,2022-01-01,96.46
+140,Verbier (4 Valle?es),2022-12-01,92.13
+140,Verbier (4 Valle?es),2022-11-01,86.22
+140,Verbier (4 Valle?es),2022-05-01,1.18
+140,Verbier (4 Valle?es),2022-04-01,15.75
+140,Verbier (4 Valle?es),2022-03-01,38.58
+140,Verbier (4 Valle?es),2022-02-01,91.73
+140,Verbier (4 Valle?es),2022-01-01,92.13
+143,Nendaz (4 Valle?es),2022-12-01,92.13
+143,Nendaz (4 Valle?es),2022-11-01,86.22
+143,Nendaz (4 Valle?es),2022-05-01,1.18
+143,Nendaz (4 Valle?es),2022-04-01,15.75
+143,Nendaz (4 Valle?es),2022-03-01,38.58
+143,Nendaz (4 Valle?es),2022-02-01,91.73
+143,Nendaz (4 Valle?es),2022-01-01,92.13
+145,Thyon (4 Valle?es),2022-12-01,92.13
+145,Thyon (4 Valle?es),2022-11-01,86.22
+145,Thyon (4 Valle?es),2022-05-01,1.18
+145,Thyon (4 Valle?es),2022-04-01,15.75
+145,Thyon (4 Valle?es),2022-03-01,38.58
+145,Thyon (4 Valle?es),2022-02-01,91.73
+145,Thyon (4 Valle?es),2022-01-01,92.13
+146,Veysonnaz (4 Valle?es),2022-12-01,92.13
+146,Veysonnaz (4 Valle?es),2022-11-01,86.22
+146,Veysonnaz (4 Valle?es),2022-05-01,1.18
+146,Veysonnaz (4 Valle?es),2022-04-01,15.75
+146,Veysonnaz (4 Valle?es),2022-03-01,38.58
+146,Veysonnaz (4 Valle?es),2022-02-01,91.73
+146,Veysonnaz (4 Valle?es),2022-01-01,92.13
+142,Gresse en Vercors,2022-12-01,0.79
+142,Gresse en Vercors,2022-11-01,1.97
+142,Gresse en Vercors,2022-04-01,0.79
+142,Gresse en Vercors,2022-03-01,1.57
+142,Gresse en Vercors,2022-02-01,3.94
+142,Gresse en Vercors,2022-01-01,61.81
+224,Les Portes du Mont-Blanc-Combloux-?Mege?ve le Jaillet-?La Giettaz,2022-12-01,0.79
+224,Les Portes du Mont-Blanc-Combloux-?Mege?ve le Jaillet-?La Giettaz,2022-11-01,1.97
+224,Les Portes du Mont-Blanc-Combloux-?Mege?ve le Jaillet-?La Giettaz,2022-04-01,0.79
+224,Les Portes du Mont-Blanc-Combloux-?Mege?ve le Jaillet-?La Giettaz,2022-03-01,1.57
+224,Les Portes du Mont-Blanc-Combloux-?Mege?ve le Jaillet-?La Giettaz,2022-02-01,3.94
+224,Les Portes du Mont-Blanc-Combloux-?Mege?ve le Jaillet-?La Giettaz,2022-01-01,61.81
+147,Buchenberg-Buching-Halblech-,2022-11-01,0.79
+147,Buchenberg-Buching-Halblech-,2022-02-01,62.99
+147,Buchenberg-Buching-Halblech-,2022-01-01,90.16
+148,Alpendorf (Ski amedé),2022-12-01,92.13
+148,Alpendorf (Ski amedé),2022-11-01,24.8
+148,Alpendorf (Ski amedé),2022-04-01,3.94
+148,Alpendorf (Ski amedé),2022-03-01,98.82
+148,Alpendorf (Ski amedé),2022-02-01,98.82
+148,Alpendorf (Ski amedé),2022-01-01,97.24
+151,Les Sybelles-Le Corbier-?La Toussuire-?Les Bottie?res-?St Colomban des Villards-?St Sorlin-?St Jean d’Arves,2022-12-01,97.64
+151,Les Sybelles-Le Corbier-?La Toussuire-?Les Bottie?res-?St Colomban des Villards-?St Sorlin-?St Jean d’Arves,2022-11-01,9.06
+151,Les Sybelles-Le Corbier-?La Toussuire-?Les Bottie?res-?St Colomban des Villards-?St Sorlin-?St Jean d’Arves,2022-05-01,1.97
+151,Les Sybelles-Le Corbier-?La Toussuire-?Les Bottie?res-?St Colomban des Villards-?St Sorlin-?St Jean d’Arves,2022-04-01,39.76
+151,Les Sybelles-Le Corbier-?La Toussuire-?Les Bottie?res-?St Colomban des Villards-?St Sorlin-?St Jean d’Arves,2022-03-01,53.94
+151,Les Sybelles-Le Corbier-?La Toussuire-?Les Bottie?res-?St Colomban des Villards-?St Sorlin-?St Jean d’Arves,2022-02-01,62.99
+151,Les Sybelles-Le Corbier-?La Toussuire-?Les Bottie?res-?St Colomban des Villards-?St Sorlin-?St Jean d’Arves,2022-01-01,97.64
+175,Les 7 Laux-Prapoutel-?Le Pleynet-?Pipay,2022-12-01,97.64
+175,Les 7 Laux-Prapoutel-?Le Pleynet-?Pipay,2022-11-01,9.06
+175,Les 7 Laux-Prapoutel-?Le Pleynet-?Pipay,2022-05-01,1.97
+175,Les 7 Laux-Prapoutel-?Le Pleynet-?Pipay,2022-04-01,39.76
+175,Les 7 Laux-Prapoutel-?Le Pleynet-?Pipay,2022-03-01,53.94
+175,Les 7 Laux-Prapoutel-?Le Pleynet-?Pipay,2022-02-01,62.99
+175,Les 7 Laux-Prapoutel-?Le Pleynet-?Pipay,2022-01-01,97.64
+154,Big Sky Resort,2022-12-01,94.49
+154,Big Sky Resort,2022-11-01,98.43
+154,Big Sky Resort,2022-10-01,16.14
+154,Big Sky Resort,2022-09-01,5.91
+154,Big Sky Resort,2022-08-01,0.39
+154,Big Sky Resort,2022-07-01,11.02
+154,Big Sky Resort,2022-06-01,84.25
+154,Big Sky Resort,2022-05-01,100.0
+154,Big Sky Resort,2022-04-01,100.0
+154,Big Sky Resort,2022-03-01,100.0
+154,Big Sky Resort,2022-02-01,98.03
+154,Big Sky Resort,2022-01-01,95.67
+155,Snowmass,2022-12-01,97.24
+155,Snowmass,2022-11-01,14.17
+155,Snowmass,2022-10-01,24.8
+155,Snowmass,2022-05-01,0.79
+155,Snowmass,2022-04-01,27.95
+155,Snowmass,2022-03-01,88.19
+155,Snowmass,2022-02-01,98.43
+155,Snowmass,2022-01-01,96.85
+157,Laax-?Flims-?Falera,2022-12-01,98.03
+157,Laax-?Flims-?Falera,2022-11-01,49.61
+157,Laax-?Flims-?Falera,2022-09-01,0.39
+157,Laax-?Flims-?Falera,2022-06-01,15.75
+157,Laax-?Flims-?Falera,2022-05-01,61.02
+157,Laax-?Flims-?Falera,2022-04-01,96.06
+157,Laax-?Flims-?Falera,2022-03-01,96.06
+157,Laax-?Flims-?Falera,2022-02-01,96.46
+157,Laax-?Flims-?Falera,2022-01-01,91.34
+329,Brigels-?Waltensburg-?Andiast,2022-12-01,98.03
+329,Brigels-?Waltensburg-?Andiast,2022-11-01,49.61
+329,Brigels-?Waltensburg-?Andiast,2022-09-01,0.39
+329,Brigels-?Waltensburg-?Andiast,2022-06-01,15.75
+329,Brigels-?Waltensburg-?Andiast,2022-05-01,61.02
+329,Brigels-?Waltensburg-?Andiast,2022-04-01,96.06
+329,Brigels-?Waltensburg-?Andiast,2022-03-01,96.06
+329,Brigels-?Waltensburg-?Andiast,2022-02-01,96.46
+329,Brigels-?Waltensburg-?Andiast,2022-01-01,91.34
+158,Vars-?Risoul-La Fore?t Blanche,2022-01-01,1.97
+159,Le Grand Domaine-Valmorel-?Doucy-?Celliers-?St Franc?ois Longchamp,2022-03-01,0.39
+161,Zillertal Arena-Zell am Ziller-?Gerlos-?Ko?nigsleiten-?Hochkrimml,2022-12-01,98.03
+161,Zillertal Arena-Zell am Ziller-?Gerlos-?Ko?nigsleiten-?Hochkrimml,2022-11-01,85.43
+161,Zillertal Arena-Zell am Ziller-?Gerlos-?Ko?nigsleiten-?Hochkrimml,2022-10-01,19.29
+161,Zillertal Arena-Zell am Ziller-?Gerlos-?Ko?nigsleiten-?Hochkrimml,2022-09-01,1.18
+161,Zillertal Arena-Zell am Ziller-?Gerlos-?Ko?nigsleiten-?Hochkrimml,2022-07-01,0.39
+161,Zillertal Arena-Zell am Ziller-?Gerlos-?Ko?nigsleiten-?Hochkrimml,2022-06-01,14.96
+161,Zillertal Arena-Zell am Ziller-?Gerlos-?Ko?nigsleiten-?Hochkrimml,2022-05-01,68.5
+161,Zillertal Arena-Zell am Ziller-?Gerlos-?Ko?nigsleiten-?Hochkrimml,2022-04-01,100.0
+161,Zillertal Arena-Zell am Ziller-?Gerlos-?Ko?nigsleiten-?Hochkrimml,2022-03-01,100.0
+161,Zillertal Arena-Zell am Ziller-?Gerlos-?Ko?nigsleiten-?Hochkrimml,2022-02-01,100.0
+161,Zillertal Arena-Zell am Ziller-?Gerlos-?Ko?nigsleiten-?Hochkrimml,2022-01-01,97.64
+162,La Molina-?Masella-Alp2500,2022-12-01,57.87
+162,La Molina-?Masella-Alp2500,2022-11-01,7.87
+162,La Molina-?Masella-Alp2500,2022-10-01,6.69
+162,La Molina-?Masella-Alp2500,2022-05-01,16.54
+162,La Molina-?Masella-Alp2500,2022-04-01,72.83
+162,La Molina-?Masella-Alp2500,2022-03-01,44.09
+162,La Molina-?Masella-Alp2500,2022-02-01,45.67
+162,La Molina-?Masella-Alp2500,2022-01-01,80.71
+378,Vall de Nu?ria,2022-12-01,57.87
+378,Vall de Nu?ria,2022-11-01,7.87
+378,Vall de Nu?ria,2022-10-01,6.69
+378,Vall de Nu?ria,2022-05-01,16.54
+378,Vall de Nu?ria,2022-04-01,72.83
+378,Vall de Nu?ria,2022-03-01,44.09
+378,Vall de Nu?ria,2022-02-01,45.67
+378,Vall de Nu?ria,2022-01-01,80.71
+495,Puigmal,2022-12-01,57.87
+495,Puigmal,2022-11-01,7.87
+495,Puigmal,2022-10-01,6.69
+495,Puigmal,2022-05-01,16.54
+495,Puigmal,2022-04-01,72.83
+495,Puigmal,2022-03-01,44.09
+495,Puigmal,2022-02-01,45.67
+495,Puigmal,2022-01-01,80.71
+163,Lake Louise,2022-12-01,94.09
+163,Lake Louise,2022-11-01,92.13
+163,Lake Louise,2022-09-01,0.39
+163,Lake Louise,2022-08-01,0.39
+163,Lake Louise,2022-07-01,3.15
+163,Lake Louise,2022-06-01,24.02
+163,Lake Louise,2022-05-01,94.09
+163,Lake Louise,2022-04-01,98.03
+163,Lake Louise,2022-03-01,100.0
+163,Lake Louise,2022-02-01,97.64
+163,Lake Louise,2022-01-01,96.46
+164,Auron-Saint-Etienne-de-Tine?e-,2022-12-01,86.61
+164,Auron-Saint-Etienne-de-Tine?e-,2022-11-01,0.79
+164,Auron-Saint-Etienne-de-Tine?e-,2022-04-01,16.93
+164,Auron-Saint-Etienne-de-Tine?e-,2022-03-01,31.1
+164,Auron-Saint-Etienne-de-Tine?e-,2022-02-01,27.17
+164,Auron-Saint-Etienne-de-Tine?e-,2022-01-01,23.23
+214,Valberg-?Beuil les Launes,2022-12-01,86.61
+214,Valberg-?Beuil les Launes,2022-11-01,0.79
+214,Valberg-?Beuil les Launes,2022-04-01,16.93
+214,Valberg-?Beuil les Launes,2022-03-01,31.1
+214,Valberg-?Beuil les Launes,2022-02-01,27.17
+214,Valberg-?Beuil les Launes,2022-01-01,23.23
+165,Powder Mountain,2022-12-01,98.03
+165,Powder Mountain,2022-11-01,100.0
+165,Powder Mountain,2022-10-01,17.32
+165,Powder Mountain,2022-09-01,7.09
+165,Powder Mountain,2022-04-01,100.0
+165,Powder Mountain,2022-03-01,64.96
+165,Powder Mountain,2022-02-01,100.0
+165,Powder Mountain,2022-01-01,95.67
+166,Keystone,2022-02-01,33.07
+166,Keystone,2022-01-01,100.0
+168,Killington,2022-12-01,49.61
+168,Killington,2022-04-01,0.79
+168,Killington,2022-02-01,96.06
+168,Killington,2022-01-01,93.7
+169,Copper Mountain,2022-12-01,14.17
+169,Copper Mountain,2022-03-01,1.57
+169,Copper Mountain,2022-02-01,5.51
+170,La Clusaz-?Manigod,2022-11-01,11.81
+170,La Clusaz-?Manigod,2022-04-01,0.39
+170,La Clusaz-?Manigod,2022-03-01,0.79
+170,La Clusaz-?Manigod,2022-02-01,91.34
+170,La Clusaz-?Manigod,2022-01-01,96.06
+226,Le Grand Bornand,2022-11-01,11.81
+226,Le Grand Bornand,2022-04-01,0.39
+226,Le Grand Bornand,2022-03-01,0.79
+226,Le Grand Bornand,2022-02-01,91.34
+226,Le Grand Bornand,2022-01-01,96.06
+171,Espace Villard Correnc?on-Villard-de-Lans-?Correnc?on-en-Vercors,2022-12-01,27.56
+171,Espace Villard Correnc?on-Villard-de-Lans-?Correnc?on-en-Vercors,2022-11-01,3.54
+171,Espace Villard Correnc?on-Villard-de-Lans-?Correnc?on-en-Vercors,2022-04-01,1.18
+171,Espace Villard Correnc?on-Villard-de-Lans-?Correnc?on-en-Vercors,2022-03-01,6.3
+171,Espace Villard Correnc?on-Villard-de-Lans-?Correnc?on-en-Vercors,2022-02-01,45.67
+171,Espace Villard Correnc?on-Villard-de-Lans-?Correnc?on-en-Vercors,2022-01-01,92.52
+173,Isola 2000,2022-12-01,72.83
+173,Isola 2000,2022-11-01,25.2
+173,Isola 2000,2022-05-01,4.72
+173,Isola 2000,2022-04-01,68.9
+173,Isola 2000,2022-03-01,46.06
+173,Isola 2000,2022-02-01,59.06
+173,Isola 2000,2022-01-01,54.72
+174,Obersaxen-?Mundaun-?Val Lumnezia,2022-12-01,98.03
+174,Obersaxen-?Mundaun-?Val Lumnezia,2022-11-01,71.65
+174,Obersaxen-?Mundaun-?Val Lumnezia,2022-04-01,18.11
+174,Obersaxen-?Mundaun-?Val Lumnezia,2022-03-01,98.82
+174,Obersaxen-?Mundaun-?Val Lumnezia,2022-02-01,97.64
+174,Obersaxen-?Mundaun-?Val Lumnezia,2022-01-01,98.43
+176,Corvatsch-?Furtschellas,2022-12-01,97.24
+176,Corvatsch-?Furtschellas,2022-11-01,95.28
+176,Corvatsch-?Furtschellas,2022-10-01,55.91
+176,Corvatsch-?Furtschellas,2022-09-01,41.73
+176,Corvatsch-?Furtschellas,2022-08-01,40.94
+176,Corvatsch-?Furtschellas,2022-07-01,44.88
+176,Corvatsch-?Furtschellas,2022-06-01,53.54
+176,Corvatsch-?Furtschellas,2022-05-01,89.76
+176,Corvatsch-?Furtschellas,2022-04-01,100.0
+176,Corvatsch-?Furtschellas,2022-03-01,100.0
+176,Corvatsch-?Furtschellas,2022-02-01,100.0
+176,Corvatsch-?Furtschellas,2022-01-01,96.46
+479,Diavolezza-?Lagalb,2022-12-01,97.24
+479,Diavolezza-?Lagalb,2022-11-01,95.28
+479,Diavolezza-?Lagalb,2022-10-01,55.91
+479,Diavolezza-?Lagalb,2022-09-01,41.73
+479,Diavolezza-?Lagalb,2022-08-01,40.94
+479,Diavolezza-?Lagalb,2022-07-01,44.88
+479,Diavolezza-?Lagalb,2022-06-01,53.54
+479,Diavolezza-?Lagalb,2022-05-01,89.76
+479,Diavolezza-?Lagalb,2022-04-01,100.0
+479,Diavolezza-?Lagalb,2022-03-01,100.0
+479,Diavolezza-?Lagalb,2022-02-01,100.0
+479,Diavolezza-?Lagalb,2022-01-01,96.46
+177,Sugarloaf,2022-12-01,1.97
+177,Sugarloaf,2022-08-01,0.39
+177,Sugarloaf,2022-01-01,13.39
+178,Silver Star,2022-12-01,50.0
+178,Silver Star,2022-11-01,22.05
+178,Silver Star,2022-03-01,47.24
+178,Silver Star,2022-02-01,100.0
+178,Silver Star,2022-01-01,100.0
+179,Taos,2022-12-01,3.94
+179,Taos,2022-11-01,15.75
+179,Taos,2022-03-01,8.27
+179,Taos,2022-02-01,71.65
+179,Taos,2022-01-01,27.95
+180,Nassfeld-Hermagor,2022-12-01,100.0
+180,Nassfeld-Hermagor,2022-11-01,13.78
+180,Nassfeld-Hermagor,2022-04-01,15.35
+180,Nassfeld-Hermagor,2022-03-01,10.24
+180,Nassfeld-Hermagor,2022-02-01,92.13
+180,Nassfeld-Hermagor,2022-01-01,97.64
+181,Sunshine Village,2022-12-01,98.43
+181,Sunshine Village,2022-11-01,91.34
+181,Sunshine Village,2022-09-01,7.87
+181,Sunshine Village,2022-06-01,17.72
+181,Sunshine Village,2022-05-01,99.21
+181,Sunshine Village,2022-04-01,98.03
+181,Sunshine Village,2022-03-01,97.64
+181,Sunshine Village,2022-02-01,91.34
+181,Sunshine Village,2022-01-01,95.67
+182,Mondole? Ski-Artesina-?Frabosa Soprana-?Prato Nevoso,2022-12-01,97.24
+182,Mondole? Ski-Artesina-?Frabosa Soprana-?Prato Nevoso,2022-05-01,3.15
+182,Mondole? Ski-Artesina-?Frabosa Soprana-?Prato Nevoso,2022-04-01,12.99
+182,Mondole? Ski-Artesina-?Frabosa Soprana-?Prato Nevoso,2022-03-01,4.33
+182,Mondole? Ski-Artesina-?Frabosa Soprana-?Prato Nevoso,2022-02-01,83.07
+182,Mondole? Ski-Artesina-?Frabosa Soprana-?Prato Nevoso,2022-01-01,12.99
+183,Aletsch Arena-Riederalp-?Bettmeralp-?Fiesch Eggishorn,2022-12-01,97.24
+183,Aletsch Arena-Riederalp-?Bettmeralp-?Fiesch Eggishorn,2022-11-01,96.46
+183,Aletsch Arena-Riederalp-?Bettmeralp-?Fiesch Eggishorn,2022-05-01,3.94
+183,Aletsch Arena-Riederalp-?Bettmeralp-?Fiesch Eggishorn,2022-04-01,37.4
+183,Aletsch Arena-Riederalp-?Bettmeralp-?Fiesch Eggishorn,2022-03-01,41.34
+183,Aletsch Arena-Riederalp-?Bettmeralp-?Fiesch Eggishorn,2022-02-01,98.03
+183,Aletsch Arena-Riederalp-?Bettmeralp-?Fiesch Eggishorn,2022-01-01,99.61
+451,Bellwald,2022-12-01,97.24
+451,Bellwald,2022-11-01,96.46
+451,Bellwald,2022-05-01,3.94
+451,Bellwald,2022-04-01,37.4
+451,Bellwald,2022-03-01,41.34
+451,Bellwald,2022-02-01,98.03
+451,Bellwald,2022-01-01,99.61
+184,Bad Kleinkirchheim-?St. Oswald,2022-12-01,98.03
+184,Bad Kleinkirchheim-?St. Oswald,2022-11-01,12.2
+184,Bad Kleinkirchheim-?St. Oswald,2022-05-01,4.33
+184,Bad Kleinkirchheim-?St. Oswald,2022-04-01,93.31
+184,Bad Kleinkirchheim-?St. Oswald,2022-03-01,95.67
+184,Bad Kleinkirchheim-?St. Oswald,2022-02-01,98.43
+184,Bad Kleinkirchheim-?St. Oswald,2022-01-01,97.24
+426,Turracher Ho?he,2022-12-01,98.03
+426,Turracher Ho?he,2022-11-01,12.2
+426,Turracher Ho?he,2022-05-01,4.33
+426,Turracher Ho?he,2022-04-01,93.31
+426,Turracher Ho?he,2022-03-01,95.67
+426,Turracher Ho?he,2022-02-01,98.43
+426,Turracher Ho?he,2022-01-01,97.24
+185,Snowbird,2022-12-01,98.03
+185,Snowbird,2022-11-01,98.43
+185,Snowbird,2022-10-01,10.63
+185,Snowbird,2022-06-01,1.18
+185,Snowbird,2022-05-01,42.52
+185,Snowbird,2022-04-01,86.22
+185,Snowbird,2022-03-01,96.46
+185,Snowbird,2022-02-01,96.85
+185,Snowbird,2022-01-01,96.06
+274,Solitude,2022-12-01,98.03
+274,Solitude,2022-11-01,98.43
+274,Solitude,2022-10-01,10.63
+274,Solitude,2022-06-01,1.18
+274,Solitude,2022-05-01,42.52
+274,Solitude,2022-04-01,86.22
+274,Solitude,2022-03-01,96.46
+274,Solitude,2022-02-01,96.85
+274,Solitude,2022-01-01,96.06
+186,Bardonecchia,2022-12-01,96.06
+186,Bardonecchia,2022-11-01,91.34
+186,Bardonecchia,2022-10-01,0.79
+186,Bardonecchia,2022-06-01,0.79
+186,Bardonecchia,2022-05-01,18.9
+186,Bardonecchia,2022-04-01,52.36
+186,Bardonecchia,2022-03-01,78.74
+186,Bardonecchia,2022-02-01,79.13
+186,Bardonecchia,2022-01-01,97.24
+256,Valfre?jus,2022-12-01,96.06
+256,Valfre?jus,2022-11-01,91.34
+256,Valfre?jus,2022-10-01,0.79
+256,Valfre?jus,2022-06-01,0.79
+256,Valfre?jus,2022-05-01,18.9
+256,Valfre?jus,2022-04-01,52.36
+256,Valfre?jus,2022-03-01,78.74
+256,Valfre?jus,2022-02-01,79.13
+256,Valfre?jus,2022-01-01,97.24
+270,La Norma,2022-12-01,96.06
+270,La Norma,2022-11-01,91.34
+270,La Norma,2022-10-01,0.79
+270,La Norma,2022-06-01,0.79
+270,La Norma,2022-05-01,18.9
+270,La Norma,2022-04-01,52.36
+270,La Norma,2022-03-01,78.74
+270,La Norma,2022-02-01,79.13
+270,La Norma,2022-01-01,97.24
+313,Aussois,2022-12-01,96.06
+313,Aussois,2022-11-01,91.34
+313,Aussois,2022-10-01,0.79
+313,Aussois,2022-06-01,0.79
+313,Aussois,2022-05-01,18.9
+313,Aussois,2022-04-01,52.36
+313,Aussois,2022-03-01,78.74
+313,Aussois,2022-02-01,79.13
+313,Aussois,2022-01-01,97.24
+187,Saint-Lary-Soulan,2022-12-01,13.39
+187,Saint-Lary-Soulan,2022-03-01,3.15
+187,Saint-Lary-Soulan,2022-02-01,24.41
+187,Saint-Lary-Soulan,2022-01-01,43.31
+289,Peyragudes,2022-12-01,13.39
+289,Peyragudes,2022-03-01,3.15
+289,Peyragudes,2022-02-01,24.41
+289,Peyragudes,2022-01-01,43.31
+188,Orcie?res Merlette 1850,2022-12-01,97.24
+188,Orcie?res Merlette 1850,2022-11-01,76.77
+188,Orcie?res Merlette 1850,2022-05-01,1.57
+188,Orcie?res Merlette 1850,2022-04-01,20.87
+188,Orcie?res Merlette 1850,2022-03-01,29.53
+188,Orcie?res Merlette 1850,2022-02-01,98.03
+188,Orcie?res Merlette 1850,2022-01-01,96.46
+189,De?voluy-Superde?voluy-?La Joue du Loup,2022-12-01,99.21
+189,De?voluy-Superde?voluy-?La Joue du Loup,2022-11-01,79.92
+189,De?voluy-Superde?voluy-?La Joue du Loup,2022-04-01,27.17
+189,De?voluy-Superde?voluy-?La Joue du Loup,2022-03-01,88.19
+189,De?voluy-Superde?voluy-?La Joue du Loup,2022-02-01,80.71
+189,De?voluy-Superde?voluy-?La Joue du Loup,2022-01-01,95.28
+190,Grand Tourmalet-?Pic du Midi-La Mongie-?Bare?ges,2022-12-01,96.06
+190,Grand Tourmalet-?Pic du Midi-La Mongie-?Bare?ges,2022-11-01,33.86
+190,Grand Tourmalet-?Pic du Midi-La Mongie-?Bare?ges,2022-10-01,3.54
+190,Grand Tourmalet-?Pic du Midi-La Mongie-?Bare?ges,2022-06-01,0.79
+190,Grand Tourmalet-?Pic du Midi-La Mongie-?Bare?ges,2022-05-01,42.13
+190,Grand Tourmalet-?Pic du Midi-La Mongie-?Bare?ges,2022-04-01,100.0
+190,Grand Tourmalet-?Pic du Midi-La Mongie-?Bare?ges,2022-03-01,100.0
+190,Grand Tourmalet-?Pic du Midi-La Mongie-?Bare?ges,2022-02-01,100.0
+190,Grand Tourmalet-?Pic du Midi-La Mongie-?Bare?ges,2022-01-01,100.0
+266,Piau Engaly,2022-12-01,96.06
+266,Piau Engaly,2022-11-01,33.86
+266,Piau Engaly,2022-10-01,3.54
+266,Piau Engaly,2022-06-01,0.79
+266,Piau Engaly,2022-05-01,42.13
+266,Piau Engaly,2022-04-01,100.0
+266,Piau Engaly,2022-03-01,100.0
+266,Piau Engaly,2022-02-01,100.0
+266,Piau Engaly,2022-01-01,100.0
+311,Les Angles,2022-12-01,96.06
+311,Les Angles,2022-11-01,33.86
+311,Les Angles,2022-10-01,3.54
+311,Les Angles,2022-06-01,0.79
+311,Les Angles,2022-05-01,42.13
+311,Les Angles,2022-04-01,100.0
+311,Les Angles,2022-03-01,100.0
+311,Les Angles,2022-02-01,100.0
+311,Les Angles,2022-01-01,100.0
+191,Mt. Rose,2022-02-01,9.84
+191,Mt. Rose,2022-01-01,1.97
+192,Mt. Buller,2022-07-01,82.28
+192,Mt. Buller,2022-06-01,33.86
+193,Mt. Baker,2022-12-01,100.0
+193,Mt. Baker,2022-11-01,94.49
+193,Mt. Baker,2022-10-01,8.27
+193,Mt. Baker,2022-07-01,0.79
+193,Mt. Baker,2022-06-01,8.27
+193,Mt. Baker,2022-05-01,6.69
+193,Mt. Baker,2022-04-01,98.03
+193,Mt. Baker,2022-03-01,53.94
+193,Mt. Baker,2022-02-01,95.67
+193,Mt. Baker,2022-01-01,96.06
+194,Alpine Meadows,2022-12-01,99.21
+194,Alpine Meadows,2022-11-01,99.21
+194,Alpine Meadows,2022-09-01,10.63
+194,Alpine Meadows,2022-05-01,8.66
+194,Alpine Meadows,2022-04-01,82.68
+194,Alpine Meadows,2022-03-01,88.19
+194,Alpine Meadows,2022-02-01,96.06
+194,Alpine Meadows,2022-01-01,98.43
+195,Deer Valley,2022-12-01,100.0
+195,Deer Valley,2022-11-01,100.0
+195,Deer Valley,2022-03-01,98.03
+195,Deer Valley,2022-02-01,96.06
+195,Deer Valley,2022-01-01,100.0
+196,Perisher,2022-09-01,8.27
+253,Thredbo,2022-09-01,8.27
+197,Wolf Creek,2022-12-01,68.11
+197,Wolf Creek,2022-11-01,4.33
+198,Wenatchee-Mission Ridge,2022-12-01,100.0
+198,Wenatchee-Mission Ridge,2022-11-01,100.0
+198,Wenatchee-Mission Ridge,2022-04-01,28.35
+198,Wenatchee-Mission Ridge,2022-03-01,7.87
+198,Wenatchee-Mission Ridge,2022-02-01,100.0
+198,Wenatchee-Mission Ridge,2022-01-01,100.0
+199,Mt. Bachelor,2022-12-01,99.21
+199,Mt. Bachelor,2022-11-01,79.92
+199,Mt. Bachelor,2022-09-01,10.24
+199,Mt. Bachelor,2022-08-01,3.54
+199,Mt. Bachelor,2022-06-01,0.39
+199,Mt. Bachelor,2022-05-01,22.44
+199,Mt. Bachelor,2022-04-01,100.0
+199,Mt. Bachelor,2022-03-01,53.15
+199,Mt. Bachelor,2022-02-01,98.43
+199,Mt. Bachelor,2022-01-01,99.21
+200,Northstar California Resort,2022-12-01,100.0
+200,Northstar California Resort,2022-11-01,98.03
+200,Northstar California Resort,2022-09-01,11.42
+200,Northstar California Resort,2022-04-01,19.29
+200,Northstar California Resort,2022-03-01,90.94
+200,Northstar California Resort,2022-02-01,98.03
+200,Northstar California Resort,2022-01-01,97.24
+202,Schweitzer Mountain Resort,2022-12-01,91.34
+202,Schweitzer Mountain Resort,2022-11-01,98.03
+202,Schweitzer Mountain Resort,2022-09-01,13.78
+202,Schweitzer Mountain Resort,2022-05-01,71.65
+202,Schweitzer Mountain Resort,2022-04-01,88.58
+202,Schweitzer Mountain Resort,2022-03-01,92.13
+202,Schweitzer Mountain Resort,2022-02-01,100.0
+202,Schweitzer Mountain Resort,2022-01-01,95.67
+203,Heavenly,2022-12-01,0.79
+204,Castle Mountain,2022-12-01,96.46
+204,Castle Mountain,2022-11-01,99.21
+204,Castle Mountain,2022-09-01,1.97
+204,Castle Mountain,2022-07-01,6.3
+204,Castle Mountain,2022-06-01,61.02
+204,Castle Mountain,2022-05-01,100.0
+204,Castle Mountain,2022-04-01,100.0
+204,Castle Mountain,2022-03-01,100.0
+204,Castle Mountain,2022-02-01,100.0
+204,Castle Mountain,2022-01-01,98.82
+206,Loveland,2022-12-01,9.06
+206,Loveland,2022-11-01,17.32
+206,Loveland,2022-03-01,1.57
+206,Loveland,2022-02-01,100.0
+206,Loveland,2022-01-01,100.0
+207,Stratton,2022-12-01,50.0
+207,Stratton,2022-03-01,4.72
+207,Stratton,2022-02-01,73.62
+207,Stratton,2022-01-01,90.16
+208,Falls Creek,2022-06-01,85.04
+209,Bald Mountain-Sun Valley,2022-12-01,100.0
+209,Bald Mountain-Sun Valley,2022-11-01,93.31
+209,Bald Mountain-Sun Valley,2022-10-01,2.36
+209,Bald Mountain-Sun Valley,2022-09-01,1.97
+209,Bald Mountain-Sun Valley,2022-05-01,12.99
+209,Bald Mountain-Sun Valley,2022-04-01,20.08
+209,Bald Mountain-Sun Valley,2022-03-01,64.17
+209,Bald Mountain-Sun Valley,2022-02-01,100.0
+209,Bald Mountain-Sun Valley,2022-01-01,99.61
+210,Åre,2022-11-01,97.24
+210,Åre,2022-10-01,2.76
+210,Åre,2022-07-01,1.97
+210,Åre,2022-04-01,100.0
+210,Åre,2022-03-01,100.0
+210,Åre,2022-02-01,100.0
+210,Åre,2022-01-01,97.24
+211,Whitefish Mountain Resort,2022-12-01,100.0
+211,Whitefish Mountain Resort,2022-11-01,100.0
+211,Whitefish Mountain Resort,2022-04-01,0.39
+211,Whitefish Mountain Resort,2022-03-01,50.0
+211,Whitefish Mountain Resort,2022-02-01,100.0
+211,Whitefish Mountain Resort,2022-01-01,100.0
+212,Alto Sangro-Roccaraso-?Rivisondoli,2022-03-01,100.0
+212,Alto Sangro-Roccaraso-?Rivisondoli,2022-02-01,96.85
+212,Alto Sangro-Roccaraso-?Rivisondoli,2022-01-01,49.61
+213,Chamrousse,2022-12-01,1.18
+213,Chamrousse,2022-01-01,3.54
+310,Alpe du Grand-Serre-La Morte,2022-12-01,1.18
+310,Alpe du Grand-Serre-La Morte,2022-01-01,3.54
+215,Mt. Hood Meadows,2022-12-01,100.0
+215,Mt. Hood Meadows,2022-11-01,96.85
+215,Mt. Hood Meadows,2022-10-01,46.06
+215,Mt. Hood Meadows,2022-09-01,42.13
+215,Mt. Hood Meadows,2022-08-01,50.39
+215,Mt. Hood Meadows,2022-07-01,72.83
+215,Mt. Hood Meadows,2022-06-01,92.13
+215,Mt. Hood Meadows,2022-05-01,100.0
+215,Mt. Hood Meadows,2022-04-01,100.0
+215,Mt. Hood Meadows,2022-03-01,100.0
+215,Mt. Hood Meadows,2022-02-01,98.43
+215,Mt. Hood Meadows,2022-01-01,97.64
+429,Summit Ski Area at Mt. Hood,2022-12-01,100.0
+429,Summit Ski Area at Mt. Hood,2022-11-01,96.85
+429,Summit Ski Area at Mt. Hood,2022-10-01,46.06
+429,Summit Ski Area at Mt. Hood,2022-09-01,42.13
+429,Summit Ski Area at Mt. Hood,2022-08-01,50.39
+429,Summit Ski Area at Mt. Hood,2022-07-01,72.83
+429,Summit Ski Area at Mt. Hood,2022-06-01,92.13
+429,Summit Ski Area at Mt. Hood,2022-05-01,100.0
+429,Summit Ski Area at Mt. Hood,2022-04-01,100.0
+429,Summit Ski Area at Mt. Hood,2022-03-01,100.0
+429,Summit Ski Area at Mt. Hood,2022-02-01,98.43
+429,Summit Ski Area at Mt. Hood,2022-01-01,97.64
+216,Sugar Bowl,2022-12-01,3.15
+216,Sugar Bowl,2022-02-01,59.84
+216,Sugar Bowl,2022-01-01,100.0
+217,Mammoth Mountain,2022-12-01,100.0
+217,Mammoth Mountain,2022-11-01,100.0
+217,Mammoth Mountain,2022-10-01,0.79
+217,Mammoth Mountain,2022-09-01,8.66
+217,Mammoth Mountain,2022-07-01,16.14
+217,Mammoth Mountain,2022-06-01,70.47
+217,Mammoth Mountain,2022-05-01,98.82
+217,Mammoth Mountain,2022-04-01,100.0
+217,Mammoth Mountain,2022-03-01,100.0
+217,Mammoth Mountain,2022-02-01,100.0
+217,Mammoth Mountain,2022-01-01,100.0
+218,Telluride,2022-12-01,93.31
+218,Telluride,2022-11-01,92.91
+218,Telluride,2022-05-01,5.12
+218,Telluride,2022-04-01,64.96
+218,Telluride,2022-03-01,96.85
+218,Telluride,2022-02-01,98.03
+218,Telluride,2022-01-01,94.88
+220,Rinderberg-?Saanerslochgrat-?Horneggli-Zweisimmen-?Saanenmo?ser-?Scho?nried-?St. Stephan,2022-12-01,98.03
+220,Rinderberg-?Saanerslochgrat-?Horneggli-Zweisimmen-?Saanenmo?ser-?Scho?nried-?St. Stephan,2022-11-01,48.43
+220,Rinderberg-?Saanerslochgrat-?Horneggli-Zweisimmen-?Saanenmo?ser-?Scho?nried-?St. Stephan,2022-04-01,45.67
+220,Rinderberg-?Saanerslochgrat-?Horneggli-Zweisimmen-?Saanenmo?ser-?Scho?nried-?St. Stephan,2022-03-01,77.95
+220,Rinderberg-?Saanerslochgrat-?Horneggli-Zweisimmen-?Saanenmo?ser-?Scho?nried-?St. Stephan,2022-02-01,95.28
+220,Rinderberg-?Saanerslochgrat-?Horneggli-Zweisimmen-?Saanenmo?ser-?Scho?nried-?St. Stephan,2022-01-01,95.67
+318,So?renberg-Rothorn-?Dorf,2022-12-01,98.03
+318,So?renberg-Rothorn-?Dorf,2022-11-01,48.43
+318,So?renberg-Rothorn-?Dorf,2022-04-01,45.67
+318,So?renberg-Rothorn-?Dorf,2022-03-01,77.95
+318,So?renberg-Rothorn-?Dorf,2022-02-01,95.28
+318,So?renberg-Rothorn-?Dorf,2022-01-01,95.67
+221,Sugarbush,2022-12-01,88.98
+221,Sugarbush,2022-11-01,0.39
+221,Sugarbush,2022-04-01,0.39
+221,Sugarbush,2022-03-01,1.18
+221,Sugarbush,2022-02-01,96.85
+221,Sugarbush,2022-01-01,97.24
+223,Marmot Basin-Jasper,2022-12-01,100.0
+223,Marmot Basin-Jasper,2022-11-01,98.43
+223,Marmot Basin-Jasper,2022-09-01,0.39
+223,Marmot Basin-Jasper,2022-05-01,1.97
+223,Marmot Basin-Jasper,2022-04-01,92.13
+223,Marmot Basin-Jasper,2022-03-01,100.0
+223,Marmot Basin-Jasper,2022-02-01,81.1
+225,Purgatory-Durango,2022-12-01,98.03
+225,Purgatory-Durango,2022-11-01,97.24
+225,Purgatory-Durango,2022-10-01,32.28
+225,Purgatory-Durango,2022-05-01,25.98
+225,Purgatory-Durango,2022-04-01,87.8
+225,Purgatory-Durango,2022-03-01,98.43
+225,Purgatory-Durango,2022-02-01,98.03
+225,Purgatory-Durango,2022-01-01,98.43
+227,Sunday River,2022-12-01,28.74
+227,Sunday River,2022-03-01,9.84
+227,Sunday River,2022-02-01,100.0
+227,Sunday River,2022-01-01,95.67
+229,Shigakogen Mountain Resort,2022-12-01,19.29
+229,Shigakogen Mountain Resort,2022-11-01,0.39
+229,Shigakogen Mountain Resort,2022-03-01,1.18
+229,Shigakogen Mountain Resort,2022-02-01,98.03
+229,Shigakogen Mountain Resort,2022-01-01,98.82
+230,Grimentz-?Zinal,2022-12-01,98.03
+230,Grimentz-?Zinal,2022-11-01,74.8
+230,Grimentz-?Zinal,2022-10-01,0.39
+230,Grimentz-?Zinal,2022-05-01,20.47
+230,Grimentz-?Zinal,2022-04-01,57.48
+230,Grimentz-?Zinal,2022-03-01,94.49
+230,Grimentz-?Zinal,2022-02-01,100.0
+230,Grimentz-?Zinal,2022-01-01,98.03
+287,Saint Luc-?Chandolin-Anniviers-,2022-12-01,98.03
+287,Saint Luc-?Chandolin-Anniviers-,2022-11-01,74.8
+287,Saint Luc-?Chandolin-Anniviers-,2022-10-01,0.39
+287,Saint Luc-?Chandolin-Anniviers-,2022-05-01,20.47
+287,Saint Luc-?Chandolin-Anniviers-,2022-04-01,57.48
+287,Saint Luc-?Chandolin-Anniviers-,2022-03-01,94.49
+287,Saint Luc-?Chandolin-Anniviers-,2022-02-01,100.0
+287,Saint Luc-?Chandolin-Anniviers-,2022-01-01,98.03
+231,Kimberley,2022-12-01,100.0
+231,Kimberley,2022-11-01,100.0
+231,Kimberley,2022-10-01,5.91
+231,Kimberley,2022-03-01,64.57
+231,Kimberley,2022-02-01,100.0
+231,Kimberley,2022-01-01,100.0
+232,Civetta-Alleghe-?Selva di Cadore-?Palafavera-?Zoldo,2022-12-01,97.24
+232,Civetta-Alleghe-?Selva di Cadore-?Palafavera-?Zoldo,2022-04-01,28.35
+232,Civetta-Alleghe-?Selva di Cadore-?Palafavera-?Zoldo,2022-03-01,95.28
+232,Civetta-Alleghe-?Selva di Cadore-?Palafavera-?Zoldo,2022-02-01,59.06
+232,Civetta-Alleghe-?Selva di Cadore-?Palafavera-?Zoldo,2022-01-01,83.07
+233,Ax les Thermes,2022-12-01,94.88
+233,Ax les Thermes,2022-11-01,2.76
+233,Ax les Thermes,2022-05-01,0.39
+233,Ax les Thermes,2022-04-01,4.33
+233,Ax les Thermes,2022-03-01,25.59
+233,Ax les Thermes,2022-02-01,35.43
+233,Ax les Thermes,2022-01-01,96.85
+336,Porte? Puymorens,2022-12-01,94.88
+336,Porte? Puymorens,2022-11-01,2.76
+336,Porte? Puymorens,2022-05-01,0.39
+336,Porte? Puymorens,2022-04-01,4.33
+336,Porte? Puymorens,2022-03-01,25.59
+336,Porte? Puymorens,2022-02-01,35.43
+336,Porte? Puymorens,2022-01-01,96.85
+234,Mzaar Kfardebian,2022-04-01,5.91
+234,Mzaar Kfardebian,2022-03-01,92.52
+234,Mzaar Kfardebian,2022-02-01,84.65
+234,Mzaar Kfardebian,2022-01-01,19.69
+235,Yellowstone Club,2022-12-01,100.0
+235,Yellowstone Club,2022-11-01,83.46
+235,Yellowstone Club,2022-10-01,0.39
+235,Yellowstone Club,2022-02-01,99.61
+235,Yellowstone Club,2022-01-01,100.0
+250,Bridger Bowl-Bozeman,2022-12-01,100.0
+250,Bridger Bowl-Bozeman,2022-11-01,83.46
+250,Bridger Bowl-Bozeman,2022-10-01,0.39
+250,Bridger Bowl-Bozeman,2022-02-01,99.61
+250,Bridger Bowl-Bozeman,2022-01-01,100.0
+236,Damu?ls Mellau,2022-12-01,92.13
+236,Damu?ls Mellau,2022-11-01,22.05
+236,Damu?ls Mellau,2022-08-01,0.39
+236,Damu?ls Mellau,2022-05-01,0.79
+236,Damu?ls Mellau,2022-04-01,40.16
+236,Damu?ls Mellau,2022-03-01,33.86
+236,Damu?ls Mellau,2022-02-01,96.46
+236,Damu?ls Mellau,2022-01-01,94.09
+428,Niedere-Andelsbuch-?Bezau,2022-12-01,92.13
+428,Niedere-Andelsbuch-?Bezau,2022-11-01,22.05
+428,Niedere-Andelsbuch-?Bezau,2022-08-01,0.39
+428,Niedere-Andelsbuch-?Bezau,2022-05-01,0.79
+428,Niedere-Andelsbuch-?Bezau,2022-04-01,40.16
+428,Niedere-Andelsbuch-?Bezau,2022-03-01,33.86
+428,Niedere-Andelsbuch-?Bezau,2022-02-01,96.46
+428,Niedere-Andelsbuch-?Bezau,2022-01-01,94.09
+449,Schetteregg-Egg,2022-12-01,92.13
+449,Schetteregg-Egg,2022-11-01,22.05
+449,Schetteregg-Egg,2022-08-01,0.39
+449,Schetteregg-Egg,2022-05-01,0.79
+449,Schetteregg-Egg,2022-04-01,40.16
+449,Schetteregg-Egg,2022-03-01,33.86
+449,Schetteregg-Egg,2022-02-01,96.46
+449,Schetteregg-Egg,2022-01-01,94.09
+237,Mont Tremblant,2022-12-01,16.14
+237,Mont Tremblant,2022-10-01,0.39
+237,Mont Tremblant,2022-04-01,19.29
+237,Mont Tremblant,2022-03-01,100.0
+237,Mont Tremblant,2022-02-01,100.0
+237,Mont Tremblant,2022-01-01,100.0
+238,Smugglers' Notch,2022-02-01,87.8
+238,Smugglers' Notch,2022-01-01,75.2
+239,Rosa Khutor,2022-12-01,7.87
+239,Rosa Khutor,2022-11-01,2.36
+239,Rosa Khutor,2022-05-01,0.39
+239,Rosa Khutor,2022-04-01,7.09
+239,Rosa Khutor,2022-03-01,95.28
+239,Rosa Khutor,2022-02-01,99.21
+239,Rosa Khutor,2022-01-01,97.64
+346,Gazprom Mountain Resort-Laura-– Esto-Sadok-Sotschi-,2022-12-01,7.87
+346,Gazprom Mountain Resort-Laura-– Esto-Sadok-Sotschi-,2022-11-01,2.36
+346,Gazprom Mountain Resort-Laura-– Esto-Sadok-Sotschi-,2022-05-01,0.39
+346,Gazprom Mountain Resort-Laura-– Esto-Sadok-Sotschi-,2022-04-01,7.09
+346,Gazprom Mountain Resort-Laura-– Esto-Sadok-Sotschi-,2022-03-01,95.28
+346,Gazprom Mountain Resort-Laura-– Esto-Sadok-Sotschi-,2022-02-01,99.21
+346,Gazprom Mountain Resort-Laura-– Esto-Sadok-Sotschi-,2022-01-01,97.64
+463,Gornaya Karusel,2022-12-01,7.87
+463,Gornaya Karusel,2022-11-01,2.36
+463,Gornaya Karusel,2022-05-01,0.39
+463,Gornaya Karusel,2022-04-01,7.09
+463,Gornaya Karusel,2022-03-01,95.28
+463,Gornaya Karusel,2022-02-01,99.21
+463,Gornaya Karusel,2022-01-01,97.64
+241,Cerler,2022-12-01,99.61
+241,Cerler,2022-11-01,92.91
+241,Cerler,2022-10-01,2.36
+241,Cerler,2022-06-01,6.3
+241,Cerler,2022-05-01,58.27
+241,Cerler,2022-04-01,96.06
+241,Cerler,2022-03-01,100.0
+241,Cerler,2022-02-01,99.61
+241,Cerler,2022-01-01,98.43
+242,Jay Peak,2022-12-01,96.06
+242,Jay Peak,2022-11-01,99.21
+242,Jay Peak,2022-10-01,24.02
+242,Jay Peak,2022-07-01,2.36
+242,Jay Peak,2022-06-01,32.28
+242,Jay Peak,2022-05-01,97.64
+242,Jay Peak,2022-04-01,96.85
+242,Jay Peak,2022-03-01,100.0
+242,Jay Peak,2022-02-01,99.61
+242,Jay Peak,2022-01-01,97.64
+243,Three Peaks Dolomites-Helm-?Stiergarten-?Rotwand-?Kreuzbergpass,2022-12-01,99.61
+243,Three Peaks Dolomites-Helm-?Stiergarten-?Rotwand-?Kreuzbergpass,2022-11-01,88.58
+243,Three Peaks Dolomites-Helm-?Stiergarten-?Rotwand-?Kreuzbergpass,2022-05-01,0.39
+243,Three Peaks Dolomites-Helm-?Stiergarten-?Rotwand-?Kreuzbergpass,2022-04-01,55.91
+243,Three Peaks Dolomites-Helm-?Stiergarten-?Rotwand-?Kreuzbergpass,2022-03-01,94.09
+243,Three Peaks Dolomites-Helm-?Stiergarten-?Rotwand-?Kreuzbergpass,2022-02-01,100.0
+243,Three Peaks Dolomites-Helm-?Stiergarten-?Rotwand-?Kreuzbergpass,2022-01-01,91.73
+244,Puy St. Vincent,2022-12-01,98.43
+244,Puy St. Vincent,2022-11-01,97.64
+244,Puy St. Vincent,2022-10-01,48.82
+244,Puy St. Vincent,2022-09-01,7.09
+244,Puy St. Vincent,2022-08-01,6.69
+244,Puy St. Vincent,2022-07-01,12.6
+244,Puy St. Vincent,2022-06-01,31.89
+244,Puy St. Vincent,2022-05-01,74.41
+244,Puy St. Vincent,2022-04-01,99.61
+244,Puy St. Vincent,2022-03-01,98.43
+244,Puy St. Vincent,2022-02-01,96.46
+244,Puy St. Vincent,2022-01-01,96.46
+245,Angel Fire,2022-12-01,63.39
+245,Angel Fire,2022-11-01,11.02
+245,Angel Fire,2022-10-01,16.54
+245,Angel Fire,2022-04-01,5.91
+245,Angel Fire,2022-03-01,93.7
+245,Angel Fire,2022-02-01,99.21
+245,Angel Fire,2022-01-01,98.82
+246,Folgaria-?Fiorentini,2022-12-01,73.23
+246,Folgaria-?Fiorentini,2022-04-01,4.33
+246,Folgaria-?Fiorentini,2022-03-01,7.48
+246,Folgaria-?Fiorentini,2022-02-01,19.29
+246,Folgaria-?Fiorentini,2022-01-01,3.94
+385,Cimone-Montecreto-?Sestola-?Le Polle,2022-12-01,73.23
+385,Cimone-Montecreto-?Sestola-?Le Polle,2022-04-01,4.33
+385,Cimone-Montecreto-?Sestola-?Le Polle,2022-03-01,7.48
+385,Cimone-Montecreto-?Sestola-?Le Polle,2022-02-01,19.29
+385,Cimone-Montecreto-?Sestola-?Le Polle,2022-01-01,3.94
+248,Trysil,2022-12-01,100.0
+248,Trysil,2022-11-01,69.29
+248,Trysil,2022-10-01,13.78
+248,Trysil,2022-05-01,0.79
+248,Trysil,2022-04-01,100.0
+248,Trysil,2022-03-01,100.0
+248,Trysil,2022-02-01,100.0
+248,Trysil,2022-01-01,100.0
+251,Brian Head,2022-12-01,100.0
+251,Brian Head,2022-11-01,98.03
+251,Brian Head,2022-10-01,24.8
+251,Brian Head,2022-05-01,3.15
+251,Brian Head,2022-04-01,49.21
+251,Brian Head,2022-03-01,94.49
+251,Brian Head,2022-02-01,98.03
+251,Brian Head,2022-01-01,97.64
+254,Stowe,2022-12-01,20.47
+254,Stowe,2022-04-01,0.39
+254,Stowe,2022-03-01,18.11
+254,Stowe,2022-02-01,99.21
+254,Stowe,2022-01-01,97.64
+257,Savognin,2022-12-01,94.88
+257,Savognin,2022-11-01,94.09
+257,Savognin,2022-04-01,5.91
+257,Savognin,2022-03-01,35.04
+257,Savognin,2022-02-01,98.43
+257,Savognin,2022-01-01,97.64
+259,Okemo,2022-12-01,51.57
+259,Okemo,2022-02-01,100.0
+259,Okemo,2022-01-01,98.43
+260,Mont-Sainte-Anne-Beaupre?,2022-12-01,98.82
+260,Mont-Sainte-Anne-Beaupre?,2022-05-01,18.5
+260,Mont-Sainte-Anne-Beaupre?,2022-04-01,100.0
+260,Mont-Sainte-Anne-Beaupre?,2022-03-01,100.0
+260,Mont-Sainte-Anne-Beaupre?,2022-02-01,100.0
+260,Mont-Sainte-Anne-Beaupre?,2022-01-01,99.21
+261,49 Degrees North Mountain Resort,2022-12-01,96.06
+261,49 Degrees North Mountain Resort,2022-11-01,91.34
+261,49 Degrees North Mountain Resort,2022-02-01,94.88
+261,49 Degrees North Mountain Resort,2022-01-01,100.0
+262,Passo San Pellegrino-?Falcade,2022-12-01,99.21
+262,Passo San Pellegrino-?Falcade,2022-11-01,59.06
+262,Passo San Pellegrino-?Falcade,2022-05-01,7.09
+262,Passo San Pellegrino-?Falcade,2022-04-01,69.29
+262,Passo San Pellegrino-?Falcade,2022-03-01,94.49
+262,Passo San Pellegrino-?Falcade,2022-02-01,97.64
+262,Passo San Pellegrino-?Falcade,2022-01-01,98.43
+276,Arabba,2022-12-01,99.21
+276,Arabba,2022-11-01,59.06
+276,Arabba,2022-05-01,7.09
+276,Arabba,2022-04-01,69.29
+276,Arabba,2022-03-01,94.49
+276,Arabba,2022-02-01,97.64
+276,Arabba,2022-01-01,98.43
+282,San Martino di Castrozza,2022-12-01,99.21
+282,San Martino di Castrozza,2022-11-01,59.06
+282,San Martino di Castrozza,2022-05-01,7.09
+282,San Martino di Castrozza,2022-04-01,69.29
+282,San Martino di Castrozza,2022-03-01,94.49
+282,San Martino di Castrozza,2022-02-01,97.64
+282,San Martino di Castrozza,2022-01-01,98.43
+263,Bear Valley,2022-12-01,2.36
+263,Bear Valley,2022-11-01,0.39
+264,Apex Resort,2022-12-01,96.85
+264,Apex Resort,2022-11-01,94.49
+264,Apex Resort,2022-09-01,5.91
+264,Apex Resort,2022-07-01,5.91
+264,Apex Resort,2022-05-01,1.97
+264,Apex Resort,2022-04-01,54.33
+264,Apex Resort,2022-03-01,92.91
+264,Apex Resort,2022-02-01,94.88
+264,Apex Resort,2022-01-01,94.88
+265,Brighton,2022-12-01,24.8
+265,Brighton,2022-03-01,10.63
+265,Brighton,2022-02-01,59.84
+265,Brighton,2022-01-01,42.91
+267,Flumserberg,2022-12-01,87.8
+267,Flumserberg,2022-11-01,46.46
+267,Flumserberg,2022-09-01,8.27
+267,Flumserberg,2022-05-01,13.39
+267,Flumserberg,2022-04-01,61.02
+267,Flumserberg,2022-03-01,96.46
+267,Flumserberg,2022-02-01,99.21
+267,Flumserberg,2022-01-01,96.06
+284,Toggenburg-Wildhaus-?Unterwasser-?Alt St. Johann,2022-12-01,87.8
+284,Toggenburg-Wildhaus-?Unterwasser-?Alt St. Johann,2022-11-01,46.46
+284,Toggenburg-Wildhaus-?Unterwasser-?Alt St. Johann,2022-09-01,8.27
+284,Toggenburg-Wildhaus-?Unterwasser-?Alt St. Johann,2022-05-01,13.39
+284,Toggenburg-Wildhaus-?Unterwasser-?Alt St. Johann,2022-04-01,61.02
+284,Toggenburg-Wildhaus-?Unterwasser-?Alt St. Johann,2022-03-01,96.46
+284,Toggenburg-Wildhaus-?Unterwasser-?Alt St. Johann,2022-02-01,99.21
+284,Toggenburg-Wildhaus-?Unterwasser-?Alt St. Johann,2022-01-01,96.06
+268,Super Sauze,2022-12-01,87.8
+268,Super Sauze,2022-04-01,0.79
+268,Super Sauze,2022-03-01,6.69
+268,Super Sauze,2022-02-01,70.08
+268,Super Sauze,2022-01-01,84.25
+269,Bukovel,2022-12-01,99.21
+269,Bukovel,2022-11-01,73.62
+269,Bukovel,2022-04-01,15.35
+269,Bukovel,2022-03-01,96.46
+269,Bukovel,2022-02-01,93.7
+269,Bukovel,2022-01-01,98.43
+271,Mt. Hood Skibowl,2022-12-01,93.31
+271,Mt. Hood Skibowl,2022-11-01,75.98
+271,Mt. Hood Skibowl,2022-05-01,0.39
+271,Mt. Hood Skibowl,2022-04-01,2.76
+271,Mt. Hood Skibowl,2022-03-01,26.77
+271,Mt. Hood Skibowl,2022-02-01,47.24
+271,Mt. Hood Skibowl,2022-01-01,35.43
+272,Kirkwood,2022-02-01,45.28
+272,Kirkwood,2022-01-01,11.02
+273,Red Lodge Mountain,2022-12-01,98.03
+273,Red Lodge Mountain,2022-11-01,97.24
+273,Red Lodge Mountain,2022-06-01,13.78
+273,Red Lodge Mountain,2022-05-01,50.39
+273,Red Lodge Mountain,2022-04-01,92.52
+273,Red Lodge Mountain,2022-03-01,90.94
+273,Red Lodge Mountain,2022-02-01,99.21
+273,Red Lodge Mountain,2022-01-01,96.06
+278,Alyeska Resort-Girdwood,2022-12-01,99.21
+278,Alyeska Resort-Girdwood,2022-11-01,96.06
+278,Alyeska Resort-Girdwood,2022-10-01,100.0
+278,Alyeska Resort-Girdwood,2022-05-01,78.74
+278,Alyeska Resort-Girdwood,2022-04-01,90.94
+278,Alyeska Resort-Girdwood,2022-03-01,100.0
+278,Alyeska Resort-Girdwood,2022-02-01,100.0
+278,Alyeska Resort-Girdwood,2022-01-01,98.82
+279,Hintertux Glacier,2022-12-01,98.43
+279,Hintertux Glacier,2022-11-01,98.43
+279,Hintertux Glacier,2022-10-01,3.15
+279,Hintertux Glacier,2022-06-01,1.18
+279,Hintertux Glacier,2022-05-01,16.54
+279,Hintertux Glacier,2022-04-01,98.82
+279,Hintertux Glacier,2022-03-01,100.0
+279,Hintertux Glacier,2022-02-01,100.0
+279,Hintertux Glacier,2022-01-01,98.43
+423,Glungezer-Tulfes,2022-12-01,98.43
+423,Glungezer-Tulfes,2022-11-01,98.43
+423,Glungezer-Tulfes,2022-10-01,3.15
+423,Glungezer-Tulfes,2022-06-01,1.18
+423,Glungezer-Tulfes,2022-05-01,16.54
+423,Glungezer-Tulfes,2022-04-01,98.82
+423,Glungezer-Tulfes,2022-03-01,100.0
+423,Glungezer-Tulfes,2022-02-01,100.0
+423,Glungezer-Tulfes,2022-01-01,98.43
+280,Disentis 3000,2022-12-01,97.24
+280,Disentis 3000,2022-11-01,97.64
+280,Disentis 3000,2022-05-01,2.36
+280,Disentis 3000,2022-04-01,25.59
+280,Disentis 3000,2022-03-01,99.21
+280,Disentis 3000,2022-02-01,97.24
+280,Disentis 3000,2022-01-01,94.09
+281,Belalp-Blatten,2022-12-01,100.0
+281,Belalp-Blatten,2022-11-01,91.34
+281,Belalp-Blatten,2022-09-01,14.57
+281,Belalp-Blatten,2022-08-01,4.72
+281,Belalp-Blatten,2022-07-01,12.2
+281,Belalp-Blatten,2022-06-01,43.7
+281,Belalp-Blatten,2022-05-01,64.17
+281,Belalp-Blatten,2022-04-01,100.0
+281,Belalp-Blatten,2022-03-01,100.0
+281,Belalp-Blatten,2022-02-01,96.85
+281,Belalp-Blatten,2022-01-01,96.06
+307,Lauchernalp-Lo?tschental,2022-12-01,100.0
+307,Lauchernalp-Lo?tschental,2022-11-01,91.34
+307,Lauchernalp-Lo?tschental,2022-09-01,14.57
+307,Lauchernalp-Lo?tschental,2022-08-01,4.72
+307,Lauchernalp-Lo?tschental,2022-07-01,12.2
+307,Lauchernalp-Lo?tschental,2022-06-01,43.7
+307,Lauchernalp-Lo?tschental,2022-05-01,64.17
+307,Lauchernalp-Lo?tschental,2022-04-01,100.0
+307,Lauchernalp-Lo?tschental,2022-03-01,100.0
+307,Lauchernalp-Lo?tschental,2022-02-01,96.85
+307,Lauchernalp-Lo?tschental,2022-01-01,96.06
+446,Bu?rchen-?To?rbel-Moosalp,2022-12-01,100.0
+446,Bu?rchen-?To?rbel-Moosalp,2022-11-01,91.34
+446,Bu?rchen-?To?rbel-Moosalp,2022-09-01,14.57
+446,Bu?rchen-?To?rbel-Moosalp,2022-08-01,4.72
+446,Bu?rchen-?To?rbel-Moosalp,2022-07-01,12.2
+446,Bu?rchen-?To?rbel-Moosalp,2022-06-01,43.7
+446,Bu?rchen-?To?rbel-Moosalp,2022-05-01,64.17
+446,Bu?rchen-?To?rbel-Moosalp,2022-04-01,100.0
+446,Bu?rchen-?To?rbel-Moosalp,2022-03-01,100.0
+446,Bu?rchen-?To?rbel-Moosalp,2022-02-01,96.85
+446,Bu?rchen-?To?rbel-Moosalp,2022-01-01,96.06
+283,Meiringen-Hasliberg,2022-12-01,99.21
+283,Meiringen-Hasliberg,2022-11-01,95.67
+283,Meiringen-Hasliberg,2022-10-01,1.18
+283,Meiringen-Hasliberg,2022-09-01,1.97
+283,Meiringen-Hasliberg,2022-08-01,1.97
+283,Meiringen-Hasliberg,2022-07-01,2.76
+283,Meiringen-Hasliberg,2022-06-01,5.12
+283,Meiringen-Hasliberg,2022-05-01,21.65
+283,Meiringen-Hasliberg,2022-04-01,100.0
+283,Meiringen-Hasliberg,2022-03-01,99.61
+283,Meiringen-Hasliberg,2022-02-01,91.34
+283,Meiringen-Hasliberg,2022-01-01,96.06
+317,First-Grindelwald,2022-12-01,99.21
+317,First-Grindelwald,2022-11-01,95.67
+317,First-Grindelwald,2022-10-01,1.18
+317,First-Grindelwald,2022-09-01,1.97
+317,First-Grindelwald,2022-08-01,1.97
+317,First-Grindelwald,2022-07-01,2.76
+317,First-Grindelwald,2022-06-01,5.12
+317,First-Grindelwald,2022-05-01,21.65
+317,First-Grindelwald,2022-04-01,100.0
+317,First-Grindelwald,2022-03-01,99.61
+317,First-Grindelwald,2022-02-01,91.34
+317,First-Grindelwald,2022-01-01,96.06
+286,Le Lioran,2022-12-01,71.65
+286,Le Lioran,2022-01-01,92.52
+291,Gudauri,2022-12-01,18.11
+291,Gudauri,2022-11-01,14.57
+291,Gudauri,2022-06-01,1.18
+291,Gudauri,2022-05-01,14.17
+291,Gudauri,2022-04-01,40.55
+291,Gudauri,2022-03-01,100.0
+291,Gudauri,2022-02-01,100.0
+291,Gudauri,2022-01-01,97.64
+292,Mount Snow,2022-12-01,33.07
+292,Mount Snow,2022-11-01,6.69
+292,Mount Snow,2022-03-01,3.54
+292,Mount Snow,2022-02-01,79.92
+292,Mount Snow,2022-01-01,50.39
+293,Mount Washington,2022-12-01,100.0
+293,Mount Washington,2022-11-01,78.74
+293,Mount Washington,2022-03-01,33.07
+293,Mount Washington,2022-02-01,84.25
+293,Mount Washington,2022-01-01,99.61
+294,Ponte di Legno-Passo ?Tonale-?Presena Glacier-?Temu?-Pontedilegno-Tonale-,2022-12-01,98.43
+294,Ponte di Legno-Passo ?Tonale-?Presena Glacier-?Temu?-Pontedilegno-Tonale-,2022-11-01,68.9
+294,Ponte di Legno-Passo ?Tonale-?Presena Glacier-?Temu?-Pontedilegno-Tonale-,2022-10-01,46.06
+294,Ponte di Legno-Passo ?Tonale-?Presena Glacier-?Temu?-Pontedilegno-Tonale-,2022-09-01,32.28
+294,Ponte di Legno-Passo ?Tonale-?Presena Glacier-?Temu?-Pontedilegno-Tonale-,2022-08-01,17.72
+294,Ponte di Legno-Passo ?Tonale-?Presena Glacier-?Temu?-Pontedilegno-Tonale-,2022-07-01,25.2
+294,Ponte di Legno-Passo ?Tonale-?Presena Glacier-?Temu?-Pontedilegno-Tonale-,2022-06-01,35.04
+294,Ponte di Legno-Passo ?Tonale-?Presena Glacier-?Temu?-Pontedilegno-Tonale-,2022-05-01,66.14
+294,Ponte di Legno-Passo ?Tonale-?Presena Glacier-?Temu?-Pontedilegno-Tonale-,2022-04-01,71.26
+294,Ponte di Legno-Passo ?Tonale-?Presena Glacier-?Temu?-Pontedilegno-Tonale-,2022-03-01,62.6
+294,Ponte di Legno-Passo ?Tonale-?Presena Glacier-?Temu?-Pontedilegno-Tonale-,2022-02-01,99.21
+294,Ponte di Legno-Passo ?Tonale-?Presena Glacier-?Temu?-Pontedilegno-Tonale-,2022-01-01,96.06
+295,Gore Mountain,2022-12-01,97.64
+295,Gore Mountain,2022-11-01,97.24
+295,Gore Mountain,2022-10-01,19.69
+295,Gore Mountain,2022-05-01,62.2
+295,Gore Mountain,2022-04-01,99.21
+295,Gore Mountain,2022-03-01,100.0
+295,Gore Mountain,2022-02-01,97.64
+295,Gore Mountain,2022-01-01,98.43
+296,Eggli-?La Videmanette-Gstaad-?Saanen-?Rougemont,2022-12-01,1.18
+296,Eggli-?La Videmanette-Gstaad-?Saanen-?Rougemont,2022-02-01,2.76
+296,Eggli-?La Videmanette-Gstaad-?Saanen-?Rougemont,2022-01-01,60.63
+298,Borovets,2022-12-01,9.06
+298,Borovets,2022-11-01,0.39
+298,Borovets,2022-04-01,4.33
+298,Borovets,2022-02-01,20.08
+299,Font-Romeu-?Bolque?re Pyre?ne?es 2000,2022-12-01,1.97
+299,Font-Romeu-?Bolque?re Pyre?ne?es 2000,2022-03-01,1.57
+299,Font-Romeu-?Bolque?re Pyre?ne?es 2000,2022-02-01,3.94
+299,Font-Romeu-?Bolque?re Pyre?ne?es 2000,2022-01-01,75.2
+300,Oppdal,2022-12-01,100.0
+300,Oppdal,2022-11-01,14.57
+300,Oppdal,2022-10-01,11.81
+300,Oppdal,2022-08-01,0.39
+300,Oppdal,2022-07-01,4.33
+300,Oppdal,2022-06-01,63.78
+300,Oppdal,2022-05-01,100.0
+300,Oppdal,2022-04-01,100.0
+300,Oppdal,2022-03-01,100.0
+300,Oppdal,2022-02-01,100.0
+300,Oppdal,2022-01-01,100.0
+302,Bretton Woods,2022-12-01,1.97
+302,Bretton Woods,2022-04-01,2.36
+302,Bretton Woods,2022-03-01,13.78
+302,Bretton Woods,2022-02-01,99.21
+302,Bretton Woods,2022-01-01,92.52
+304,Ylla?s,2022-11-01,100.0
+304,Ylla?s,2022-10-01,59.84
+304,Ylla?s,2022-05-01,50.0
+304,Ylla?s,2022-04-01,100.0
+304,Ylla?s,2022-03-01,100.0
+304,Ylla?s,2022-02-01,100.0
+305,Belvedere-?Col Rodella-?Ciampac-?Buffaure-Canazei-?Campitello-?Alba-?Pozza di Fassa,2022-12-01,1.18
+306,Revelstoke Mountain Resort,2022-12-01,99.61
+306,Revelstoke Mountain Resort,2022-11-01,86.22
+306,Revelstoke Mountain Resort,2022-06-01,0.79
+306,Revelstoke Mountain Resort,2022-05-01,16.54
+306,Revelstoke Mountain Resort,2022-04-01,74.41
+306,Revelstoke Mountain Resort,2022-03-01,100.0
+306,Revelstoke Mountain Resort,2022-02-01,100.0
+306,Revelstoke Mountain Resort,2022-01-01,100.0
+312,Kopaonik,2022-04-01,3.15
+312,Kopaonik,2022-03-01,71.26
+312,Kopaonik,2022-02-01,92.13
+312,Kopaonik,2022-01-01,92.13
+314,Apache,2022-12-01,1.97
+314,Apache,2022-03-01,1.18
+314,Apache,2022-02-01,5.51
+314,Apache,2022-01-01,23.23
+315,Erciyes-Kayseri,2022-12-01,2.76
+315,Erciyes-Kayseri,2022-03-01,42.13
+315,Erciyes-Kayseri,2022-02-01,81.89
+315,Erciyes-Kayseri,2022-01-01,62.6
+316,Hunter Mountain,2022-12-01,47.24
+316,Hunter Mountain,2022-04-01,2.36
+316,Hunter Mountain,2022-03-01,4.72
+316,Hunter Mountain,2022-02-01,92.13
+316,Hunter Mountain,2022-01-01,64.17
+319,Riserva Bianca-Limone Piemonte,2022-12-01,95.67
+319,Riserva Bianca-Limone Piemonte,2022-11-01,14.17
+319,Riserva Bianca-Limone Piemonte,2022-05-01,8.66
+319,Riserva Bianca-Limone Piemonte,2022-04-01,62.99
+319,Riserva Bianca-Limone Piemonte,2022-03-01,29.13
+319,Riserva Bianca-Limone Piemonte,2022-02-01,96.46
+319,Riserva Bianca-Limone Piemonte,2022-01-01,80.71
+320,Eldora Mountain,2022-12-01,5.51
+321,Donner Ski Ranch,2022-12-01,100.0
+321,Donner Ski Ranch,2022-11-01,98.82
+321,Donner Ski Ranch,2022-09-01,8.66
+321,Donner Ski Ranch,2022-06-01,12.6
+321,Donner Ski Ranch,2022-05-01,88.98
+321,Donner Ski Ranch,2022-04-01,100.0
+321,Donner Ski Ranch,2022-03-01,100.0
+321,Donner Ski Ranch,2022-02-01,100.0
+321,Donner Ski Ranch,2022-01-01,100.0
+322,Las Len?as,2022-12-01,0.79
+322,Las Len?as,2022-11-01,14.57
+322,Las Len?as,2022-10-01,64.17
+322,Las Len?as,2022-09-01,99.61
+322,Las Len?as,2022-08-01,100.0
+322,Las Len?as,2022-07-01,100.0
+322,Las Len?as,2022-06-01,100.0
+322,Las Len?as,2022-05-01,66.93
+323,Happo-One-Hakuba,2022-12-01,100.0
+323,Happo-One-Hakuba,2022-11-01,0.39
+323,Happo-One-Hakuba,2022-04-01,72.05
+323,Happo-One-Hakuba,2022-03-01,100.0
+323,Happo-One-Hakuba,2022-02-01,100.0
+323,Happo-One-Hakuba,2022-01-01,100.0
+324,Gitschberg Jochtal,2022-12-01,99.21
+324,Gitschberg Jochtal,2022-05-01,0.79
+324,Gitschberg Jochtal,2022-04-01,59.45
+324,Gitschberg Jochtal,2022-03-01,79.13
+324,Gitschberg Jochtal,2022-02-01,97.64
+324,Gitschberg Jochtal,2022-01-01,94.49
+326,Dachstein West,2022-12-01,94.49
+326,Dachstein West,2022-11-01,24.8
+326,Dachstein West,2022-05-01,0.39
+326,Dachstein West,2022-04-01,100.0
+326,Dachstein West,2022-03-01,97.64
+326,Dachstein West,2022-02-01,98.03
+326,Dachstein West,2022-01-01,94.49
+327,Cypress Mountain,2022-12-01,87.01
+327,Cypress Mountain,2022-11-01,88.98
+327,Cypress Mountain,2022-10-01,0.79
+327,Cypress Mountain,2022-07-01,0.79
+327,Cypress Mountain,2022-05-01,27.95
+327,Cypress Mountain,2022-03-01,29.92
+327,Cypress Mountain,2022-02-01,16.93
+327,Cypress Mountain,2022-01-01,90.16
+328,Pila,2022-12-01,92.13
+328,Pila,2022-11-01,2.36
+328,Pila,2022-04-01,0.79
+328,Pila,2022-03-01,6.69
+328,Pila,2022-02-01,5.12
+328,Pila,2022-01-01,2.36
+330,Aprica,2022-12-01,64.17
+330,Aprica,2022-04-01,1.57
+330,Aprica,2022-02-01,1.97
+330,Aprica,2022-01-01,6.69
+331,Bormio-Cima Bianca,2022-12-01,92.13
+331,Bormio-Cima Bianca,2022-11-01,55.12
+331,Bormio-Cima Bianca,2022-10-01,1.18
+331,Bormio-Cima Bianca,2022-08-01,0.39
+331,Bormio-Cima Bianca,2022-05-01,5.51
+331,Bormio-Cima Bianca,2022-04-01,75.59
+331,Bormio-Cima Bianca,2022-03-01,67.32
+331,Bormio-Cima Bianca,2022-02-01,100.0
+331,Bormio-Cima Bianca,2022-01-01,90.55
+332,Sedrun-Oberalp,2022-12-01,96.85
+332,Sedrun-Oberalp,2022-11-01,100.0
+332,Sedrun-Oberalp,2022-10-01,2.76
+332,Sedrun-Oberalp,2022-09-01,2.76
+332,Sedrun-Oberalp,2022-06-01,6.3
+332,Sedrun-Oberalp,2022-05-01,33.46
+332,Sedrun-Oberalp,2022-04-01,92.13
+332,Sedrun-Oberalp,2022-03-01,96.46
+332,Sedrun-Oberalp,2022-02-01,96.06
+332,Sedrun-Oberalp,2022-01-01,98.03
+398,Na?tschen-Andermatt,2022-12-01,96.85
+398,Na?tschen-Andermatt,2022-11-01,100.0
+398,Na?tschen-Andermatt,2022-10-01,2.76
+398,Na?tschen-Andermatt,2022-09-01,2.76
+398,Na?tschen-Andermatt,2022-06-01,6.3
+398,Na?tschen-Andermatt,2022-05-01,33.46
+398,Na?tschen-Andermatt,2022-04-01,92.13
+398,Na?tschen-Andermatt,2022-03-01,96.46
+398,Na?tschen-Andermatt,2022-02-01,96.06
+398,Na?tschen-Andermatt,2022-01-01,98.03
+334,Hirmentaz-?Les Habe?res-Bellevaux-?Habe?re-Poche,2022-11-01,6.69
+334,Hirmentaz-?Les Habe?res-Bellevaux-?Habe?re-Poche,2022-01-01,57.87
+337,Mythenregion,2022-12-01,11.81
+337,Mythenregion,2022-03-01,1.18
+337,Mythenregion,2022-02-01,1.97
+337,Mythenregion,2022-01-01,84.65
+350,Rigi,2022-12-01,11.81
+350,Rigi,2022-03-01,1.18
+350,Rigi,2022-02-01,1.97
+350,Rigi,2022-01-01,84.65
+338,Candanchu?,2022-12-01,92.13
+338,Candanchu?,2022-05-01,2.36
+338,Candanchu?,2022-04-01,62.2
+338,Candanchu?,2022-03-01,30.31
+338,Candanchu?,2022-02-01,80.71
+338,Candanchu?,2022-01-01,88.19
+339,Zugspitze,2022-12-01,99.21
+339,Zugspitze,2022-11-01,83.07
+339,Zugspitze,2022-05-01,3.15
+339,Zugspitze,2022-04-01,44.49
+339,Zugspitze,2022-03-01,95.67
+339,Zugspitze,2022-02-01,95.28
+339,Zugspitze,2022-01-01,92.52
+497,Wetterstein lifts-Wettersteinbahnen-– Ehrwald,2022-12-01,99.21
+497,Wetterstein lifts-Wettersteinbahnen-– Ehrwald,2022-11-01,83.07
+497,Wetterstein lifts-Wettersteinbahnen-– Ehrwald,2022-05-01,3.15
+497,Wetterstein lifts-Wettersteinbahnen-– Ehrwald,2022-04-01,44.49
+497,Wetterstein lifts-Wettersteinbahnen-– Ehrwald,2022-03-01,95.67
+497,Wetterstein lifts-Wettersteinbahnen-– Ehrwald,2022-02-01,95.28
+497,Wetterstein lifts-Wettersteinbahnen-– Ehrwald,2022-01-01,92.52
+340,Zao Onsen,2022-12-01,98.03
+340,Zao Onsen,2022-03-01,50.0
+340,Zao Onsen,2022-02-01,100.0
+340,Zao Onsen,2022-01-01,100.0
+341,Lindvallen-?Ho?gfja?llet-Sa?len-,2022-12-01,100.0
+341,Lindvallen-?Ho?gfja?llet-Sa?len-,2022-11-01,39.76
+341,Lindvallen-?Ho?gfja?llet-Sa?len-,2022-10-01,5.12
+341,Lindvallen-?Ho?gfja?llet-Sa?len-,2022-05-01,24.02
+341,Lindvallen-?Ho?gfja?llet-Sa?len-,2022-04-01,100.0
+341,Lindvallen-?Ho?gfja?llet-Sa?len-,2022-03-01,100.0
+341,Lindvallen-?Ho?gfja?llet-Sa?len-,2022-02-01,99.21
+341,Lindvallen-?Ho?gfja?llet-Sa?len-,2022-01-01,100.0
+342,Jasna? Ni?zke Tatry-Chopok,2022-12-01,53.94
+342,Jasna? Ni?zke Tatry-Chopok,2022-04-01,3.15
+342,Jasna? Ni?zke Tatry-Chopok,2022-03-01,57.48
+342,Jasna? Ni?zke Tatry-Chopok,2022-02-01,98.03
+342,Jasna? Ni?zke Tatry-Chopok,2022-01-01,60.63
+343,Mitsumata-?Kagura-?Tashiro-Mt. Naeba-,2022-02-01,8.27
+344,Tanda?dalen-?Hundfja?llet-Sa?len-,2022-12-01,100.0
+344,Tanda?dalen-?Hundfja?llet-Sa?len-,2022-11-01,19.29
+344,Tanda?dalen-?Hundfja?llet-Sa?len-,2022-10-01,1.97
+344,Tanda?dalen-?Hundfja?llet-Sa?len-,2022-04-01,100.0
+344,Tanda?dalen-?Hundfja?llet-Sa?len-,2022-03-01,100.0
+344,Tanda?dalen-?Hundfja?llet-Sa?len-,2022-02-01,100.0
+344,Tanda?dalen-?Hundfja?llet-Sa?len-,2022-01-01,100.0
+345,Appi Kogen,2022-12-01,99.61
+345,Appi Kogen,2022-04-01,4.72
+345,Appi Kogen,2022-03-01,97.64
+345,Appi Kogen,2022-02-01,100.0
+345,Appi Kogen,2022-01-01,92.13
+347,Rusutsu,2022-12-01,100.0
+347,Rusutsu,2022-04-01,33.86
+347,Rusutsu,2022-03-01,100.0
+347,Rusutsu,2022-02-01,100.0
+347,Rusutsu,2022-01-01,100.0
+348,Steinplatte-?Winklmoosalm-Waidring-?Reit im Winkl,2022-12-01,1.97
+349,Uludag?-Bursa,2022-03-01,16.54
+349,Uludag?-Bursa,2022-02-01,9.84
+349,Uludag?-Bursa,2022-01-01,65.75
+351,Me?tabief,2022-12-01,100.0
+351,Me?tabief,2022-02-01,21.26
+351,Me?tabief,2022-01-01,92.91
+352,Vitosha-Sofia,2022-12-01,1.18
+352,Vitosha-Sofia,2022-02-01,15.75
+352,Vitosha-Sofia,2022-01-01,25.59
+353,Latemar-Obereggen-?Pampeago-?Predazzo,2022-12-01,95.67
+353,Latemar-Obereggen-?Pampeago-?Predazzo,2022-11-01,50.0
+353,Latemar-Obereggen-?Pampeago-?Predazzo,2022-05-01,0.39
+353,Latemar-Obereggen-?Pampeago-?Predazzo,2022-04-01,6.3
+353,Latemar-Obereggen-?Pampeago-?Predazzo,2022-03-01,33.86
+353,Latemar-Obereggen-?Pampeago-?Predazzo,2022-02-01,99.61
+353,Latemar-Obereggen-?Pampeago-?Predazzo,2022-01-01,99.21
+365,Carezza Ski,2022-12-01,95.67
+365,Carezza Ski,2022-11-01,50.0
+365,Carezza Ski,2022-05-01,0.39
+365,Carezza Ski,2022-04-01,6.3
+365,Carezza Ski,2022-03-01,33.86
+365,Carezza Ski,2022-02-01,99.61
+365,Carezza Ski,2022-01-01,99.21
+477,Alpe Lusia-Moena-?Bellamonte,2022-12-01,95.67
+477,Alpe Lusia-Moena-?Bellamonte,2022-11-01,50.0
+477,Alpe Lusia-Moena-?Bellamonte,2022-05-01,0.39
+477,Alpe Lusia-Moena-?Bellamonte,2022-04-01,6.3
+477,Alpe Lusia-Moena-?Bellamonte,2022-03-01,33.86
+477,Alpe Lusia-Moena-?Bellamonte,2022-02-01,99.61
+477,Alpe Lusia-Moena-?Bellamonte,2022-01-01,99.21
+354,Szczyrk-Skrzyczne,2022-12-01,52.36
+354,Szczyrk-Skrzyczne,2022-11-01,1.97
+354,Szczyrk-Skrzyczne,2022-02-01,0.79
+354,Szczyrk-Skrzyczne,2022-01-01,51.57
+355,Mariborsko Pohorje-Maribor,2022-12-01,21.65
+356,El Colorado-?Farellones,2022-09-01,10.63
+356,El Colorado-?Farellones,2022-08-01,44.09
+356,El Colorado-?Farellones,2022-07-01,83.07
+356,El Colorado-?Farellones,2022-06-01,4.33
+356,El Colorado-?Farellones,2022-04-01,0.39
+388,La Parva,2022-09-01,10.63
+388,La Parva,2022-08-01,44.09
+388,La Parva,2022-07-01,83.07
+388,La Parva,2022-06-01,4.33
+388,La Parva,2022-04-01,0.39
+358,Jahorina,2022-12-01,1.97
+358,Jahorina,2022-04-01,38.58
+358,Jahorina,2022-03-01,61.81
+358,Jahorina,2022-02-01,24.8
+358,Jahorina,2022-01-01,98.03
+359,Espace Do?le-La Do?le-?Les Tuffes,2022-11-01,0.39
+360,Myoko Akakura,2022-12-01,9.84
+360,Myoko Akakura,2022-11-01,4.72
+360,Myoko Akakura,2022-10-01,0.79
+360,Myoko Akakura,2022-05-01,10.24
+360,Myoko Akakura,2022-04-01,100.0
+360,Myoko Akakura,2022-03-01,100.0
+360,Myoko Akakura,2022-02-01,100.0
+360,Myoko Akakura,2022-01-01,100.0
+361,Naeba-Mt. Naeba-,2022-12-01,90.55
+361,Naeba-Mt. Naeba-,2022-05-01,0.39
+361,Naeba-Mt. Naeba-,2022-04-01,100.0
+361,Naeba-Mt. Naeba-,2022-03-01,100.0
+361,Naeba-Mt. Naeba-,2022-02-01,100.0
+361,Naeba-Mt. Naeba-,2022-01-01,100.0
+362,Nozawa Onsen,2022-04-01,31.1
+362,Nozawa Onsen,2022-03-01,100.0
+362,Nozawa Onsen,2022-02-01,100.0
+362,Nozawa Onsen,2022-01-01,100.0
+363,Kreischberg,2022-12-01,79.92
+363,Kreischberg,2022-02-01,96.85
+363,Kreischberg,2022-01-01,87.01
+364,Garmisch-Classic-Garmisch-Partenkirchen,2022-12-01,100.0
+364,Garmisch-Classic-Garmisch-Partenkirchen,2022-11-01,51.97
+364,Garmisch-Classic-Garmisch-Partenkirchen,2022-05-01,2.36
+364,Garmisch-Classic-Garmisch-Partenkirchen,2022-04-01,3.94
+364,Garmisch-Classic-Garmisch-Partenkirchen,2022-03-01,97.64
+364,Garmisch-Classic-Garmisch-Partenkirchen,2022-02-01,96.06
+364,Garmisch-Classic-Garmisch-Partenkirchen,2022-01-01,93.7
+418,Rosshu?tte-Seefeld,2022-12-01,100.0
+418,Rosshu?tte-Seefeld,2022-11-01,51.97
+418,Rosshu?tte-Seefeld,2022-05-01,2.36
+418,Rosshu?tte-Seefeld,2022-04-01,3.94
+418,Rosshu?tte-Seefeld,2022-03-01,97.64
+418,Rosshu?tte-Seefeld,2022-02-01,96.06
+418,Rosshu?tte-Seefeld,2022-01-01,93.7
+496,Kranzberg-Mittenwald,2022-12-01,100.0
+496,Kranzberg-Mittenwald,2022-11-01,51.97
+496,Kranzberg-Mittenwald,2022-05-01,2.36
+496,Kranzberg-Mittenwald,2022-04-01,3.94
+496,Kranzberg-Mittenwald,2022-03-01,97.64
+496,Kranzberg-Mittenwald,2022-02-01,96.06
+496,Kranzberg-Mittenwald,2022-01-01,93.7
+366,Pizol-Bad Ragaz-?Wangs,2022-12-01,100.0
+366,Pizol-Bad Ragaz-?Wangs,2022-11-01,2.76
+366,Pizol-Bad Ragaz-?Wangs,2022-10-01,17.72
+366,Pizol-Bad Ragaz-?Wangs,2022-09-01,4.33
+366,Pizol-Bad Ragaz-?Wangs,2022-06-01,9.45
+366,Pizol-Bad Ragaz-?Wangs,2022-05-01,21.26
+366,Pizol-Bad Ragaz-?Wangs,2022-04-01,5.91
+366,Pizol-Bad Ragaz-?Wangs,2022-03-01,99.61
+366,Pizol-Bad Ragaz-?Wangs,2022-02-01,100.0
+366,Pizol-Bad Ragaz-?Wangs,2022-01-01,99.61
+367,SuperBesse-Puy de Sancy,2022-12-01,1.97
+367,SuperBesse-Puy de Sancy,2022-04-01,14.17
+367,SuperBesse-Puy de Sancy,2022-01-01,15.35
+368,Sto?ten,2022-12-01,98.43
+368,Sto?ten,2022-11-01,35.83
+368,Sto?ten,2022-05-01,0.79
+368,Sto?ten,2022-04-01,100.0
+368,Sto?ten,2022-03-01,100.0
+368,Sto?ten,2022-02-01,98.82
+368,Sto?ten,2022-01-01,98.03
+369,Palando?ken-Ejder 3200 World Ski Center-,2022-12-01,28.35
+369,Palando?ken-Ejder 3200 World Ski Center-,2022-04-01,49.61
+369,Palando?ken-Ejder 3200 World Ski Center-,2022-03-01,100.0
+369,Palando?ken-Ejder 3200 World Ski Center-,2022-02-01,100.0
+369,Palando?ken-Ejder 3200 World Ski Center-,2022-01-01,100.0
+370,Fellhorn-?Kanzelwand-Oberstdorf-?Riezlern,2022-12-01,90.55
+370,Fellhorn-?Kanzelwand-Oberstdorf-?Riezlern,2022-10-01,0.39
+370,Fellhorn-?Kanzelwand-Oberstdorf-?Riezlern,2022-04-01,0.79
+370,Fellhorn-?Kanzelwand-Oberstdorf-?Riezlern,2022-03-01,91.34
+370,Fellhorn-?Kanzelwand-Oberstdorf-?Riezlern,2022-02-01,98.43
+370,Fellhorn-?Kanzelwand-Oberstdorf-?Riezlern,2022-01-01,96.06
+478,Unternberg-Ruhpolding-,2022-12-01,90.55
+478,Unternberg-Ruhpolding-,2022-10-01,0.39
+478,Unternberg-Ruhpolding-,2022-04-01,0.79
+478,Unternberg-Ruhpolding-,2022-03-01,91.34
+478,Unternberg-Ruhpolding-,2022-02-01,98.43
+478,Unternberg-Ruhpolding-,2022-01-01,96.06
+371,Idre Fja?ll,2022-12-01,100.0
+371,Idre Fja?ll,2022-11-01,53.94
+371,Idre Fja?ll,2022-10-01,0.79
+371,Idre Fja?ll,2022-04-01,100.0
+371,Idre Fja?ll,2022-03-01,100.0
+371,Idre Fja?ll,2022-02-01,100.0
+371,Idre Fja?ll,2022-01-01,100.0
+373,Pamporovo,2022-12-01,8.66
+373,Pamporovo,2022-04-01,3.15
+373,Pamporovo,2022-03-01,94.49
+373,Pamporovo,2022-02-01,100.0
+373,Pamporovo,2022-01-01,95.28
+374,Abetone-?Val di Luce,2022-04-01,0.39
+374,Abetone-?Val di Luce,2022-01-01,38.58
+375,Gerlitzen,2022-12-01,92.52
+375,Gerlitzen,2022-04-01,0.39
+375,Gerlitzen,2022-03-01,8.66
+375,Gerlitzen,2022-02-01,86.61
+375,Gerlitzen,2022-01-01,93.31
+376,Paganella-Andalo,2022-12-01,40.16
+376,Paganella-Andalo,2022-11-01,1.18
+376,Paganella-Andalo,2022-02-01,3.15
+376,Paganella-Andalo,2022-01-01,2.36
+380,S?pindleru?v Mly?n,2022-12-01,99.21
+380,S?pindleru?v Mly?n,2022-11-01,20.08
+380,S?pindleru?v Mly?n,2022-04-01,16.93
+380,S?pindleru?v Mly?n,2022-03-01,52.36
+380,S?pindleru?v Mly?n,2022-02-01,99.61
+380,S?pindleru?v Mly?n,2022-01-01,99.61
+382,Dizin,2022-12-01,98.82
+382,Dizin,2022-11-01,11.81
+382,Dizin,2022-04-01,46.06
+382,Dizin,2022-03-01,80.71
+382,Dizin,2022-02-01,100.0
+382,Dizin,2022-01-01,100.0
+383,Gala Yuzawa-?Ishiuchi Maruyama,2022-12-01,98.43
+383,Gala Yuzawa-?Ishiuchi Maruyama,2022-08-01,0.79
+383,Gala Yuzawa-?Ishiuchi Maruyama,2022-05-01,0.39
+383,Gala Yuzawa-?Ishiuchi Maruyama,2022-04-01,100.0
+383,Gala Yuzawa-?Ishiuchi Maruyama,2022-03-01,100.0
+383,Gala Yuzawa-?Ishiuchi Maruyama,2022-02-01,100.0
+383,Gala Yuzawa-?Ishiuchi Maruyama,2022-01-01,100.0
+384,YongPyong Resort,2022-12-01,28.35
+384,YongPyong Resort,2022-02-01,2.76
+384,YongPyong Resort,2022-01-01,5.91
+386,Luchon Superbagne?res,2022-02-01,1.57
+386,Luchon Superbagne?res,2022-01-01,5.12
+387,High1 Resort,2022-12-01,1.97
+387,High1 Resort,2022-03-01,4.72
+387,High1 Resort,2022-02-01,21.65
+387,High1 Resort,2022-01-01,16.14
+389,Le?lex-?Crozet,2022-11-01,1.57
+389,Le?lex-?Crozet,2022-02-01,1.57
+389,Le?lex-?Crozet,2022-01-01,66.54
+390,Alpika Service,2022-12-01,0.79
+390,Alpika Service,2022-04-01,0.39
+390,Alpika Service,2022-03-01,99.21
+390,Alpika Service,2022-02-01,100.0
+390,Alpika Service,2022-01-01,99.21
+391,Sinaia,2022-04-01,3.15
+391,Sinaia,2022-03-01,96.06
+391,Sinaia,2022-02-01,97.24
+391,Sinaia,2022-01-01,96.46
+392,Furano,2022-12-01,99.61
+392,Furano,2022-05-01,0.39
+392,Furano,2022-04-01,48.03
+392,Furano,2022-03-01,100.0
+392,Furano,2022-02-01,100.0
+392,Furano,2022-01-01,100.0
+394,Whiteface-Lake Placid,2022-12-01,94.09
+394,Whiteface-Lake Placid,2022-03-01,6.69
+394,Whiteface-Lake Placid,2022-02-01,98.03
+394,Whiteface-Lake Placid,2022-01-01,95.28
+395,Rauriser Hochalmbahnen-Rauris,2022-12-01,94.09
+395,Rauriser Hochalmbahnen-Rauris,2022-11-01,98.03
+395,Rauriser Hochalmbahnen-Rauris,2022-09-01,0.79
+395,Rauriser Hochalmbahnen-Rauris,2022-05-01,6.69
+395,Rauriser Hochalmbahnen-Rauris,2022-04-01,93.7
+395,Rauriser Hochalmbahnen-Rauris,2022-03-01,100.0
+395,Rauriser Hochalmbahnen-Rauris,2022-02-01,97.64
+395,Rauriser Hochalmbahnen-Rauris,2022-01-01,97.24
+396,Hoch-Ybrig-Unteriberg-?Oberiberg,2022-12-01,68.5
+396,Hoch-Ybrig-Unteriberg-?Oberiberg,2022-10-01,0.79
+396,Hoch-Ybrig-Unteriberg-?Oberiberg,2022-04-01,0.39
+396,Hoch-Ybrig-Unteriberg-?Oberiberg,2022-03-01,6.69
+396,Hoch-Ybrig-Unteriberg-?Oberiberg,2022-02-01,50.79
+396,Hoch-Ybrig-Unteriberg-?Oberiberg,2022-01-01,92.91
+397,Meran 2000,2022-12-01,100.0
+397,Meran 2000,2022-11-01,4.72
+397,Meran 2000,2022-04-01,89.37
+397,Meran 2000,2022-03-01,39.76
+397,Meran 2000,2022-02-01,84.65
+397,Meran 2000,2022-01-01,79.53
+399,Hoshino Resorts Tomamu,2022-12-01,57.48
+399,Hoshino Resorts Tomamu,2022-04-01,36.22
+399,Hoshino Resorts Tomamu,2022-03-01,97.64
+399,Hoshino Resorts Tomamu,2022-02-01,100.0
+399,Hoshino Resorts Tomamu,2022-01-01,100.0
+401,Tarvisio-Monte Lussari,2022-12-01,96.85
+401,Tarvisio-Monte Lussari,2022-04-01,61.42
+401,Tarvisio-Monte Lussari,2022-03-01,48.43
+401,Tarvisio-Monte Lussari,2022-02-01,88.19
+401,Tarvisio-Monte Lussari,2022-01-01,91.34
+402,Mount Parnassos-Fterolakka-?Kellaria,2022-03-01,4.72
+402,Mount Parnassos-Fterolakka-?Kellaria,2022-01-01,23.62
+403,Moelltal Glacier-Mo?lltaler Gletscher-,2022-12-01,97.64
+403,Moelltal Glacier-Mo?lltaler Gletscher-,2022-11-01,98.03
+403,Moelltal Glacier-Mo?lltaler Gletscher-,2022-10-01,2.36
+403,Moelltal Glacier-Mo?lltaler Gletscher-,2022-06-01,0.79
+403,Moelltal Glacier-Mo?lltaler Gletscher-,2022-05-01,2.76
+403,Moelltal Glacier-Mo?lltaler Gletscher-,2022-04-01,93.7
+403,Moelltal Glacier-Mo?lltaler Gletscher-,2022-03-01,97.24
+403,Moelltal Glacier-Mo?lltaler Gletscher-,2022-02-01,97.24
+403,Moelltal Glacier-Mo?lltaler Gletscher-,2022-01-01,95.67
+404,Wendelstein-Brannenburg-?Osterhofen,2022-12-01,33.07
+404,Wendelstein-Brannenburg-?Osterhofen,2022-10-01,0.79
+404,Wendelstein-Brannenburg-?Osterhofen,2022-01-01,37.8
+405,Glenshee,2022-12-01,96.85
+405,Glenshee,2022-11-01,33.07
+405,Glenshee,2022-02-01,48.82
+405,Glenshee,2022-01-01,17.72
+406,Sulden am Ortler-Solda all'Ortles-,2022-12-01,61.81
+406,Sulden am Ortler-Solda all'Ortles-,2022-11-01,47.64
+406,Sulden am Ortler-Solda all'Ortles-,2022-05-01,1.18
+406,Sulden am Ortler-Solda all'Ortles-,2022-04-01,7.87
+406,Sulden am Ortler-Solda all'Ortles-,2022-03-01,16.54
+406,Sulden am Ortler-Solda all'Ortles-,2022-02-01,98.03
+406,Sulden am Ortler-Solda all'Ortles-,2022-01-01,70.47
+407,The Summit at Snoqualmie,2022-12-01,100.0
+407,The Summit at Snoqualmie,2022-11-01,100.0
+407,The Summit at Snoqualmie,2022-06-01,0.39
+407,The Summit at Snoqualmie,2022-05-01,8.27
+407,The Summit at Snoqualmie,2022-04-01,93.31
+407,The Summit at Snoqualmie,2022-03-01,90.16
+407,The Summit at Snoqualmie,2022-02-01,100.0
+407,The Summit at Snoqualmie,2022-01-01,100.0
+408,Poiana Bras?ov,2022-12-01,2.36
+408,Poiana Bras?ov,2022-01-01,24.8
+409,Hinterstoder-Ho?ss,2022-12-01,98.03
+409,Hinterstoder-Ho?ss,2022-11-01,5.51
+409,Hinterstoder-Ho?ss,2022-03-01,1.18
+409,Hinterstoder-Ho?ss,2022-02-01,96.06
+409,Hinterstoder-Ho?ss,2022-01-01,91.34
+410,St. Jean Montclar,2022-12-01,38.19
+410,St. Jean Montclar,2022-11-01,2.76
+410,St. Jean Montclar,2022-02-01,4.72
+410,St. Jean Montclar,2022-01-01,37.01
+411,Port del Comte,2022-12-01,2.76
+411,Port del Comte,2022-11-01,1.18
+411,Port del Comte,2022-04-01,4.72
+411,Port del Comte,2022-02-01,1.18
+412,Ta?nndalen,2022-12-01,100.0
+412,Ta?nndalen,2022-11-01,62.2
+412,Ta?nndalen,2022-05-01,100.0
+412,Ta?nndalen,2022-04-01,100.0
+412,Ta?nndalen,2022-03-01,100.0
+412,Ta?nndalen,2022-02-01,100.0
+412,Ta?nndalen,2022-01-01,100.0
+413,Feldberg-Seebuck-?Grafenmatt-?Fahl,2022-12-01,87.8
+413,Feldberg-Seebuck-?Grafenmatt-?Fahl,2022-03-01,0.39
+413,Feldberg-Seebuck-?Grafenmatt-?Fahl,2022-02-01,98.03
+413,Feldberg-Seebuck-?Grafenmatt-?Fahl,2022-01-01,98.43
+415,Kiroro,2022-12-01,0.79
+415,Kiroro,2022-02-01,6.3
+415,Kiroro,2022-01-01,14.96
+416,Tauplitz-Bad Mitterndorf,2022-12-01,97.24
+416,Tauplitz-Bad Mitterndorf,2022-06-01,0.79
+416,Tauplitz-Bad Mitterndorf,2022-05-01,4.72
+416,Tauplitz-Bad Mitterndorf,2022-04-01,96.85
+416,Tauplitz-Bad Mitterndorf,2022-03-01,96.85
+416,Tauplitz-Bad Mitterndorf,2022-02-01,98.82
+416,Tauplitz-Bad Mitterndorf,2022-01-01,98.82
+468,Loser-Altaussee,2022-12-01,97.24
+468,Loser-Altaussee,2022-06-01,0.79
+468,Loser-Altaussee,2022-05-01,4.72
+468,Loser-Altaussee,2022-04-01,96.85
+468,Loser-Altaussee,2022-03-01,96.85
+468,Loser-Altaussee,2022-02-01,98.82
+468,Loser-Altaussee,2022-01-01,98.82
+419,Malbun,2022-12-01,73.23
+419,Malbun,2022-11-01,35.43
+419,Malbun,2022-05-01,1.57
+419,Malbun,2022-04-01,33.86
+419,Malbun,2022-03-01,50.39
+419,Malbun,2022-02-01,92.52
+419,Malbun,2022-01-01,93.31
+420,S?pic?a?k,2022-12-01,50.0
+421,Riesneralm-Donnersbachwald,2022-12-01,96.85
+421,Riesneralm-Donnersbachwald,2022-11-01,100.0
+421,Riesneralm-Donnersbachwald,2022-05-01,0.39
+421,Riesneralm-Donnersbachwald,2022-04-01,46.85
+421,Riesneralm-Donnersbachwald,2022-03-01,98.03
+421,Riesneralm-Donnersbachwald,2022-02-01,98.82
+421,Riesneralm-Donnersbachwald,2022-01-01,98.03
+422,Berwang-?Bichlbach-?Rinnen,2022-12-01,97.24
+422,Berwang-?Bichlbach-?Rinnen,2022-11-01,49.61
+422,Berwang-?Bichlbach-?Rinnen,2022-05-01,2.76
+422,Berwang-?Bichlbach-?Rinnen,2022-04-01,66.14
+422,Berwang-?Bichlbach-?Rinnen,2022-03-01,82.28
+422,Berwang-?Bichlbach-?Rinnen,2022-02-01,95.28
+422,Berwang-?Bichlbach-?Rinnen,2022-01-01,96.06
+425,Tamarack Resort,2022-12-01,100.0
+425,Tamarack Resort,2022-11-01,98.82
+425,Tamarack Resort,2022-09-01,7.09
+425,Tamarack Resort,2022-06-01,0.39
+425,Tamarack Resort,2022-04-01,100.0
+425,Tamarack Resort,2022-03-01,100.0
+425,Tamarack Resort,2022-02-01,99.61
+425,Tamarack Resort,2022-01-01,99.21
+427,Indoor ski area Snow Arena-Druskininkai,2022-12-01,99.61
+427,Indoor ski area Snow Arena-Druskininkai,2022-11-01,100.0
+427,Indoor ski area Snow Arena-Druskininkai,2022-03-01,3.54
+427,Indoor ski area Snow Arena-Druskininkai,2022-02-01,7.87
+427,Indoor ski area Snow Arena-Druskininkai,2022-01-01,79.92
+430,Wurzeralm-Spital am Pyhrn,2022-12-01,94.09
+430,Wurzeralm-Spital am Pyhrn,2022-11-01,3.54
+430,Wurzeralm-Spital am Pyhrn,2022-04-01,1.97
+430,Wurzeralm-Spital am Pyhrn,2022-03-01,22.83
+430,Wurzeralm-Spital am Pyhrn,2022-02-01,96.46
+430,Wurzeralm-Spital am Pyhrn,2022-01-01,98.03
+431,Pra?bichl-Vordernberg,2022-12-01,98.03
+431,Pra?bichl-Vordernberg,2022-11-01,33.86
+431,Pra?bichl-Vordernberg,2022-04-01,1.18
+431,Pra?bichl-Vordernberg,2022-03-01,17.32
+431,Pra?bichl-Vordernberg,2022-02-01,92.52
+431,Pra?bichl-Vordernberg,2022-01-01,95.28
+433,Mitterdorf-Almberg-– Mitterfirmiansreut,2022-12-01,100.0
+433,Mitterdorf-Almberg-– Mitterfirmiansreut,2022-11-01,3.54
+433,Mitterdorf-Almberg-– Mitterfirmiansreut,2022-04-01,0.39
+433,Mitterdorf-Almberg-– Mitterfirmiansreut,2022-03-01,2.76
+433,Mitterdorf-Almberg-– Mitterfirmiansreut,2022-02-01,95.28
+433,Mitterdorf-Almberg-– Mitterfirmiansreut,2022-01-01,100.0
+434,Lavarone,2022-12-01,7.87
+434,Lavarone,2022-03-01,5.51
+434,Lavarone,2022-02-01,0.79
+435,Bolton Valley,2022-02-01,0.39
+435,Bolton Valley,2022-01-01,100.0
+436,Geißkopf-Bischofsmais,2022-12-01,100.0
+436,Geißkopf-Bischofsmais,2022-11-01,0.39
+436,Geißkopf-Bischofsmais,2022-03-01,2.36
+436,Geißkopf-Bischofsmais,2022-02-01,79.13
+436,Geißkopf-Bischofsmais,2022-01-01,100.0
+437,Donovaly-Park Snow-,2022-12-01,97.24
+437,Donovaly-Park Snow-,2022-03-01,60.63
+437,Donovaly-Park Snow-,2022-02-01,95.28
+437,Donovaly-Park Snow-,2022-01-01,75.98
+438,Kobla-Bohinj,2022-12-01,51.18
+438,Kobla-Bohinj,2022-02-01,9.84
+440,Gru?ntenlifte-Kranzegg-Rettenberg-,2022-12-01,39.76
+440,Gru?ntenlifte-Kranzegg-Rettenberg-,2022-02-01,1.18
+440,Gru?ntenlifte-Kranzegg-Rettenberg-,2022-01-01,90.94
+492,Oberjoch-Bad Hindelang-– Iseler,2022-12-01,39.76
+492,Oberjoch-Bad Hindelang-– Iseler,2022-02-01,1.18
+492,Oberjoch-Bad Hindelang-– Iseler,2022-01-01,90.94
+441,Grebenzen-St. Lambrecht,2022-12-01,77.17
+441,Grebenzen-St. Lambrecht,2022-03-01,22.44
+441,Grebenzen-St. Lambrecht,2022-02-01,95.28
+441,Grebenzen-St. Lambrecht,2022-01-01,95.28
+443,Nebelhorn-Oberstdorf,2022-12-01,94.09
+443,Nebelhorn-Oberstdorf,2022-11-01,88.19
+443,Nebelhorn-Oberstdorf,2022-09-01,3.15
+443,Nebelhorn-Oberstdorf,2022-05-01,1.18
+443,Nebelhorn-Oberstdorf,2022-04-01,20.08
+443,Nebelhorn-Oberstdorf,2022-03-01,80.31
+443,Nebelhorn-Oberstdorf,2022-02-01,93.7
+443,Nebelhorn-Oberstdorf,2022-01-01,96.06
+444,Lachtal,2022-12-01,94.09
+444,Lachtal,2022-11-01,90.16
+444,Lachtal,2022-05-01,1.57
+444,Lachtal,2022-04-01,100.0
+444,Lachtal,2022-03-01,98.43
+444,Lachtal,2022-02-01,96.06
+444,Lachtal,2022-01-01,96.46
+447,Guzet,2022-04-01,0.39
+447,Guzet,2022-02-01,1.57
+447,Guzet,2022-01-01,7.87
+448,Montage Mountain Resort,2022-12-01,22.05
+448,Montage Mountain Resort,2022-02-01,51.57
+448,Montage Mountain Resort,2022-01-01,0.79
+450,Fichtelberg-Oberwiesenthal,2022-12-01,100.0
+450,Fichtelberg-Oberwiesenthal,2022-11-01,2.36
+450,Fichtelberg-Oberwiesenthal,2022-03-01,86.61
+450,Fichtelberg-Oberwiesenthal,2022-02-01,96.06
+450,Fichtelberg-Oberwiesenthal,2022-01-01,100.0
+453,Scho?neck-Skiwelt-,2022-12-01,72.05
+453,Scho?neck-Skiwelt-,2022-01-01,0.39
+454,Bia?ka Tatrzan?ska-Kotelnica-?Kanio?wka-?Bania,2022-12-01,100.0
+454,Bia?ka Tatrzan?ska-Kotelnica-?Kanio?wka-?Bania,2022-11-01,20.87
+454,Bia?ka Tatrzan?ska-Kotelnica-?Kanio?wka-?Bania,2022-03-01,100.0
+454,Bia?ka Tatrzan?ska-Kotelnica-?Kanio?wka-?Bania,2022-02-01,100.0
+454,Bia?ka Tatrzan?ska-Kotelnica-?Kanio?wka-?Bania,2022-01-01,99.61
+455,S?trbske? Pleso,2022-12-01,91.34
+455,S?trbske? Pleso,2022-11-01,100.0
+455,S?trbske? Pleso,2022-05-01,70.08
+455,S?trbske? Pleso,2022-04-01,100.0
+455,S?trbske? Pleso,2022-03-01,100.0
+455,S?trbske? Pleso,2022-02-01,100.0
+455,S?trbske? Pleso,2022-01-01,100.0
+457,Sandia Peak,2022-12-01,8.66
+457,Sandia Peak,2022-03-01,9.06
+457,Sandia Peak,2022-02-01,53.94
+457,Sandia Peak,2022-01-01,21.26
+458,Kellerjoch-Schwaz,2022-12-01,100.0
+458,Kellerjoch-Schwaz,2022-11-01,1.97
+458,Kellerjoch-Schwaz,2022-04-01,94.09
+458,Kellerjoch-Schwaz,2022-03-01,98.03
+458,Kellerjoch-Schwaz,2022-02-01,98.43
+458,Kellerjoch-Schwaz,2022-01-01,95.67
+459,Aillons-Marge?riaz,2022-04-01,2.36
+459,Aillons-Marge?riaz,2022-03-01,8.27
+459,Aillons-Marge?riaz,2022-02-01,14.96
+459,Aillons-Marge?riaz,2022-01-01,95.28
+460,Hochrindl-Sirnitz,2022-12-01,55.51
+460,Hochrindl-Sirnitz,2022-11-01,0.79
+460,Hochrindl-Sirnitz,2022-03-01,2.76
+460,Hochrindl-Sirnitz,2022-02-01,57.87
+460,Hochrindl-Sirnitz,2022-01-01,98.82
+461,La Bresse-Hohneck,2022-12-01,100.0
+461,La Bresse-Hohneck,2022-11-01,0.39
+461,La Bresse-Hohneck,2022-01-01,79.13
+462,Silbersattel-Steinach,2022-12-01,100.0
+462,Silbersattel-Steinach,2022-02-01,1.97
+462,Silbersattel-Steinach,2022-01-01,98.03
+464,Lammeralm-Langenwang,2022-12-01,99.21
+464,Lammeralm-Langenwang,2022-11-01,1.97
+464,Lammeralm-Langenwang,2022-09-01,1.57
+464,Lammeralm-Langenwang,2022-04-01,6.3
+464,Lammeralm-Langenwang,2022-03-01,48.03
+464,Lammeralm-Langenwang,2022-02-01,97.24
+464,Lammeralm-Langenwang,2022-01-01,96.06
+466,Myrkdalen,2022-12-01,100.0
+466,Myrkdalen,2022-11-01,24.02
+466,Myrkdalen,2022-05-01,100.0
+466,Myrkdalen,2022-04-01,100.0
+466,Myrkdalen,2022-03-01,100.0
+466,Myrkdalen,2022-02-01,100.0
+466,Myrkdalen,2022-01-01,100.0
+467,Shymbulak-Chimbulak-,2022-12-01,96.85
+467,Shymbulak-Chimbulak-,2022-11-01,89.37
+467,Shymbulak-Chimbulak-,2022-10-01,0.79
+467,Shymbulak-Chimbulak-,2022-05-01,1.18
+467,Shymbulak-Chimbulak-,2022-04-01,64.17
+467,Shymbulak-Chimbulak-,2022-03-01,99.21
+467,Shymbulak-Chimbulak-,2022-02-01,98.82
+467,Shymbulak-Chimbulak-,2022-01-01,95.67
+470,Grasgehren-Bolgengrat,2022-12-01,92.52
+470,Grasgehren-Bolgengrat,2022-11-01,90.16
+470,Grasgehren-Bolgengrat,2022-10-01,1.57
+470,Grasgehren-Bolgengrat,2022-09-01,27.56
+470,Grasgehren-Bolgengrat,2022-06-01,0.39
+470,Grasgehren-Bolgengrat,2022-05-01,12.99
+470,Grasgehren-Bolgengrat,2022-04-01,93.7
+470,Grasgehren-Bolgengrat,2022-03-01,97.64
+470,Grasgehren-Bolgengrat,2022-02-01,94.49
+470,Grasgehren-Bolgengrat,2022-01-01,95.28
+471,Crystal Mountain-WA-,2022-12-01,98.03
+471,Crystal Mountain-WA-,2022-11-01,96.06
+471,Crystal Mountain-WA-,2022-10-01,31.89
+471,Crystal Mountain-WA-,2022-09-01,35.04
+471,Crystal Mountain-WA-,2022-08-01,30.31
+471,Crystal Mountain-WA-,2022-07-01,44.88
+471,Crystal Mountain-WA-,2022-06-01,86.61
+471,Crystal Mountain-WA-,2022-05-01,100.0
+471,Crystal Mountain-WA-,2022-04-01,100.0
+471,Crystal Mountain-WA-,2022-03-01,100.0
+471,Crystal Mountain-WA-,2022-02-01,98.43
+471,Crystal Mountain-WA-,2022-01-01,97.64
+475,Sun Mountain-Yabuli,2022-12-01,99.21
+475,Sun Mountain-Yabuli,2022-11-01,16.54
+475,Sun Mountain-Yabuli,2022-03-01,1.97
+475,Sun Mountain-Yabuli,2022-02-01,100.0
+475,Sun Mountain-Yabuli,2022-01-01,100.0
+476,Jochgrimm-Passo Oclini-,2022-12-01,91.34
+476,Jochgrimm-Passo Oclini-,2022-11-01,0.79
+476,Jochgrimm-Passo Oclini-,2022-02-01,3.94
+476,Jochgrimm-Passo Oclini-,2022-01-01,26.77
+480,Kubi?nska hol?a,2022-12-01,24.41
+480,Kubi?nska hol?a,2022-11-01,5.51
+480,Kubi?nska hol?a,2022-03-01,68.9
+480,Kubi?nska hol?a,2022-02-01,98.82
+480,Kubi?nska hol?a,2022-01-01,91.34
+481,Stevens Pass,2022-12-01,100.0
+481,Stevens Pass,2022-11-01,100.0
+481,Stevens Pass,2022-10-01,1.97
+481,Stevens Pass,2022-07-01,1.57
+481,Stevens Pass,2022-06-01,16.14
+481,Stevens Pass,2022-05-01,94.88
+481,Stevens Pass,2022-04-01,97.24
+481,Stevens Pass,2022-03-01,95.67
+481,Stevens Pass,2022-02-01,100.0
+481,Stevens Pass,2022-01-01,98.82
+482,Ga?la?,2022-12-01,100.0
+482,Ga?la?,2022-11-01,21.65
+482,Ga?la?,2022-04-01,100.0
+482,Ga?la?,2022-03-01,100.0
+482,Ga?la?,2022-02-01,100.0
+482,Ga?la?,2022-01-01,100.0
+483,Kvitfjell,2022-12-01,95.28
+483,Kvitfjell,2022-11-01,48.03
+483,Kvitfjell,2022-04-01,7.87
+483,Kvitfjell,2022-03-01,100.0
+483,Kvitfjell,2022-02-01,100.0
+483,Kvitfjell,2022-01-01,99.21
+484,Molines-en-Queyras-?Saint-Ve?ran,2022-12-01,98.03
+484,Molines-en-Queyras-?Saint-Ve?ran,2022-11-01,96.06
+484,Molines-en-Queyras-?Saint-Ve?ran,2022-05-01,5.12
+484,Molines-en-Queyras-?Saint-Ve?ran,2022-04-01,61.81
+484,Molines-en-Queyras-?Saint-Ve?ran,2022-03-01,77.95
+484,Molines-en-Queyras-?Saint-Ve?ran,2022-02-01,94.09
+484,Molines-en-Queyras-?Saint-Ve?ran,2022-01-01,97.64
+485,Tatranska? Lomnica,2022-12-01,24.02
+485,Tatranska? Lomnica,2022-11-01,13.39
+485,Tatranska? Lomnica,2022-03-01,14.96
+485,Tatranska? Lomnica,2022-02-01,100.0
+485,Tatranska? Lomnica,2022-01-01,58.27
+486,Mt. Dobson,2022-12-01,9.45
+486,Mt. Dobson,2022-11-01,27.56
+486,Mt. Dobson,2022-10-01,96.06
+486,Mt. Dobson,2022-09-01,62.99
+486,Mt. Dobson,2022-08-01,97.64
+486,Mt. Dobson,2022-07-01,94.49
+486,Mt. Dobson,2022-06-01,92.13
+486,Mt. Dobson,2022-05-01,94.09
+486,Mt. Dobson,2022-04-01,1.18
+486,Mt. Dobson,2022-03-01,3.15
+486,Mt. Dobson,2022-02-01,4.72
+486,Mt. Dobson,2022-01-01,8.27
+487,Kanin-Sella Nevea-?Bovec,2022-12-01,57.48
+487,Kanin-Sella Nevea-?Bovec,2022-10-01,0.39
+487,Kanin-Sella Nevea-?Bovec,2022-04-01,0.79
+487,Kanin-Sella Nevea-?Bovec,2022-02-01,0.79
+487,Kanin-Sella Nevea-?Bovec,2022-01-01,88.19
+488,Postwiesen Skidorf-Neuastenberg,2022-12-01,100.0
+488,Postwiesen Skidorf-Neuastenberg,2022-02-01,23.23
+488,Postwiesen Skidorf-Neuastenberg,2022-01-01,89.37
+489,Kaiseregg-?Riggisalp-Schwarzsee,2022-12-01,96.06
+489,Kaiseregg-?Riggisalp-Schwarzsee,2022-11-01,5.91
+489,Kaiseregg-?Riggisalp-Schwarzsee,2022-04-01,40.55
+489,Kaiseregg-?Riggisalp-Schwarzsee,2022-03-01,88.58
+489,Kaiseregg-?Riggisalp-Schwarzsee,2022-02-01,99.61
+489,Kaiseregg-?Riggisalp-Schwarzsee,2022-01-01,98.82
+490,St. Pierre de Chartreuse-Le Planolet,2022-12-01,98.03
+490,St. Pierre de Chartreuse-Le Planolet,2022-04-01,33.07
+490,St. Pierre de Chartreuse-Le Planolet,2022-03-01,33.07
+490,St. Pierre de Chartreuse-Le Planolet,2022-02-01,27.17
+490,St. Pierre de Chartreuse-Le Planolet,2022-01-01,91.34
+491,Loon Mountain,2022-12-01,66.54
+491,Loon Mountain,2022-11-01,0.79
+491,Loon Mountain,2022-03-01,35.04
+491,Loon Mountain,2022-02-01,100.0
+491,Loon Mountain,2022-01-01,100.0
+493,Mo?nichkirchen-?Mariensee,2022-12-01,98.03
+493,Mo?nichkirchen-?Mariensee,2022-03-01,3.54
+493,Mo?nichkirchen-?Mariensee,2022-02-01,8.66
+493,Mo?nichkirchen-?Mariensee,2022-01-01,78.35
+498,Stuhleck-Spital am Semmering,2022-12-01,98.03
+498,Stuhleck-Spital am Semmering,2022-03-01,3.54
+498,Stuhleck-Spital am Semmering,2022-02-01,8.66
+498,Stuhleck-Spital am Semmering,2022-01-01,78.35
+499,Le Massif,2022-12-01,100.0
+499,Le Massif,2022-11-01,24.8
+499,Le Massif,2022-05-01,16.54
+499,Le Massif,2022-04-01,100.0
+499,Le Massif,2022-03-01,100.0
+499,Le Massif,2022-02-01,100.0
+499,Le Massif,2022-01-01,100.0

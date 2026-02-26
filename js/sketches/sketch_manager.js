@@ -11,7 +11,7 @@ function startP5() {
         // core layout settings (canvas size only)
         this.width = 600; // content width
         this.height = 520; // content height
-        this.margin = { top: 0, left: 80, bottom: 40, right: 10 };
+        this.margin = { top: 0, left: 80, bottom: 40, right: 200 }; // Increased right margin for key
         this.canvasWidth = this.width + this.margin.left + this.margin.right;
         this.canvasHeight = this.height + this.margin.top + this.margin.bottom;
 
@@ -71,6 +71,33 @@ function startP5() {
         throw new Error('localRenderer.setData is required at startup.');
     }
 
+    // Load both CSV files using the p5 instance
+    var dataLoadPromise = new Promise(function (resolve, reject) {
+        // Wait for p5 to be ready, then load both files
+        setTimeout(function () {
+            var p = manager.p5;
+            if (!p || !window.DataLoader || typeof window.DataLoader.loadTSV !== 'function') {
+                reject(new Error('p5 instance or DataLoader.loadTSV not available'));
+                return;
+            }
+
+            // Load both files in parallel
+            var resortDataPromise = window.DataLoader.loadTSV(p, 'data/processed_resorts.csv');
+            var monthlyDataPromise = window.DataLoader.loadTSV(p, 'data/resort_monthly_snow.csv');
+
+            Promise.all([resortDataPromise, monthlyDataPromise])
+                .then(function (results) {
+                    manager.resortData = results[0];
+                    manager.monthlyData = results[1];
+                    resolve();
+                })
+                .catch(function (err) {
+                    console.error('Failed to load data files:', err);
+                    reject(err);
+                });
+        }, 100); // Small delay to ensure p5 is initialized
+    });
+
     var setDataResult = localRenderer.setData(manager);
 
     var api = {
@@ -81,11 +108,15 @@ function startP5() {
     };
 
     // Expose a `ready` promise so callers can wait until data/layout are ready.
+    // Wait for both the data files to load AND the renderer setData to complete
+    var allPromises = [dataLoadPromise];
     if (setDataResult && typeof setDataResult.then === 'function') {
-        api.ready = setDataResult.then(function () { return api; });
-    } else {
-        api.ready = Promise.resolve(api);
+        allPromises.push(setDataResult);
     }
+
+    api.ready = Promise.all(allPromises).then(function () {
+        return api;
+    });
 
     // Expose the API globally once ready so consumers (like sections) see
     // the populated data without racing the async load.

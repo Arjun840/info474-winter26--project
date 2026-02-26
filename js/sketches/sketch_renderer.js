@@ -26,6 +26,13 @@
                 return;
             }
 
+            if (ai === 2 || ai === 3) {
+                if (window.VizStability && typeof window.VizStability.draw === 'function') {
+                    window.VizStability.draw(p, manager, ai, progress);
+                    return;
+                }
+            }
+
             if (ai >= 4 && ai < 7) {
                 window.VizScatter.draw(p, manager, ai, progress);
                 return;

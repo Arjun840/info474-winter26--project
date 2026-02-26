@@ -15,9 +15,36 @@
         });
     }
 
-    function loadTSV(url) {
-        return fetch(url).then(function (r) { return r.text(); }).then(function (text) {
-            return parseTSV(text);
+    function loadTSV(p, url) {
+        return new Promise(function (resolve, reject) {
+            p.loadTable(url, 'header', 'csv', function (table) {
+                if (table) {
+                    // Convert p5.Table to array of objects
+                    var rows = [];
+                    var columnCount = table.getColumnCount();
+                    var rowCount = table.getRowCount();
+                    
+                    // Get column names
+                    var columns = [];
+                    for (var j = 0; j < columnCount; j++) {
+                        columns.push(table.columns[j]);
+                    }
+                    
+                    // Convert each row to an object
+                    for (var i = 0; i < rowCount; i++) {
+                        var row = table.getRow(i);
+                        var obj = {};
+                        for (var k = 0; k < columns.length; k++) {
+                            var colName = columns[k];
+                            obj[colName] = row.getString(colName);
+                        }
+                        rows.push(obj);
+                    }
+                    resolve(rows);
+                } else {
+                    reject(new Error('Failed to load table from ' + url));
+                }
+            });
         });
     }
 
