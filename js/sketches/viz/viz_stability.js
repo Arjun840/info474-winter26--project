@@ -16,8 +16,8 @@
 
             p.push();
 
-            // 1. Hardcoded Margins
-            var m = 100;
+            // 1. Hardcoded Margins (increased to prevent dots from covering labels)
+            var m = 120; // Increased from 100 to give more space for labels
             
             // Chart area
             var chartX = m;
@@ -232,9 +232,11 @@
                 }
                 var animX = point.x - animOffset;
 
-                // Only draw if point is within chart bounds
-                if (opacity > 0 && point.x >= chartX && point.x <= chartX + chartWidth && 
-                    point.y >= chartY && point.y <= chartY + chartHeight) {
+                // Only draw if point is within chart bounds (with extra padding to prevent spillover)
+                var dotRadius = dotSize / 2;
+                if (opacity > 0 && 
+                    point.x >= chartX + dotRadius && point.x <= chartX + chartWidth - dotRadius && 
+                    point.y >= chartY + dotRadius && point.y <= chartY + chartHeight - dotRadius) {
                     p.stroke(255, 255, 255, opacity * 0.8);
                     p.strokeWeight(1.5);
                     p.fill(point.color[0], point.color[1], point.color[2], opacity);
@@ -244,44 +246,42 @@
             
             p.noStroke();
 
-            // High-End Annotations: Top 3 highest elevation points (within domain)
-            var calloutOpacity = p.lerp(0, 255, Math.max(0, (progress - 0.6) / 0.4));
-            if (calloutOpacity > 0) {
-                // Sort by elevation and get top 3, filter to domain
-                var sortedByElevation = dataWithColors.slice()
-                    .filter(function (d) {
-                        return d.elevation >= xDomainMin && d.elevation <= xDomainMax;
-                    })
-                    .sort(function (a, b) {
-                        return b.elevation - a.elevation;
-                    });
-                var topThree = sortedByElevation.slice(0, 3);
+            // Clean Highlighting System: Specify resort names to highlight
+            // Add resort names to this array to highlight them
+            var highlightedResorts = []; // Example: ['Vail', 'Aspen', 'Whistler']
+            var highlightOpacity = p.lerp(0, 255, Math.max(0, (progress - 0.5) / 0.5));
+            
+            if (highlightOpacity > 0 && highlightedResorts.length > 0) {
+                // First pass: draw all regular points
+                // (already done above)
                 
-                for (var j = 0; j < topThree.length; j++) {
-                    var resort = topThree[j];
-                    var labelX = Math.min(resort.x + 30, chartX + chartWidth - 100);
-                    var labelY = resort.y - (j * 20) - 5;
+                // Second pass: draw highlighted points with glow effect
+                for (var i = 0; i < numPoints; i++) {
+                    var point = dataWithColors[i];
                     
-                    // Draw connecting line
-                    p.stroke(bodyTextColor[0], bodyTextColor[1], bodyTextColor[2], calloutOpacity * 0.6);
-                    p.strokeWeight(1.5);
-                    p.line(resort.x, resort.y, labelX - 8, labelY);
+                    // Skip if outside domain
+                    if (point.elevation < xDomainMin || point.elevation > xDomainMax) {
+                        continue;
+                    }
                     
-                    // Draw background box for label
-                    p.textAlign(p.LEFT, p.CENTER);
-                    p.textSize(fontSizeSmall);
-                    var textW = p.textWidth(resort.name);
-                    var padding = 8;
+                    // Check if this resort should be highlighted
+                    var isHighlighted = highlightedResorts.indexOf(point.name) !== -1;
                     
-                    p.fill(255, 255, 255, calloutOpacity);
-                    p.stroke(textColor[0], textColor[1], textColor[2], calloutOpacity * 0.3);
-                    p.strokeWeight(1.5);
-                    p.rect(labelX - padding, labelY - 10, textW + padding * 2, 20, 4);
-                    
-                    // Draw text label
-                    p.fill(textColor[0], textColor[1], textColor[2], calloutOpacity);
-                    p.noStroke();
-                    p.text(resort.name, labelX, labelY);
+                    if (isHighlighted && point.x >= chartX && point.x <= chartX + chartWidth && 
+                        point.y >= chartY && point.y <= chartY + chartHeight) {
+                        
+                        // Draw glow ring
+                        p.noFill();
+                        p.stroke(255, 255, 0, highlightOpacity * 0.6); // Yellow glow
+                        p.strokeWeight(3);
+                        p.ellipse(point.x, point.y, dotSize + 8, dotSize + 8);
+                        
+                        // Draw larger dot for highlighted resort
+                        p.stroke(255, 255, 255, highlightOpacity);
+                        p.strokeWeight(2);
+                        p.fill(point.color[0], point.color[1], point.color[2], highlightOpacity);
+                        p.ellipse(point.x, point.y, dotSize + 2, dotSize + 2);
+                    }
                 }
             }
 
@@ -345,16 +345,42 @@
                 p.noFill();
                 p.rect(keyX, keyY, keyWidth, keyHeight);
                 
-                // Label "Snowfall Intensity"
+                // Label "Snowfall Intensity" (rotated)
                 p.fill(textColor[0], textColor[1], textColor[2], legendOpacity);
                 p.noStroke();
                 p.textAlign(p.CENTER, p.CENTER);
                 p.push();
-                p.translate(keyX + keyWidth + 20, keyY + keyHeight / 2);
+                p.translate(keyX + keyWidth + 25, keyY + keyHeight / 2);
                 p.rotate(-p.PI / 2);
                 p.textSize(fontSizeSmall);
                 p.text('Snowfall Intensity', 0, 0);
                 p.pop();
+                
+                // Add color explanation labels
+                p.fill(bodyTextColor[0], bodyTextColor[1], bodyTextColor[2], legendOpacity);
+                p.noStroke();
+                p.textAlign(p.LEFT, p.CENTER);
+                p.textSize(fontSizeSmall - 1);
+                
+                // "Low" label at bottom (brown)
+                p.text('Low', keyX + keyWidth + 5, keyY + keyHeight - 5);
+                
+                // "High" label at top (blue)
+                p.text('High', keyX + keyWidth + 5, keyY + 5);
+                
+                // Add small color indicator dots next to labels
+                p.stroke(255, 255, 255, legendOpacity);
+                p.strokeWeight(1.5);
+                
+                // Brown dot for "Low"
+                p.fill(earthBrown[0], earthBrown[1], earthBrown[2], legendOpacity);
+                p.ellipse(keyX + keyWidth + 25, keyY + keyHeight - 5, 8, 8);
+                
+                // Blue dot for "High"
+                p.fill(alpineBlue[0], alpineBlue[1], alpineBlue[2], legendOpacity);
+                p.ellipse(keyX + keyWidth + 25, keyY + 5, 8, 8);
+                
+                p.noStroke();
             }
 
             // Draw title
