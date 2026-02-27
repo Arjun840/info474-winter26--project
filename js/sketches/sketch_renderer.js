@@ -33,7 +33,14 @@
                 }
             }
 
-            if (ai >= 4 && ai < 7) {
+            if (ai === 4 || ai === 5) {
+                if (window.VizValue && typeof window.VizValue.draw === 'function') {
+                    window.VizValue.draw(p, manager, ai, progress);
+                    return;
+                }
+            }
+
+            if (ai >= 6 && ai < 7) {
                 window.VizScatter.draw(p, manager, ai, progress);
                 return;
             }
