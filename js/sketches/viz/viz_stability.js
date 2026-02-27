@@ -328,13 +328,14 @@
                 var keyWidth = 30;
                 var keyHeight = chartHeight;
                 
-                // Draw vertical gradient
+                // Draw vertical gradient (flipped: blue at top = high, brown at bottom = low)
                 p.noStroke();
                 for (var k = 0; k < keyHeight; k++) {
                     var inter = k / keyHeight;
-                    var r = p.lerp(earthBrown[0], alpineBlue[0], inter);
-                    var g = p.lerp(earthBrown[1], alpineBlue[1], inter);
-                    var b = p.lerp(earthBrown[2], alpineBlue[2], inter);
+                    // Reverse the lerp: blue at top (k=0), brown at bottom (k=keyHeight)
+                    var r = p.lerp(alpineBlue[0], earthBrown[0], inter);
+                    var g = p.lerp(alpineBlue[1], earthBrown[1], inter);
+                    var b = p.lerp(alpineBlue[2], earthBrown[2], inter);
                     p.stroke(r, g, b, legendOpacity);
                     p.line(keyX, keyY + k, keyX + keyWidth, keyY + k);
                 }
@@ -362,23 +363,23 @@
                 p.textAlign(p.LEFT, p.CENTER);
                 p.textSize(fontSizeSmall - 1);
                 
-                // "Low" label at bottom (brown)
-                p.text('Low', keyX + keyWidth + 5, keyY + keyHeight - 5);
-                
                 // "High" label at top (blue)
                 p.text('High', keyX + keyWidth + 5, keyY + 5);
+                
+                // "Low" label at bottom (brown)
+                p.text('Low', keyX + keyWidth + 5, keyY + keyHeight - 5);
                 
                 // Add small color indicator dots next to labels
                 p.stroke(255, 255, 255, legendOpacity);
                 p.strokeWeight(1.5);
                 
-                // Brown dot for "Low"
-                p.fill(earthBrown[0], earthBrown[1], earthBrown[2], legendOpacity);
-                p.ellipse(keyX + keyWidth + 25, keyY + keyHeight - 5, 8, 8);
-                
-                // Blue dot for "High"
+                // Blue dot for "High" (at top)
                 p.fill(alpineBlue[0], alpineBlue[1], alpineBlue[2], legendOpacity);
                 p.ellipse(keyX + keyWidth + 25, keyY + 5, 8, 8);
+                
+                // Brown dot for "Low" (at bottom)
+                p.fill(earthBrown[0], earthBrown[1], earthBrown[2], legendOpacity);
+                p.ellipse(keyX + keyWidth + 25, keyY + keyHeight - 5, 8, 8);
                 
                 p.noStroke();
             }
