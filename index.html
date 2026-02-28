@@ -52,6 +52,10 @@
           <div class="title">Best of Luck in the Project!</div>
           You are now ready to start building your interactive article. Good luck!
         </section>
+        <section class="step" data-active-index="8">
+          <div class="title">Global Snow Heat Map</div>
+          Explore worldwide snowfall density across resorts.
+        </section>
       </div>
       <div id='vis' class='vis-hidden'>
       </div>
@@ -63,6 +67,7 @@
 
   <!-- p5.js (using CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"></script>
+  <script src="https://unpkg.com/topojson-client@3"></script>
   <!-- helpers (data/loading, scroller, visual controller) -->
   <script src="js/helpers/data_loader.js"></script>
   <script src="js/helpers/scroller.js"></script>
@@ -83,6 +88,7 @@
   <script src="js/sketches/viz/viz_value.js"></script>
   <script src="js/sketches/viz/viz_scatter.js"></script>
   <script src="js/sketches/viz/viz_bar.js"></script>
+  <script src="js/sketches/viz/viz_world_heatmap.js"></script>
   <script src="js/sketches/sketch_renderer.js"></script>
 
 

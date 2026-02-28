@@ -49,6 +49,12 @@
                 window.VizBar.draw(p, manager, ai, progress);
                 return;
             }
+            if (ai === 8) {
+                if (window.VizWorldHeatmap && typeof window.VizWorldHeatmap.draw === 'function') {
+                  window.VizWorldHeatmap.draw(p, manager, ai, progress);
+                  return;
+                }
+            }
         }
     };
 })();
