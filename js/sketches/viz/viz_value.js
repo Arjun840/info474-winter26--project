@@ -137,6 +137,12 @@
                 // Top-Left: Budget/Reliable
                 p.text('Budget/Reliable', chartX + (centerX - chartX) / 2, chartY + (centerY - chartY) / 2);
                 
+                // Top-Left annotation: Hidden Gems
+                p.textSize(fontSizeSmall - 2);
+                p.fill(textColor[0], textColor[1], textColor[2], labelOpacity * 0.7);
+                p.text('(Hidden Gems)', chartX + (centerX - chartX) / 2, chartY + (centerY - chartY) / 2 + 15);
+                p.textSize(fontSizeSmall);
+                
                 // Top-Right: Luxury/Reliable
                 p.text('Luxury/Reliable', centerX + (chartX + chartWidth - centerX) / 2, chartY + (centerY - chartY) / 2);
                 
