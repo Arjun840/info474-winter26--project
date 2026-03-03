@@ -13,6 +13,11 @@
             var barMaxW = Math.max(60, availW - 120);
             var barUpdateEvery = 60; // regenerate every ~2s at 30fps
 
+            // Color palette
+            var textColor = [38, 38, 38];      // #262626
+            var bodyTextColor = [118, 118, 120]; // #767678
+            var axisColor = [102, 102, 102];   // #666
+
             if (!manager._barCounts || (p.frameCount % barUpdateEvery === 0)) {
                 var bc = [];
                 for (var m = 0; m < months.length; m++) bc.push(Math.random());
@@ -24,9 +29,16 @@
             p.textAlign(p.LEFT, p.CENTER);
             p.textSize(12);
 
+            // Draw title
+            var titleOpacity = p.lerp(0, 255, Math.max(0, progress / 0.3));
+            p.fill(textColor[0], textColor[1], textColor[2], titleOpacity);
+            p.textAlign(p.CENTER, p.TOP);
+            p.textSize(14);
+            p.text('Monthly Distribution', left + availW / 2, top - 30);
+
             for (var i = 0; i < months.length; i++) {
                 var y = top + i * rowH + rowH / 2;
-                p.fill(30);
+                p.fill(textColor[0], textColor[1], textColor[2]);
                 p.text(months[i], left, y);
 
                 var val = bc[i] || 0;
@@ -41,6 +53,21 @@
                 p.textAlign(p.LEFT, p.CENTER);
                 p.text(Math.round(val * 100), bx + 6, y);
             }
+            
+            // X-axis label
+            var labelOpacity = p.lerp(0, 255, Math.max(0, (progress - 0.3) / 0.7));
+            p.fill(textColor[0], textColor[1], textColor[2], labelOpacity);
+            p.textAlign(p.CENTER, p.TOP);
+            p.textSize(12);
+            p.text('Value (%)', left + availW / 2, top + availH + 10);
+            
+            // Y-axis label
+            p.push();
+            p.translate(left - 40, top + availH / 2);
+            p.rotate(-p.PI / 2);
+            p.text('Month', 0, 0);
+            p.pop();
+            
             p.pop();
         }
     };

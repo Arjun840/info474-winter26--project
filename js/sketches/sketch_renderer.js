@@ -26,9 +26,16 @@
                 return;
             }
 
-            if (ai === 2 || ai === 3) {
+            if (ai === 2) {
                 if (window.VizStability && typeof window.VizStability.draw === 'function') {
                     window.VizStability.draw(p, manager, ai, progress);
+                    return;
+                }
+            }
+
+            if (ai === 3) {
+                if (window.VizSeasonality && typeof window.VizSeasonality.draw === 'function') {
+                    window.VizSeasonality.draw(p, manager, ai, progress);
                     return;
                 }
             }

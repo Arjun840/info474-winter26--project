@@ -384,12 +384,14 @@
                 p.noStroke();
             }
 
-            // Draw title
+            // Draw title (prominent)
             var titleOpacity = p.lerp(0, 255, Math.max(0, progress / 0.3));
-            p.fill(255, 255, 255, titleOpacity);
+            p.fill(textColor[0], textColor[1], textColor[2], titleOpacity);
             p.textAlign(p.CENTER, p.TOP);
-            p.textSize(14);
-            p.text('Elevation vs. Snow Reliability', chartX + chartWidth / 2, chartY - 30);
+            p.textSize(16);
+            p.textStyle(p.BOLD);
+            p.text('Elevation vs. Snow Reliability', chartX + chartWidth / 2, chartY - 35);
+            p.textStyle(p.NORMAL);
 
             p.pop();
         }

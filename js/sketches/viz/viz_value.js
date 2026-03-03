@@ -147,17 +147,62 @@
                 p.text('Hidden Gems', centerX + (chartX + chartWidth - centerX) / 2, centerY + (chartY + chartHeight - centerY) / 2);
             }
 
-            // Draw axis labels
-            p.fill(textColor[0], textColor[1], textColor[2], labelOpacity);
+            // Draw axis labels and tick marks
+            var axisLabelOpacity = p.lerp(0, 255, Math.max(0, (progress - 0.2) / 0.8));
+            p.fill(textColor[0], textColor[1], textColor[2], axisLabelOpacity);
+            
+            // X-axis title
             p.textAlign(p.CENTER, p.TOP);
             p.textSize(fontSize);
-            p.text('Price', chartX + chartWidth / 2, chartY + chartHeight + 20);
+            p.text('Price ($)', chartX + chartWidth / 2, chartY + chartHeight + 20);
             
+            // X-axis tick marks and values
+            var xTicks = 5;
+            for (var i = 0; i <= xTicks; i++) {
+                var tickVal = minPrice + (priceRange / xTicks) * i;
+                var tickX = scaleX(tickVal);
+                
+                // Draw tick mark
+                p.stroke(axisColor[0], axisColor[1], axisColor[2], axisLabelOpacity);
+                p.strokeWeight(1.5);
+                p.line(tickX, chartY + chartHeight, tickX, chartY + chartHeight + 5);
+                p.noStroke();
+                
+                // Draw label
+                p.fill(textColor[0], textColor[1], textColor[2], axisLabelOpacity);
+                p.textAlign(p.CENTER, p.TOP);
+                p.textSize(fontSizeSmall);
+                p.text('$' + Math.round(tickVal), tickX, chartY + chartHeight + 8);
+            }
+            
+            // Y-axis title
             p.push();
-            p.translate(chartX - 40, chartY + chartHeight / 2);
+            p.translate(chartX - 50, chartY + chartHeight / 2);
             p.rotate(-p.PI / 2);
-            p.text('Reliability', 0, 0);
+            p.textAlign(p.CENTER, p.CENTER);
+            p.textSize(fontSize);
+            p.text('Reliability (%)', 0, 0);
             p.pop();
+            
+            // Y-axis tick marks and values
+            var yTicks = 5;
+            for (var j = 0; j <= yTicks; j++) {
+                var tickVal = minReliability + (maxReliability - minReliability) / yTicks * j;
+                var tickY = scaleY(tickVal);
+                
+                // Draw tick mark
+                p.stroke(axisColor[0], axisColor[1], axisColor[2], axisLabelOpacity);
+                p.strokeWeight(1.5);
+                p.line(chartX, tickY, chartX - 5, tickY);
+                p.noStroke();
+                
+                // Draw label
+                p.fill(textColor[0], textColor[1], textColor[2], axisLabelOpacity);
+                p.textAlign(p.RIGHT, p.CENTER);
+                p.textSize(fontSizeSmall);
+                var percentVal = Math.round(tickVal * 100);
+                p.text(percentVal + '%', chartX - 8, tickY);
+            }
 
             // 4. Visuals: Draw dots with zoom animation from center
             var numPoints = data.length;
@@ -246,12 +291,14 @@
                 p.text('$' + Math.round(hoveredResort.price), tooltipX, tooltipY - 10);
             }
 
-            // Draw title
+            // Draw title (prominent)
             var titleOpacity = p.lerp(0, 255, Math.max(0, progress / 0.3));
-            p.fill(255, 255, 255, titleOpacity);
+            p.fill(textColor[0], textColor[1], textColor[2], titleOpacity);
             p.textAlign(p.CENTER, p.TOP);
-            p.textSize(fontSizeTitle);
-            p.text('Price vs. Reliability: Finding Value', chartX + chartWidth / 2, chartY - 30);
+            p.textSize(16);
+            p.textStyle(p.BOLD);
+            p.text('Price vs. Reliability: Finding Value', chartX + chartWidth / 2, chartY - 35);
+            p.textStyle(p.NORMAL);
 
             // Draw legend for continents
             var legendOpacity = p.lerp(0, 255, Math.max(0, (progress - 0.4) / 0.6));
