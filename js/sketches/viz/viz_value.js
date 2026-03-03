@@ -134,17 +134,17 @@
                 p.textAlign(p.CENTER, p.CENTER);
                 p.textSize(fontSizeSmall);
                 
-                // Top-Left: Budget/Unreliable
-                p.text('Budget/Unreliable', chartX + (centerX - chartX) / 2, chartY + (centerY - chartY) / 2);
+                // Top-Left: Budget/Reliable
+                p.text('Budget/Reliable', chartX + (centerX - chartX) / 2, chartY + (centerY - chartY) / 2);
                 
                 // Top-Right: Luxury/Reliable
                 p.text('Luxury/Reliable', centerX + (chartX + chartWidth - centerX) / 2, chartY + (centerY - chartY) / 2);
                 
-                // Bottom-Left: Budget/Reliable
-                p.text('Budget/Reliable', chartX + (centerX - chartX) / 2, centerY + (chartY + chartHeight - centerY) / 2);
+                // Bottom-Left: Budget/Unreliable
+                p.text('Budget/Unreliable', chartX + (centerX - chartX) / 2, centerY + (chartY + chartHeight - centerY) / 2);
                 
-                // Bottom-Right: Hidden Gems
-                p.text('Hidden Gems', centerX + (chartX + chartWidth - centerX) / 2, centerY + (chartY + chartHeight - centerY) / 2);
+                // Bottom-Right: Luxury/Unreliable
+                p.text('Luxury/Unreliable', centerX + (chartX + chartWidth - centerX) / 2, centerY + (chartY + chartHeight - centerY) / 2);
             }
 
             // Draw axis labels and tick marks
