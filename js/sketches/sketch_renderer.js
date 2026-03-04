@@ -56,12 +56,27 @@
                 window.VizBar.draw(p, manager, ai, progress);
                 return;
             }
+
             if (ai === 8) {
                 if (window.VizWorldHeatmap && typeof window.VizWorldHeatmap.draw === 'function') {
                   window.VizWorldHeatmap.draw(p, manager, ai, progress);
                   return;
                 }
             }
+
+            if (ai === 9) {
+                if (window.VizReliabilityHist && typeof window.VizReliabilityHist.draw === "function") {
+                  window.VizReliabilityHist.draw(p, manager, ai, progress);
+                  return;
+                }
+              }
+              
+              if (ai === 10) {
+                if (window.VizReliabilityPie && typeof window.VizReliabilityPie.draw === "function") {
+                  window.VizReliabilityPie.draw(p, manager, ai, progress);
+                  return;
+                }
+              }
         }
     };
 })();
