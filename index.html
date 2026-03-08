@@ -8,44 +8,47 @@
 </head>
 
 <body>
-  <div class="container">
-    <div id='graphic'>
+  <div id="graphic" class="scrollytelling-container">
+    <!-- Left: Sticky Visualization Stage (60% width) -->
+    <div class="sticky-stage">
+      <div id='vis' class='vis-visible'>
+        <!-- Visualization will be rendered here by p5.js -->
+      </div>
+    </div>
+    
+    <!-- Right: Scrolling Text Sections (40% width) -->
+    <div class="scrolling-content">
       <div id='sections'>
-        <section class="step" data-active-index="0">
+        <section class="step" id="step-0" data-active-index="0">
           <div class="title">The Search for Certainty</div>
           For the modern skier, the ultimate luxury isn't a heated lift or a chalet with a view: it's the certainty of snow. As the world's weather becomes increasingly unpredictable, the perfect ski vacation has evolved from a stroke of luck to a mathematical equation. We crunched the numbers on thousands of data points worldwide to figure out just where, when, and at what cost you can find the most reliable snow on the planet.
         </section>
-        <section class="step" data-active-index="8">
+        <section class="step" id="step-1" data-active-index="8">
           <div class="title">The Pulse of the Peaks</div>
           Looking at the global landscape, it's safe to say that snow is no longer a given, it's a geography. Our heatmap shows us the snow coverage of the world: the high latitudes of Japan, the jagged backbone of the Rockies, and the valleys of the Alps. While the concentration of resort areas is high in Europe, the intensity of snowfall is shifting. This birds-eye view gives us a look at the playing field of resorts.
         </section>
-        <section class="step" data-active-index="2">
+        <section class="step" id="step-2" data-active-index="2">
           <div class="title">The Science: Why Height Matters</div>
           The math of the mountain is simple as every 100 meters of vertical rise acts as a shield against rising temperatures. By plotting the resort elevation against total snow coverage, a clear 'Safety Line' appears. Resorts falling below the 1,500-meter mark are increasingly susceptible to rising temperatures, displaying erratic snow coverage throughout the season. But once we reach the 2,500-meter 'Alpine Zone,' reliability becomes the norm.
         </section>
-        <section class="step" data-active-index="3">
+        <section class="step" id="step-3" data-active-index="3">
           <div class="title">The Timing: Catching the Peak</div>
           Knowing a resort's average snowfall depth is only half the story. Timing is the other half. Looking at the 'Seasonality Sparklines' of the world's best performers, we find different personality types. Some are 'Early Peak' sprinters, peaking in depth in December. Others are still fully covered in snow during April and May. Understanding this helps you have a powder day instead of a slushy day.
         </section>
-        <section class="step" data-active-index="4">
+        <section class="step" id="step-4" data-active-index="4">
           <div class="title">The Value: Hidden Gems vs. Status Symbols</div>
           Price and performance do not always correlate in the skiing world. Our 'Value Matrix' shows where the market is inefficient. High profile resorts demand a premium for the name and the facilities, yet a group of 'Hidden Gems', often in Eastern Europe or the interior of North America, offers elite-level performance on the snow at a tiny fraction of the price. The key to the best value is not necessarily spending the most money; the key is finding where deep snow intersects with a low ticket price.
         </section>
-        <section class="step" data-active-index="9">
-          <div class="title">The Reality Check: How Rare Is “Reliable”?</div>
+        <section class="step" id="step-5" data-active-index="9">
+          <div class="title">The Reality Check: How Rare Is "Reliable"?</div>
           Scatterplots show relationships, but they hide the big picture. This distribution shows how many resorts actually reach elite snow reliability—and how many sit in the middle.
         </section>
-        
-        <section class="step" data-active-index="10">
+        <section class="step" id="step-6" data-active-index="10">
           <div class="title">How Many Resorts Are Actually Reliable?</div>
           This pie chart breaks resorts into low, medium, and high snow reliability tiers so you can quickly see the overall split.
         </section>
         <div id="extra-space">
         </div>
-      </div>
-      <div id='vis' class='vis-hidden'>
-      </div>
-      <div id="extra-space">
       </div>
     </div>
   </div>
@@ -58,6 +61,7 @@
   <script src="js/helpers/data_loader.js"></script>
   <script src="js/helpers/scroller.js"></script>
   <script src="js/helpers/visual_controller.js"></script>
+  <script src="js/helpers/intersection_observer.js"></script>
 
   <!-- orchestrator (wires scroller -> sketch) -->
   <script src="js/helpers/sections.js"></script>

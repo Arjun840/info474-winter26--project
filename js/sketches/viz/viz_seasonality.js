@@ -128,27 +128,68 @@
                     p.fill(250, 250, 250, 100);
                     p.rect(cellX, cellY, cellWidth, cellHeight);
 
-                    // 4. Visual Polish: Resort name above sparkline
+                    // 4. Visual Polish: Resort name above sparkline with text wrapping
                     p.fill(textColor[0], textColor[1], textColor[2]);
                     p.noStroke();
                     p.textAlign(p.LEFT, p.TOP);
-                    p.textSize(fontSizeSmall);
+                    
+                    // Calculate text width and adjust font size or wrap if needed
+                    var nameTextSize = fontSizeSmall;
+                    var maxNameWidth = cellWidth - 2 * cellPadding - 25; // Leave space for Y-axis
+                    p.textSize(nameTextSize);
+                    
+                    // Measure text width
+                    var textWidth = p.textWidth(resort.name);
+                    var nameWrapped = false;
+                    
+                    // If text is too long, reduce font size
+                    if (textWidth > maxNameWidth) {
+                        nameTextSize = Math.max(7, (maxNameWidth / textWidth) * nameTextSize);
+                        p.textSize(nameTextSize);
+                        textWidth = p.textWidth(resort.name); // Re-measure with new size
+                    }
+                    
+                    // Wrap text if still too long (split into two lines)
                     var nameY = cellY + cellPadding;
-                    p.text(resort.name, cellX + cellPadding, nameY);
+                    var displayName = resort.name;
+                    if (textWidth > maxNameWidth && displayName.length > 15) {
+                        nameWrapped = true;
+                        // Try to split at a space near the middle
+                        var midPoint = Math.floor(displayName.length / 2);
+                        var splitIndex = displayName.lastIndexOf(' ', midPoint);
+                        if (splitIndex === -1) splitIndex = midPoint;
+                        
+                        var line1 = displayName.substring(0, splitIndex);
+                        var line2 = displayName.substring(splitIndex + 1);
+                        
+                        // Draw first line
+                        p.text(line1, cellX + cellPadding, nameY);
+                        // Draw second line below
+                        p.text(line2, cellX + cellPadding, nameY + nameTextSize + 2);
+                        nameY = nameY + nameTextSize + 2; // Adjust for wrapped text
+                    } else {
+                        p.text(displayName, cellX + cellPadding, nameY);
+                    }
 
-                    // Sparkline area
+                    // Sparkline area - adjust based on whether name wrapped
                     var sparkX = cellX + cellPadding + 25; // Extra space on left for Y-axis labels
-                    var sparkY = nameY + 15;
+                    var nameHeight = nameWrapped ? (nameTextSize * 2 + 4) : (nameTextSize + 5);
+                    var sparkY = nameY + nameHeight;
                     var sparkWidth = cellWidth - 2 * cellPadding - 25; // Reduced width for Y-axis space
-                    var sparkHeight = cellHeight - 40; // Leave space for name and labels
+                    var sparkHeight = cellHeight - nameHeight - 35; // Leave space for name and x-axis labels
 
                     // Scale functions for sparkline
+                    // index should be 0-11 for 12 months (Jan-Dec)
                     var scaleSparkX = function (index) {
-                        return sparkX + (index / (monthLabels.length - 1)) * sparkWidth;
+                        // Ensure index is within bounds (0 to 11 for 12 months)
+                        var clampedIndex = Math.max(0, Math.min(11, index));
+                        return sparkX + (clampedIndex / 11) * sparkWidth;
                     };
 
                     var scaleSparkY = function (snowVal) {
-                        return sparkY + sparkHeight - (snowVal / maxSnow) * sparkHeight;
+                        // Ensure snowVal is within bounds
+                        var clampedSnow = Math.max(0, Math.min(maxSnow, snowVal));
+                        return sparkY + sparkHeight - (clampedSnow / maxSnow) * sparkHeight;
                     };
                     
                     // Draw Y-axis tick marks and labels for each sparkline
@@ -173,6 +214,34 @@
                                 p.text(Math.round(tickVal) + 'cm', sparkX - 5, tickY);
                             }
                         }
+                    }
+
+                    // Draw individual X-axis for this sparkline - show labels every 3-4 months
+                    var xAxisOpacity = p.lerp(0, 255, Math.max(0, (progress - 0.4) / 0.6));
+                    if (xAxisOpacity > 0) {
+                        var xAxisY = sparkY + sparkHeight + 2;
+                        
+                        // Draw month labels below each sparkline - show every 3 months (Jan, Apr, Jul, Oct)
+                        p.fill(textColor[0], textColor[1], textColor[2], xAxisOpacity * 0.7);
+                        p.textAlign(p.CENTER, p.TOP);
+                        p.textSize(fontSizeSmall - 2);
+                        
+                        // Show labels every 3 months: Jan (0), Apr (3), Jul (6), Oct (9), and Dec (11)
+                        var labelMonths = [0, 3, 6, 9, 11];
+                        for (var m = 0; m < labelMonths.length; m++) {
+                            var monthIdx = labelMonths[m];
+                            var monthX = scaleSparkX(monthIdx);
+                            p.text(monthLabels[monthIdx], monthX, xAxisY);
+                        }
+                        
+                        // Draw tick marks for all 12 months (full year scale)
+                        p.stroke(axisColor[0], axisColor[1], axisColor[2], xAxisOpacity * 0.3);
+                        p.strokeWeight(0.5);
+                        for (var m = 0; m < monthLabels.length; m++) {
+                            var tickX = scaleSparkX(m);
+                            p.line(tickX, sparkY + sparkHeight, tickX, xAxisY);
+                        }
+                        p.noStroke();
                     }
 
                     // Draw sparkline with animation
@@ -213,9 +282,16 @@
                             p.vertex(x, y);
                         }
                         
-                        // End at bottom-right
-                        var lastX = scaleSparkX(resort.monthly.length - 1);
-                        p.vertex(lastX, sparkY + sparkHeight);
+                        // End at bottom-right - ensure December (index 11) is included
+                        var lastIndex = resort.monthly.length - 1;
+                        if (lastIndex === 11) {
+                            // December is the last month, make sure it's at the right edge
+                            var lastX = scaleSparkX(11);
+                            p.vertex(lastX, sparkY + sparkHeight);
+                        } else {
+                            var lastX = scaleSparkX(lastIndex);
+                            p.vertex(lastX, sparkY + sparkHeight);
+                        }
                         p.endShape(p.CLOSE);
 
                         // Draw line on top
@@ -227,11 +303,7 @@
                             var point = resort.monthly[i];
                             var x = scaleSparkX(i);
                             var y = scaleSparkY(point.snow);
-                            if (i === 0) {
-                                p.vertex(x, y);
-                            } else {
-                                p.vertex(x, y);
-                            }
+                            p.vertex(x, y);
                         }
                         
                         // Draw partial line if animating
@@ -249,31 +321,21 @@
                             var y = scaleSparkY(interpSnow);
                             p.vertex(x, y);
                         }
+                        // Ensure the last point (December, index 11) is always drawn when we have 12 months
+                        if (resort.monthly.length === 12 && pointsToShow >= 12) {
+                            var decPoint = resort.monthly[11];
+                            if (decPoint) {
+                                var decX = scaleSparkX(11);
+                                var decY = scaleSparkY(decPoint.snow);
+                                p.vertex(decX, decY);
+                            }
+                        }
                         p.endShape();
                     }
                 }
             }
 
-            // 4. Visual Polish: Shared X-axis legend at bottom
-            var legendOpacity = p.lerp(0, 255, Math.max(0, (progress - 0.5) / 0.5));
-            if (legendOpacity > 0) {
-                var legendY = chartY + chartHeight - 15;
-                var legendSpacing = chartWidth / monthLabels.length;
-                
-                // X-axis title
-                p.fill(textColor[0], textColor[1], textColor[2], legendOpacity);
-                p.noStroke();
-                p.textAlign(p.CENTER, p.TOP);
-                p.textSize(fontSize);
-                p.text('Month', chartX + chartWidth / 2, legendY + 20);
-                
-                // Month labels
-                p.textSize(fontSizeSmall);
-                for (var i = 0; i < monthLabels.length; i++) {
-                    var x = chartX + (i + 0.5) * legendSpacing;
-                    p.text(monthLabels[i], x, legendY);
-                }
-            }
+            // Removed shared X-axis - each sparkline now has its own localized x-axis
 
             // Y-axis label (shared for all sparklines)
             var yAxisOpacity = p.lerp(0, 255, Math.max(0, (progress - 0.4) / 0.6));
