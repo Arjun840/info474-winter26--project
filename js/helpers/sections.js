@@ -108,7 +108,7 @@
 
                         // update sketch state via returned API if available (use mappedIndex)
                         if (window.__sketchAPI && window.__sketchAPI.setState) {
-                            window.__sketchAPI.setState({ activeIndex: mappedIndex });
+                            window.__sketchAPI.setState({ activeIndex: mappedIndex, progress: 1.0 });
                         }
 
                         // let visual controller decide whether to show/hide (give it the mapped index)

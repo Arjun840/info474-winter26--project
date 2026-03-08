@@ -69,15 +69,25 @@
 }
 
 .step {
-  margin-bottom: 60vh;
+  margin-bottom: 100vh;
   font-family: "TiemposTextWeb-Regular","Georgia";
   font-size: 16px;
   line-height: 1.6;
   color: #767678;
-  min-height: 50vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 40px 0;
+  position: relative;
+  opacity: 1;
+}
+
+.step-title-only {
+  min-height: 100vh;
+  margin-bottom: 100vh;
+  padding: 0;
+  display: block;
 }
 
 .step:last-child {

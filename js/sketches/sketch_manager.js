@@ -15,8 +15,8 @@ function startP5() {
         this.canvasWidth = this.width + this.margin.left + this.margin.right;
         this.canvasHeight = this.height + this.margin.top + this.margin.bottom;
 
-        // drawing state
-        this.state = { activeIndex: 0, progress: 0 };
+        // drawing state - initialize with progress 1.0 so title shows immediately
+        this.state = { activeIndex: 0, progress: 1.0 };
 
         // data will be attached by localRenderer.setData(manager, data)
         this.data = [];

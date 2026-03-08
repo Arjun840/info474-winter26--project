@@ -66,7 +66,16 @@
 
         window.addEventListener('resize', this.resize);
         window.addEventListener('scroll', this.position);
+        // Initialize immediately and also after a short delay to ensure DOM is ready
         setTimeout(function () { self.resize(); self.position(); }, 50);
+        // Also trigger on initial load
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', function() {
+                setTimeout(function() { self.resize(); self.position(); }, 100);
+            });
+        } else {
+            setTimeout(function() { self.resize(); self.position(); }, 100);
+        }
     }
 
     Scroller.prototype.on = function (action, cb) {
