@@ -96,7 +96,8 @@
                     color: color,
                     name: d['Resort'] || 'Unknown',
                     country: d['Country'] || 'Unknown',
-                    continent: continent
+                    continent: continent,
+                    id: d['ID'] || d['id'] || d['Resort'] || 'Unknown' // Store ID for linking
                 };
             });
 
@@ -126,31 +127,114 @@
             
             p.drawingContext.setLineDash([]); // Reset dash
 
-            // Label quadrants
+            // Initialize quadrant filter state
+            if (!manager.__quadrantFilter) {
+                manager.__quadrantFilter = null; // null = show all, 'hidden-gems', 'luxury-reliable', 'budget-unreliable', 'luxury-unreliable'
+            }
+            
+            // Label quadrants with clickable functionality
             var labelOpacity = p.lerp(0, 255, Math.max(0, (progress - 0.3) / 0.7));
             if (labelOpacity > 0) {
-                p.fill(textColor[0], textColor[1], textColor[2], labelOpacity);
-                p.noStroke();
                 p.textAlign(p.CENTER, p.CENTER);
                 p.textSize(fontSizeSmall);
                 
-                // Top-Left: Budget/Reliable
-                p.text('Budget/Reliable', chartX + (centerX - chartX) / 2, chartY + (centerY - chartY) / 2);
+                // Calculate quadrant label positions and bounds for click detection
+                var topLeftX = chartX + (centerX - chartX) / 2;
+                var topLeftY = chartY + (centerY - chartY) / 2;
+                var topRightX = centerX + (chartX + chartWidth - centerX) / 2;
+                var topRightY = chartY + (centerY - chartY) / 2;
+                var bottomLeftX = chartX + (centerX - chartX) / 2;
+                var bottomLeftY = centerY + (chartY + chartHeight - centerY) / 2;
+                var bottomRightX = centerX + (chartX + chartWidth - centerX) / 2;
+                var bottomRightY = centerY + (chartY + chartHeight - centerY) / 2;
                 
-                // Top-Left annotation: Hidden Gems
+                // Store quadrant bounds for click detection
+                if (!manager.__quadrantBounds) {
+                    manager.__quadrantBounds = {};
+                }
+                manager.__quadrantBounds['hidden-gems'] = {
+                    x: topLeftX, y: topLeftY, width: 120, height: 40
+                };
+                manager.__quadrantBounds['luxury-reliable'] = {
+                    x: topRightX, y: topRightY, width: 120, height: 20
+                };
+                manager.__quadrantBounds['budget-unreliable'] = {
+                    x: bottomLeftX, y: bottomLeftY, width: 120, height: 20
+                };
+                manager.__quadrantBounds['luxury-unreliable'] = {
+                    x: bottomRightX, y: bottomRightY, width: 120, height: 20
+                };
+                
+                // Top-Left: Budget/Reliable (Hidden Gems)
+                var isHiddenGemsSelected = manager.__quadrantFilter === 'hidden-gems';
+                var isHoveringHiddenGems = this.isHoveringQuadrant(p, manager.__quadrantBounds['hidden-gems']);
+                
+                // Draw hover background if hovering
+                if (isHoveringHiddenGems) {
+                    p.fill(255, 255, 200, labelOpacity * 0.3);
+                    p.noStroke();
+                    p.rect(topLeftX - 60, topLeftY - 20, 120, 40, 4);
+                }
+                
+                p.fill(isHiddenGemsSelected ? 255 : textColor[0], 
+                       isHiddenGemsSelected ? 200 : textColor[1], 
+                       isHiddenGemsSelected ? 0 : textColor[2], 
+                       labelOpacity);
+                p.text('Budget/Reliable', topLeftX, topLeftY);
+                
+                // Top-Left annotation: Hidden Gems (clickable)
                 p.textSize(fontSizeSmall - 2);
-                p.fill(textColor[0], textColor[1], textColor[2], labelOpacity * 0.7);
-                p.text('(Hidden Gems)', chartX + (centerX - chartX) / 2, chartY + (centerY - chartY) / 2 + 15);
+                p.fill(isHiddenGemsSelected ? 255 : textColor[0], 
+                       isHiddenGemsSelected ? 200 : textColor[1], 
+                       isHiddenGemsSelected ? 0 : textColor[2], 
+                       labelOpacity * 0.9);
+                p.text('(Hidden Gems)', topLeftX, topLeftY + 15);
                 p.textSize(fontSizeSmall);
                 
                 // Top-Right: Luxury/Reliable
-                p.text('Luxury/Reliable', centerX + (chartX + chartWidth - centerX) / 2, chartY + (centerY - chartY) / 2);
+                var isLuxuryReliableSelected = manager.__quadrantFilter === 'luxury-reliable';
+                var isHoveringLuxuryReliable = this.isHoveringQuadrant(p, manager.__quadrantBounds['luxury-reliable']);
+                if (isHoveringLuxuryReliable) {
+                    p.fill(255, 255, 200, labelOpacity * 0.3);
+                    p.noStroke();
+                    p.rect(topRightX - 60, topRightY - 10, 120, 20, 4);
+                }
+                p.fill(isLuxuryReliableSelected ? 255 : textColor[0], 
+                       isLuxuryReliableSelected ? 200 : textColor[1], 
+                       isLuxuryReliableSelected ? 0 : textColor[2], 
+                       labelOpacity);
+                p.text('Luxury/Reliable', topRightX, topRightY);
                 
                 // Bottom-Left: Budget/Unreliable
-                p.text('Budget/Unreliable', chartX + (centerX - chartX) / 2, centerY + (chartY + chartHeight - centerY) / 2);
+                var isBudgetUnreliableSelected = manager.__quadrantFilter === 'budget-unreliable';
+                var isHoveringBudgetUnreliable = this.isHoveringQuadrant(p, manager.__quadrantBounds['budget-unreliable']);
+                if (isHoveringBudgetUnreliable) {
+                    p.fill(255, 255, 200, labelOpacity * 0.3);
+                    p.noStroke();
+                    p.rect(bottomLeftX - 60, bottomLeftY - 10, 120, 20, 4);
+                }
+                p.fill(isBudgetUnreliableSelected ? 255 : textColor[0], 
+                       isBudgetUnreliableSelected ? 200 : textColor[1], 
+                       isBudgetUnreliableSelected ? 0 : textColor[2], 
+                       labelOpacity);
+                p.text('Budget/Unreliable', bottomLeftX, bottomLeftY);
                 
                 // Bottom-Right: Luxury/Unreliable
-                p.text('Luxury/Unreliable', centerX + (chartX + chartWidth - centerX) / 2, centerY + (chartY + chartHeight - centerY) / 2);
+                var isLuxuryUnreliableSelected = manager.__quadrantFilter === 'luxury-unreliable';
+                var isHoveringLuxuryUnreliable = this.isHoveringQuadrant(p, manager.__quadrantBounds['luxury-unreliable']);
+                if (isHoveringLuxuryUnreliable) {
+                    p.fill(255, 255, 200, labelOpacity * 0.3);
+                    p.noStroke();
+                    p.rect(bottomRightX - 60, bottomRightY - 10, 120, 20, 4);
+                }
+                p.fill(isLuxuryUnreliableSelected ? 255 : textColor[0], 
+                       isLuxuryUnreliableSelected ? 200 : textColor[1], 
+                       isLuxuryUnreliableSelected ? 0 : textColor[2], 
+                       labelOpacity);
+                p.text('Luxury/Unreliable', bottomRightX, bottomRightY);
+                
+                // Add click detection for quadrant labels
+                this.handleQuadrantClicks(p, manager, centerX, centerY, medianPrice, centerReliability);
             }
 
             // Draw axis labels and tick marks
@@ -210,26 +294,32 @@
                 p.text(percentVal + '%', chartX - 8, tickY);
             }
 
+            // Filter data based on selected quadrant
+            var filteredData = dataWithColors;
+            if (manager.__quadrantFilter) {
+                filteredData = this.filterByQuadrant(dataWithColors, manager.__quadrantFilter, medianPrice, centerReliability);
+            }
+            
             // 4. Visuals: Draw dots with zoom animation from center
-            var numPoints = data.length;
+            var numPoints = filteredData.length;
             var dotSize = 8;
             var hoverRadius = 15; // Radius for hover detection
             var hoveredResort = null;
 
-            // Find hovered resort using p.dist()
+            // Find hovered resort using p.dist() (on filtered data)
             for (var i = 0; i < numPoints; i++) {
-                var point = dataWithColors[i];
+                var point = filteredData[i];
                 var dist = p.dist(p.mouseX, p.mouseY, point.x, point.y);
                 if (dist < hoverRadius) {
                     hoveredResort = point;
                     break;
                 }
             }
-
-            // Draw all points with zoom animation
-            for (var i = 0; i < numPoints; i++) {
-                var point = dataWithColors[i];
-                var pointProgress = (i + 1) / numPoints;
+            
+            // Draw all points with zoom animation (filtered)
+            for (var i = 0; i < filteredData.length; i++) {
+                var point = filteredData[i];
+                var pointProgress = (i + 1) / filteredData.length;
                 var shouldShow = pointProgress <= progress;
                 
                 if (!shouldShow) continue;
@@ -248,17 +338,24 @@
 
                 // Draw point
                 if (opacity > 0 && finalSize > 0) {
-                    // Highlight if hovered
-                    if (hoveredResort === point) {
-                        p.stroke(255, 255, 0, opacity);
-                        p.strokeWeight(3);
+                    // Check if this resort is highlighted from sparkline hover
+                    var isHighlightedFromSparkline = manager && manager.__sparklineHoveredResortId && 
+                        (String(point.id || point.name) === String(manager.__sparklineHoveredResortId));
+                    
+                    // Highlight if hovered or highlighted from sparkline
+                    if (hoveredResort === point || isHighlightedFromSparkline) {
+                        // High contrast color and larger size
+                        var highlightSize = isHighlightedFromSparkline ? finalSize * 1.8 : finalSize * 1.5;
+                        p.stroke(255, 200, 0, opacity); // Bright yellow/orange
+                        p.strokeWeight(4);
+                        p.fill(255, 215, 0, opacity); // Gold fill
+                        p.ellipse(finalX, finalY, highlightSize, highlightSize);
                     } else {
                         p.stroke(255, 255, 255, opacity * 0.8);
                         p.strokeWeight(1.5);
+                        p.fill(point.color[0], point.color[1], point.color[2], opacity);
+                        p.ellipse(finalX, finalY, finalSize, finalSize);
                     }
-                    
-                    p.fill(point.color[0], point.color[1], point.color[2], opacity);
-                    p.ellipse(finalX, finalY, finalSize, finalSize);
                 }
             }
 
@@ -336,6 +433,79 @@
             }
 
             p.pop();
+        },
+
+        // Handle clicks on quadrant labels
+        handleQuadrantClicks: function (p, manager, centerX, centerY, medianPrice, centerReliability) {
+            if (!manager.__quadrantBounds) return;
+            
+            // Track mouse state to detect clicks (not just continuous press)
+            if (!manager.__prevMousePressed) {
+                manager.__prevMousePressed = false;
+            }
+            
+            // Detect click (mouse just pressed, wasn't pressed before)
+            var justClicked = p.mouseIsPressed && !manager.__prevMousePressed;
+            manager.__prevMousePressed = p.mouseIsPressed;
+            
+            if (!justClicked) return;
+            
+            var mouseX = p.mouseX;
+            var mouseY = p.mouseY;
+            
+            // Check which quadrant was clicked
+            for (var quadrant in manager.__quadrantBounds) {
+                var bounds = manager.__quadrantBounds[quadrant];
+                if (mouseX >= bounds.x - bounds.width / 2 && 
+                    mouseX <= bounds.x + bounds.width / 2 &&
+                    mouseY >= bounds.y - bounds.height / 2 && 
+                    mouseY <= bounds.y + bounds.height / 2) {
+                    
+                    // Toggle filter: if same quadrant clicked again, clear filter
+                    if (manager.__quadrantFilter === quadrant) {
+                        manager.__quadrantFilter = null;
+                    } else {
+                        manager.__quadrantFilter = quadrant;
+                    }
+                    break;
+                }
+            }
+        },
+
+        // Check if hovering over a quadrant label
+        isHoveringQuadrant: function (p, bounds) {
+            if (!bounds) return false;
+            var mouseX = p.mouseX;
+            var mouseY = p.mouseY;
+            return (mouseX >= bounds.x - bounds.width / 2 && 
+                    mouseX <= bounds.x + bounds.width / 2 &&
+                    mouseY >= bounds.y - bounds.height / 2 && 
+                    mouseY <= bounds.y + bounds.height / 2);
+        },
+
+        // Filter data by quadrant
+        filterByQuadrant: function (data, quadrant, medianPrice, centerReliability) {
+            return data.filter(function (point) {
+                var isLowPrice = point.price <= medianPrice;
+                var isHighReliability = point.reliability >= centerReliability;
+                
+                switch (quadrant) {
+                    case 'hidden-gems':
+                        // Top-Left: Low price, High reliability
+                        return isLowPrice && isHighReliability;
+                    case 'luxury-reliable':
+                        // Top-Right: High price, High reliability
+                        return !isLowPrice && isHighReliability;
+                    case 'budget-unreliable':
+                        // Bottom-Left: Low price, Low reliability
+                        return isLowPrice && !isHighReliability;
+                    case 'luxury-unreliable':
+                        // Bottom-Right: High price, Low reliability
+                        return !isLowPrice && !isHighReliability;
+                    default:
+                        return true;
+                }
+            });
         }
     };
 })();

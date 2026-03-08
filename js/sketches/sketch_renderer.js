@@ -21,6 +21,11 @@
         draw: function (p, manager, ai, progress) {
             try { console.log('Renderer: delegating draw, ai=', ai); } catch (e) { }
 
+            // Hide seasonality dropdown for all non-seasonality visualizations
+            if (ai !== 3 && window.VizSeasonality && typeof window.VizSeasonality.hideDropdown === 'function') {
+                window.VizSeasonality.hideDropdown();
+            }
+
             if (ai === 0 || ai === 1) {
                 window.VizTitle.draw(p, manager, ai, progress);
                 return;
