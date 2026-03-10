@@ -38,16 +38,10 @@
             var fontSize = 12;
             var fontSizeSmall = 10;
 
-            // Draw vertical gradient background (only in chart area)
+            // Draw white background for chart area
             p.noStroke();
-            for (var y = 0; y < chartHeight; y++) {
-                var inter = y / chartHeight;
-                var r = p.lerp(alpineBlue[0], earthBrown[0], inter);
-                var g = p.lerp(alpineBlue[1], earthBrown[1], inter);
-                var b = p.lerp(alpineBlue[2], earthBrown[2], inter);
-                p.stroke(r, g, b);
-                p.line(chartX, chartY + y, chartX + chartWidth, chartY + y);
-            }
+            p.fill(255, 255, 255);
+            p.rect(chartX, chartY, chartWidth, chartHeight);
 
             // Calculate data ranges
             var highestPoints = data.map(function (d) {
@@ -188,12 +182,20 @@
             };
 
             // Prepare data with colors based on avg_snow
+            // Filter out points that would spill out of chart bounds
+            var dotSize = 10;
+            var dotRadius = dotSize / 2;
             var dataWithColors = data.map(function (d) {
                 var elevation = parseFloat(d['Highest point']) || 0;
                 var reliability = parseFloat(d['reliability']) || 0;
                 var avgSnow = parseFloat(d['avg_snow']) || 0;
                 var x = scaleX(elevation);
                 var y = scaleY(reliability);
+                
+                // Check if point would be outside chart bounds (with padding for dot radius)
+                var isWithinBounds = (x >= chartX + dotRadius && x <= chartX + chartWidth - dotRadius && 
+                                     y >= chartY + dotRadius && y <= chartY + chartHeight - dotRadius &&
+                                     elevation >= xDomainMin && elevation <= xDomainMax);
                 
                 // Color interpolation: brown (low avg_snow) to blue (high avg_snow)
                 var snowInter = (avgSnow - minAvgSnow) / avgSnowRange;
@@ -209,21 +211,19 @@
                     y: y,
                     color: [r, g, b],
                     name: d['Resort'] || 'Unknown',
-                    intensity: getSnowfallIntensity(avgSnow)
+                    intensity: getSnowfallIntensity(avgSnow),
+                    isWithinBounds: isWithinBounds // Flag to filter out later
                 };
+            }).filter(function(point) {
+                // Filter out points that would spill out of bounds
+                return point.isWithinBounds;
             });
             
-            // 4. Data Points: Make dots larger (size 10)
-            var numPoints = data.length;
-            var dotSize = 10;
+            // 4. Data Points: Draw dots (already filtered to be within bounds)
+            var numPoints = dataWithColors.length;
             
             for (var i = 0; i < numPoints; i++) {
                 var point = dataWithColors[i];
-                
-                // 2. Clip points outside X-domain (1000-3500)
-                if (point.elevation < xDomainMin || point.elevation > xDomainMax) {
-                    continue; // Skip points outside domain
-                }
                 
                 var pointProgress = (i + 1) / numPoints;
                 var shouldShow = pointProgress <= progress;
@@ -238,11 +238,16 @@
                     animOffset = 50;
                 }
                 var animX = point.x - animOffset;
+                
+                // Ensure animated position doesn't spill out of bounds
+                // Clamp animX to stay within chart bounds (accounting for dot radius)
+                var minX = chartX + dotRadius;
+                var maxX = chartX + chartWidth - dotRadius;
+                animX = Math.max(minX, Math.min(maxX, animX));
 
-                // Only draw if point is within chart bounds (with extra padding to prevent spillover)
-                var dotRadius = dotSize / 2;
+                // Only draw if the point (even with animation) is within bounds
                 if (opacity > 0 && 
-                    point.x >= chartX + dotRadius && point.x <= chartX + chartWidth - dotRadius && 
+                    animX >= minX && animX <= maxX &&
                     point.y >= chartY + dotRadius && point.y <= chartY + chartHeight - dotRadius) {
                     p.stroke(255, 255, 255, opacity * 0.8);
                     p.strokeWeight(1.5);
@@ -263,20 +268,14 @@
                 // (already done above)
                 
                 // Second pass: draw highlighted points with glow effect
-                for (var i = 0; i < numPoints; i++) {
+                // dataWithColors is already filtered to be within bounds
+                for (var i = 0; i < dataWithColors.length; i++) {
                     var point = dataWithColors[i];
-                    
-                    // Skip if outside domain
-                    if (point.elevation < xDomainMin || point.elevation > xDomainMax) {
-                        continue;
-                    }
                     
                     // Check if this resort should be highlighted
                     var isHighlighted = highlightedResorts.indexOf(point.name) !== -1;
                     
-                    if (isHighlighted && point.x >= chartX && point.x <= chartX + chartWidth && 
-                        point.y >= chartY && point.y <= chartY + chartHeight) {
-                        
+                    if (isHighlighted) {
                         // Draw glow ring
                         p.noFill();
                         p.stroke(255, 255, 0, highlightOpacity * 0.6); // Yellow glow
@@ -412,14 +411,9 @@
                 
                 var closestDist = hoverRadius;
                 
-                // Find closest point to mouse
+                // Find closest point to mouse (dataWithColors is already filtered to be within bounds)
                 for (var i = 0; i < dataWithColors.length; i++) {
                     var point = dataWithColors[i];
-                    
-                    // Skip if outside domain
-                    if (point.elevation < xDomainMin || point.elevation > xDomainMax) {
-                        continue;
-                    }
                     
                     // Calculate distance from mouse to point
                     var dx = mouseX - point.x;
