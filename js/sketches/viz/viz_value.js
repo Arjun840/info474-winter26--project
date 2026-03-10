@@ -17,6 +17,12 @@
 
             p.push();
 
+            // Filter out resorts with $0 price for consistency
+            data = data.filter(function (d) {
+                var price = parseFloat(d['Price']) || 0;
+                return price > 0; // Only include resorts with price > 0
+            });
+
             // Margins
             var m = 120;
             var chartX = m;
@@ -34,7 +40,7 @@
             var fontSizeSmall = 10;
             var fontSizeTitle = 14;
 
-            // 1. Data Setup: Extract Price and Reliability
+            // 1. Data Setup: Extract Price and Reliability (from filtered data)
             var prices = data.map(function (d) {
                 return parseFloat(d['Price']) || 0;
             });

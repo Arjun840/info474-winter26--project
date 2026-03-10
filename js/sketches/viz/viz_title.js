@@ -144,6 +144,14 @@
                 p.textStyle(p.NORMAL);
                 p.fill(118, 118, 120, titleOpacity); // Lighter gray for subtitle
                 p.text(subtitleText, titleX, titleY + 10);
+                
+                // Draw author names
+                var authorText = 'By Arjun Supramaniam and Shlok Shetty';
+                var authorSize = Math.max(12, finalSubtitleSize * 0.5); // Scale author text relative to subtitle
+                p.textSize(authorSize);
+                p.textStyle(p.NORMAL);
+                p.fill(100, 100, 100, titleOpacity * 0.9); // Slightly lighter gray for author names
+                p.text(authorText, titleX, titleY + 60);
             }
             
             p.pop();
