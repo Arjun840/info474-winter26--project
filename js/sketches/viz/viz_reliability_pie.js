@@ -125,7 +125,7 @@
       p.background(242, 248, 252);
 
       var margin = {
-        top: 60,
+        top: 72,
         right: 40,
         bottom: 130,
         left: 80
@@ -206,6 +206,29 @@
       p.textSize(20);
       p.text("Resort Price Distribution by Continent", p.width / 2, 18);
 
+      var infoText =
+        "Max price ≤ " + Math.round(activeMaxPrice) +
+        "   |   Resorts shown: " + filtered.length;
+
+      var infoBoxW = 290;
+      var infoBoxH = 30;
+      var infoBoxX = chartX;
+      var infoBoxY = 44;
+
+      p.noStroke();
+      p.fill(250, 253, 255);
+      p.rect(infoBoxX, infoBoxY, infoBoxW, infoBoxH, 6);
+
+      p.stroke(160, 180, 200);
+      p.noFill();
+      p.rect(infoBoxX, infoBoxY, infoBoxW, infoBoxH, 6);
+
+      p.noStroke();
+      p.fill(25);
+      p.textAlign(p.LEFT, p.CENTER);
+      p.textSize(12);
+      p.text(infoText, infoBoxX + 10, infoBoxY + infoBoxH / 2);
+
       p.stroke(220, 228, 235);
       p.strokeWeight(1);
       var ticks = 5;
@@ -241,7 +264,7 @@
       p.textAlign(p.CENTER, p.TOP);
       p.textSize(13);
       p.fill(25);
-      p.text("Continent", chartX + chartW / 2, chartY + chartH + 48);
+      p.text("Continent", chartX + chartW / 2, chartY + chartH + 64);
 
       var bandW = chartW / continents.length;
       var boxW = Math.min(60, bandW * 0.55);
@@ -252,16 +275,16 @@
         var stats = computeBoxStats(values);
         var centerX = chartX + q * bandW + bandW / 2;
 
-        p.noStroke();
-        p.fill(25);
-        p.textAlign(p.CENTER, p.TOP);
-        p.textSize(11);
-        p.text(continent, centerX, chartY + chartH + 10);
-
         if (!stats) {
+          p.noStroke();
           p.fill(120);
+          p.textAlign(p.CENTER, p.TOP);
           p.textSize(10);
-          p.text("n=0", centerX, chartY - 18);
+          p.text("n=0", centerX, chartY + chartH + 24);
+
+          p.fill(25);
+          p.textSize(11);
+          p.text(continent, centerX, chartY + chartH + 42);
           continue;
         }
 
@@ -294,9 +317,17 @@
           p.circle(centerX, yScale(stats.outliers[r]), 5);
         }
 
+        // n label moved below plot
+        p.noStroke();
         p.fill(25);
+        p.textAlign(p.CENTER, p.TOP);
         p.textSize(10);
-        p.text("n=" + stats.count, centerX, chartY - 18);
+        p.text("n=" + stats.count, centerX, chartY + chartH + 24);
+
+        // continent label lower so they do not overlap
+        p.fill(25);
+        p.textSize(11);
+        p.text(continent, centerX, chartY + chartH + 42);
       }
 
       p.fill(25);
@@ -332,16 +363,6 @@
       p.textAlign(p.CENTER, p.BOTTOM);
       p.textSize(11);
       p.text(Math.round(activeMaxPrice), drawKnobX, sliderY - 10);
-
-      p.textAlign(p.LEFT, p.TOP);
-      p.textSize(12);
-      p.fill(25);
-      p.text(
-        "Showing resorts with price ≤ " + Math.round(activeMaxPrice) +
-        "   |   Resorts shown: " + filtered.length,
-        chartX,
-        42
-      );
 
       p.pop();
     }
