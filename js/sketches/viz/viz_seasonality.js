@@ -237,7 +237,7 @@
                         var oldRow = Math.floor(oldIndex / cols);
                         var oldX = chartX + oldCol * cellWidth;
                         var oldY = chartY + oldRow * cellHeight;
-                        
+
                         // Smooth easing function
                         var t = state.transitionProgress;
                         var eased = t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
@@ -283,9 +283,9 @@
                         p.noStroke();
                     } else {
                         p.fill(250, 250, 250, cellOpacity * 0.4);
-                        p.rect(cellX, cellY, cellWidth, cellHeight);
+                    p.rect(cellX, cellY, cellWidth, cellHeight);
                     }
-                    
+
                     // 4. Visual Polish: Resort name above sparkline with text wrapping
                     p.fill(textColor[0], textColor[1], textColor[2], cellOpacity);
                     p.noStroke();
@@ -448,7 +448,7 @@
                             p.vertex(lastX, sparkY + sparkHeight);
                         } else {
                             var lastX = scaleSparkX(lastIndex);
-                            p.vertex(lastX, sparkY + sparkHeight);
+                        p.vertex(lastX, sparkY + sparkHeight);
                         }
                         p.endShape(p.CLOSE);
 
@@ -461,7 +461,7 @@
                             var point = resort.monthly[i];
                             var x = scaleSparkX(i);
                             var y = scaleSparkY(point.snow);
-                            p.vertex(x, y);
+                                p.vertex(x, y);
                         }
                         
                         // Draw partial line if animating
@@ -492,7 +492,7 @@
                     }
                 }
             }
-            
+
             // Clear sparkline hover if no cell is hovered
             if (!anyCellHovered && manager) {
                 manager.__sparklineHoveredResortId = null;

@@ -33,7 +33,7 @@ function startP5() {
             };
 
             p.draw = function () {
-                p.background(255);
+                p.background(176, 176, 176); // Darker grey background to match article
                 self.draw(p);
             };
         };

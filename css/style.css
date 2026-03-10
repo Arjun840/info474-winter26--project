@@ -1,9 +1,17 @@
+/* Global background - darker grey */
+html, body {
+  background-color: #b0b0b0;
+  margin: 0;
+  padding: 0;
+}
+
 /* Scrollytelling Container - Full Width Layout */
 .scrollytelling-container {
   display: flex;
   width: 100%;
   min-height: 100vh;
   position: relative;
+  background-color: #b0b0b0;
 }
 
 /* Left: Sticky Visualization Stage (60% width) */
@@ -15,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: #b0b0b0;
   z-index: 1;
   padding: 20px;
   box-sizing: border-box;
@@ -61,6 +69,7 @@
   z-index: 2;
   padding: 60px 40px;
   box-sizing: border-box;
+  background-color: #b0b0b0;
 }
 
 #sections {

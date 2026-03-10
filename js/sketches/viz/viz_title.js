@@ -14,7 +14,7 @@
             var offsetY = manager.offsetY || 0;
             
             p.push();
-            p.background(255);
+            p.background(176, 176, 176); // Darker grey background
             
             // Load and display Alpine village image
             if (!manager.__titleImageLoaded && !manager.__titleImageLoading) {
@@ -47,11 +47,11 @@
             var imageOpacity = 255; // Always show at full opacity for title page
             if (manager.__titleImage && manager.__titleImageLoaded) {
                 p.tint(255, imageOpacity);
-                // Position image on the left side
-                var imageX = offsetX + 30;
-                var imageY = offsetY + 30;
-                var imageWidth = (canvasWidth - 80) * 0.48; // 48% of canvas width
-                var imageHeight = canvasHeight - 60;
+                // Position image on the left side - slightly smaller to give more space for text
+                var imageX = offsetX + 20;
+                var imageY = offsetY + 20;
+                var imageWidth = (canvasWidth - 60) * 0.52; // 52% of canvas width (reduced to give more text space)
+                var imageHeight = canvasHeight - 40;
                 var aspectRatio = manager.__titleImage.height / manager.__titleImage.width;
                 var displayHeight = imageWidth * aspectRatio;
                 
@@ -85,32 +85,64 @@
             }
             
             // Draw title text on the right side - show immediately
-            var titleX = offsetX + canvasWidth * 0.52; // Start at 52% from left
+            // Calculate available space for text (ensure it doesn't exceed canvas)
+            var imageEndX = offsetX + 20 + (canvasWidth - 60) * 0.52 + 20; // image X + width + margin (updated for smaller image)
+            var textStartX = imageEndX + 20; // Add spacing between image and text
+            var availableTextWidth = canvasWidth - textStartX - 20; // Leave 20px margin on right
+            
+            var titleX = textStartX;
             var titleY = offsetY + canvasHeight / 2;
             var titleOpacity = 255; // Always show at full opacity for title page
             
             if (titleOpacity > 0) {
-                // Draw semi-transparent background for text readability
-                p.fill(255, 255, 255, titleOpacity * 0.85);
-                p.noStroke();
-                var textBgWidth = canvasWidth * 0.43;
-                var textBgHeight = 180;
-                p.rect(titleX - 20, titleY - textBgHeight / 2, textBgWidth, textBgHeight, 8);
+                // Use larger fixed sizes for title page - less aggressive scaling
+                var titleText = 'The Downhill Data:';
+                var subtitleText = 'A Guide to Ski Resort\nSnow Reliability';
+                var subtitleLine1 = 'A Guide to Ski Resort';
+                var subtitleLine2 = 'Snow Reliability';
                 
+                // Use much larger fixed sizes - minimal scaling
+                var baseTitleSize = 60;
+                var baseSubtitleSize = 34;
+                
+                // Calculate text widths at base sizes
+                p.textSize(baseTitleSize);
+                p.textStyle(p.BOLD);
+                var titleTextWidth = p.textWidth(titleText);
+                
+                p.textSize(baseSubtitleSize);
+                p.textStyle(p.NORMAL);
+                var subtitleTextWidth1 = p.textWidth(subtitleLine1);
+                var subtitleTextWidth2 = p.textWidth(subtitleLine2);
+                var maxSubtitleWidth = Math.max(subtitleTextWidth1, subtitleTextWidth2);
+                
+                // Only scale if text is significantly wider than available space
+                var maxTextWidth = availableTextWidth - 10; // Minimal padding
+                var finalTitleSize = titleTextWidth > maxTextWidth ? baseTitleSize * (maxTextWidth / titleTextWidth) : baseTitleSize;
+                var finalSubtitleSize = maxSubtitleWidth > maxTextWidth ? baseSubtitleSize * (maxTextWidth / maxSubtitleWidth) : baseSubtitleSize;
+                
+                // Use the calculated sizes (they should be close to base sizes now)
+                // No additional scaling factor applied
+                
+                // Calculate background dimensions based on actual text
+                p.textSize(finalTitleSize);
+                p.textStyle(p.BOLD);
+                var actualTitleWidth = p.textWidth(titleText);
+                p.textSize(finalSubtitleSize);
+                var actualSubtitleWidth = Math.max(p.textWidth(subtitleLine1), p.textWidth(subtitleLine2));
+                // Removed white background box - text now uses the grey article background
+                
+                // Draw title
                 p.fill(38, 38, 38, titleOpacity); // Dark gray text
                 p.textAlign(p.LEFT, p.CENTER);
-                p.textSize(32);
+                p.textSize(finalTitleSize);
                 p.textStyle(p.BOLD);
-                
-                // Main title
-                var titleText = 'The Downhill Data:';
                 p.text(titleText, titleX, titleY - 50);
                 
-                // Subtitle
-                p.textSize(20);
+                // Draw subtitle
+                p.textSize(finalSubtitleSize);
                 p.textStyle(p.NORMAL);
                 p.fill(118, 118, 120, titleOpacity); // Lighter gray for subtitle
-                var subtitleText = 'A Guide to Ski Resort\nSnow Reliability';
                 p.text(subtitleText, titleX, titleY + 10);
             }
             

@@ -38,12 +38,6 @@
             var fontSize = 12;
             var fontSizeSmall = 10;
 
-            // 3. Visible Labels: Draw red rectangle border
-            p.stroke(255, 0, 0);
-            p.strokeWeight(2);
-            p.noFill();
-            p.rect(0, 0, p.width, p.height);
-
             // Draw vertical gradient background (only in chart area)
             p.noStroke();
             for (var y = 0; y < chartHeight; y++) {
@@ -181,6 +175,18 @@
             p.text('RELIABILITY', 0, 0);
             p.pop();
 
+            // Helper function to determine snowfall intensity category
+            var getSnowfallIntensity = function(avgSnow) {
+                var third = avgSnowRange / 3;
+                if (avgSnow < minAvgSnow + third) {
+                    return 'Low';
+                } else if (avgSnow < minAvgSnow + (third * 2)) {
+                    return 'Medium';
+                } else {
+                    return 'High';
+                }
+            };
+
             // Prepare data with colors based on avg_snow
             var dataWithColors = data.map(function (d) {
                 var elevation = parseFloat(d['Highest point']) || 0;
@@ -202,7 +208,8 @@
                     x: x,
                     y: y,
                     color: [r, g, b],
-                    name: d['Resort'] || 'Unknown'
+                    name: d['Resort'] || 'Unknown',
+                    intensity: getSnowfallIntensity(avgSnow)
                 };
             });
             
@@ -392,6 +399,108 @@
             p.textStyle(p.BOLD);
             p.text('Elevation vs. Snow Reliability', chartX + chartWidth / 2, chartY - 35);
             p.textStyle(p.NORMAL);
+
+            // Hover detection and tooltip
+            var hoverRadius = 15; // Radius for hover detection
+            var hoveredPoint = null;
+            var mouseX = p.mouseX;
+            var mouseY = p.mouseY;
+            
+            // Check if mouse is within chart bounds
+            if (mouseX >= chartX && mouseX <= chartX + chartWidth &&
+                mouseY >= chartY && mouseY <= chartY + chartHeight) {
+                
+                var closestDist = hoverRadius;
+                
+                // Find closest point to mouse
+                for (var i = 0; i < dataWithColors.length; i++) {
+                    var point = dataWithColors[i];
+                    
+                    // Skip if outside domain
+                    if (point.elevation < xDomainMin || point.elevation > xDomainMax) {
+                        continue;
+                    }
+                    
+                    // Calculate distance from mouse to point
+                    var dx = mouseX - point.x;
+                    var dy = mouseY - point.y;
+                    var dist = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (dist < closestDist) {
+                        closestDist = dist;
+                        hoveredPoint = point;
+                    }
+                }
+            }
+            
+            // Draw tooltip if hovering over a point
+            if (hoveredPoint) {
+                // Tooltip content
+                var tooltipText = [
+                    hoveredPoint.name,
+                    'Elevation: ' + Math.round(hoveredPoint.elevation) + ' m',
+                    'Reliability: ' + (hoveredPoint.reliability * 100).toFixed(1) + '%',
+                    'Snowfall Intensity: ' + hoveredPoint.intensity
+                ];
+                
+                // Calculate tooltip dimensions
+                p.textSize(11);
+                p.textStyle(p.NORMAL);
+                var maxWidth = 0;
+                var lineHeight = 16;
+                var padding = 10;
+                
+                for (var i = 0; i < tooltipText.length; i++) {
+                    var w = p.textWidth(tooltipText[i]);
+                    if (w > maxWidth) maxWidth = w;
+                }
+                
+                var tooltipWidth = maxWidth + padding * 2;
+                var tooltipHeight = (tooltipText.length * lineHeight) + padding * 2;
+                
+                // Position tooltip near cursor (offset to avoid covering point)
+                var tooltipX = mouseX + 15;
+                var tooltipY = mouseY - tooltipHeight / 2;
+                
+                // Keep tooltip within canvas bounds
+                if (tooltipX + tooltipWidth > p.width) {
+                    tooltipX = mouseX - tooltipWidth - 15;
+                }
+                if (tooltipY + tooltipHeight > p.height) {
+                    tooltipY = p.height - tooltipHeight - 10;
+                }
+                if (tooltipY < 0) {
+                    tooltipY = 10;
+                }
+                
+                // Draw tooltip background
+                p.fill(255, 255, 255, 245);
+                p.stroke(textColor[0], textColor[1], textColor[2], 200);
+                p.strokeWeight(1.5);
+                p.rect(tooltipX, tooltipY, tooltipWidth, tooltipHeight, 5);
+                
+                // Draw tooltip text
+                p.noStroke();
+                p.fill(textColor[0], textColor[1], textColor[2], 255);
+                p.textAlign(p.LEFT, p.TOP);
+                p.textSize(11);
+                p.textStyle(p.BOLD);
+                
+                // First line: Resort name (bold)
+                p.text(tooltipText[0], tooltipX + padding, tooltipY + padding);
+                
+                // Remaining lines: regular weight
+                p.textStyle(p.NORMAL);
+                for (var i = 1; i < tooltipText.length; i++) {
+                    p.text(tooltipText[i], tooltipX + padding, tooltipY + padding + (i * lineHeight));
+                }
+                
+                // Highlight the hovered point
+                p.stroke(255, 255, 255, 255);
+                p.strokeWeight(2.5);
+                p.fill(hoveredPoint.color[0], hoveredPoint.color[1], hoveredPoint.color[2], 255);
+                p.ellipse(hoveredPoint.x, hoveredPoint.y, dotSize + 4, dotSize + 4);
+            }
 
             p.pop();
         }
