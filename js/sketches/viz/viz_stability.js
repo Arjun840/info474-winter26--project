@@ -222,22 +222,33 @@
             // 4. Data Points: Draw dots (already filtered to be within bounds)
             var numPoints = dataWithColors.length;
             
+            // Show all points at full opacity when chart is active
+            // Use a threshold to ensure all points are visible once scrolled into view
+            var showAllPoints = progress >= 0.3; // Show all points after 30% scroll progress
+            
             for (var i = 0; i < numPoints; i++) {
                 var point = dataWithColors[i];
                 
-                var pointProgress = (i + 1) / numPoints;
-                var shouldShow = pointProgress <= progress;
-                var opacity = shouldShow ? 255 : 0;
+                // If showing all points, display at full opacity
+                // Otherwise use progressive animation
+                var opacity = 255;
+                var animX = point.x;
                 
-                // Animate position (slide in from left)
-                var animOffset = 0;
-                if (shouldShow && progress > 0) {
-                    var animProgress = pointProgress / progress;
-                    animOffset = (1 - animProgress) * 50;
-                } else if (!shouldShow) {
-                    animOffset = 50;
+                if (!showAllPoints) {
+                    // Progressive animation for initial reveal
+                    var pointProgress = (i + 1) / numPoints;
+                    var shouldShow = pointProgress <= progress;
+                    opacity = shouldShow ? 255 : 0;
+                    
+                    // Animate position (slide in from left)
+                    if (shouldShow && progress > 0) {
+                        var animProgress = pointProgress / progress;
+                        var animOffset = (1 - animProgress) * 50;
+                        animX = point.x - animOffset;
+                    } else if (!shouldShow) {
+                        opacity = 0;
+                    }
                 }
-                var animX = point.x - animOffset;
                 
                 // Ensure animated position doesn't spill out of bounds
                 // Clamp animX to stay within chart bounds (accounting for dot radius)
@@ -245,7 +256,7 @@
                 var maxX = chartX + chartWidth - dotRadius;
                 animX = Math.max(minX, Math.min(maxX, animX));
 
-                // Only draw if the point (even with animation) is within bounds
+                // Draw all visible points at their correct positions
                 if (opacity > 0 && 
                     animX >= minX && animX <= maxX &&
                     point.y >= chartY + dotRadius && point.y <= chartY + chartHeight - dotRadius) {
