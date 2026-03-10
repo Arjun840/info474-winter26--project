@@ -6,121 +6,342 @@
       var data = manager.resortData || [];
       if (!data || data.length === 0) return;
 
-      var low = 0, med = 0, high = 0;
-
+      var cleaned = [];
       for (var i = 0; i < data.length; i++) {
-        var r = parseFloat(data[i]["reliability"]);
-        if (!isFinite(r)) continue;
-        if (r < 0.4) low++;
-        else if (r <= 0.7) med++;
-        else high++;
-      }
+        var price = parseFloat(data[i]["Price"]);
+        var continent = data[i]["Continent"];
+        var resort = data[i]["Resort"] || "Unknown Resort";
 
-      var total = low + med + high;
-      if (total === 0) return;
-
-      p.push();
-      p.background(242, 248, 252);
-
-      p.fill(25);
-      p.textAlign(p.CENTER, p.TOP);
-      p.textSize(20);
-      p.text("Resort Reliability Breakdown", p.width / 2, 18);
-
-      var cx = p.width / 2;
-      var cy = p.height / 2 + 10;
-      var radius = Math.min(p.width, p.height) * 0.28;
-
-      var values = [low, med, high];
-      var labels = ["Low (< 0.40)", "Medium (0.40–0.70)", "High (> 0.70)"];
-      var colors = [
-        [34, 139, 34],  
-        [255, 215, 0],   
-        [255, 140, 0]     
-      ];
-
-      var start = -p.HALF_PI;
-      var anim = Math.max(0, Math.min(1, progress));
-      var endLimit = start + anim * p.TWO_PI;
-
-      for (var s = 0; s < values.length; s++) {
-        var frac = values[s] / total;
-        var ang = frac * p.TWO_PI;
-        var end = start + ang;
-
-        var drawEnd = Math.min(end, endLimit);
-        if (drawEnd > start) {
-          var c = colors[s];
-          p.fill(c[0], c[1], c[2]);
-          p.noStroke();
-          p.arc(cx, cy, radius * 2, radius * 2, start, drawEnd, p.PIE);
+        if (isFinite(price) && continent) {
+          cleaned.push({
+            Resort: resort,
+            Continent: continent,
+            Price: price
+          });
         }
-        start = end;
       }
 
-      p.noFill();
-      p.stroke(45, 85, 125);
-      p.strokeWeight(1);
-      p.circle(cx, cy, radius * 2);
+      if (cleaned.length === 0) return;
 
-      var lx = cx + radius + 40;
-      var ly = cy - radius + 10;
-
-      p.noStroke();
-      p.textAlign(p.LEFT, p.TOP);
-
-      for (var j = 0; j < values.length; j++) {
-        var pct = (values[j] / total) * 100;
-        var c2 = colors[j];
-
-        p.fill(c2[0], c2[1], c2[2]);
-        p.rect(lx, ly + j * 28, 14, 14, 2);
-
-        p.fill(25);
-        p.textSize(12);
-        p.text(labels[j] + " — " + values[j] + " (" + pct.toFixed(1) + "%)", lx + 20, ly - 2 + j * 28);
+      var continents = [];
+      var seen = {};
+      for (var j = 0; j < cleaned.length; j++) {
+        var c = cleaned[j].Continent;
+        if (!seen[c]) {
+          seen[c] = true;
+          continents.push(c);
+        }
       }
 
-      var mx = p.mouseX - cx;
-      var my = p.mouseY - cy;
-      var d = Math.sqrt(mx * mx + my * my);
+      continents.sort();
 
-      if (d <= radius) {
-        var angMouse = Math.atan2(my, mx) + Math.PI / 2;
-        if (angMouse < 0) angMouse += Math.PI * 2;
+      var minPrice = Infinity;
+      var maxPrice = -Infinity;
+      for (var k = 0; k < cleaned.length; k++) {
+        if (cleaned[k].Price < minPrice) minPrice = cleaned[k].Price;
+        if (cleaned[k].Price > maxPrice) maxPrice = cleaned[k].Price;
+      }
 
-        var cum = 0;
-        var idx = -1;
-        for (var k = 0; k < values.length; k++) {
-          cum += values[k] / total;
-          if (angMouse <= cum * Math.PI * 2) {
-            idx = k;
+      if (manager._boxSliderValue == null) {
+        manager._boxSliderValue = maxPrice;
+      }
+      if (manager._boxSliderDragging == null) {
+        manager._boxSliderDragging = false;
+      }
+      if (manager._boxSliderLock == null) {
+        manager._boxSliderLock = false;
+      }
+
+      function quantile(sortedArr, q) {
+        if (!sortedArr.length) return null;
+        var pos = (sortedArr.length - 1) * q;
+        var base = Math.floor(pos);
+        var rest = pos - base;
+        if (sortedArr[base + 1] !== undefined) {
+          return sortedArr[base] + rest * (sortedArr[base + 1] - sortedArr[base]);
+        }
+        return sortedArr[base];
+      }
+
+      function computeBoxStats(values) {
+        if (!values || values.length === 0) return null;
+
+        var arr = values.slice().sort(function (a, b) { return a - b; });
+
+        var q1 = quantile(arr, 0.25);
+        var median = quantile(arr, 0.5);
+        var q3 = quantile(arr, 0.75);
+        var iqr = q3 - q1;
+
+        var lowerFence = q1 - 1.5 * iqr;
+        var upperFence = q3 + 1.5 * iqr;
+
+        var whiskerMin = arr[0];
+        var whiskerMax = arr[arr.length - 1];
+        var outliers = [];
+
+        for (var i2 = 0; i2 < arr.length; i2++) {
+          if (arr[i2] >= lowerFence) {
+            whiskerMin = arr[i2];
             break;
           }
         }
 
-        if (idx >= 0) {
-          var boxW = 260, boxH = 54;
-          var bx = Math.min(p.width - boxW - 12, Math.max(12, p.mouseX + 12));
-          var by = Math.min(p.height - boxH - 12, Math.max(12, p.mouseY - boxH - 12));
+        for (var j2 = arr.length - 1; j2 >= 0; j2--) {
+          if (arr[j2] <= upperFence) {
+            whiskerMax = arr[j2];
+            break;
+          }
+        }
 
-          p.noStroke();
-          p.fill(250, 253, 255);
-          p.rect(bx, by, boxW, boxH, 8);
+        for (var k2 = 0; k2 < arr.length; k2++) {
+          if (arr[k2] < whiskerMin || arr[k2] > whiskerMax) {
+            outliers.push(arr[k2]);
+          }
+        }
 
-          p.stroke(120, 150, 180);
-          p.noFill();
-          p.rect(bx, by, boxW, boxH, 8);
+        return {
+          q1: q1,
+          median: median,
+          q3: q3,
+          whiskerMin: whiskerMin,
+          whiskerMax: whiskerMax,
+          outliers: outliers,
+          count: arr.length
+        };
+      }
 
-          p.noStroke();
-          p.fill(25);
-          p.textAlign(p.LEFT, p.TOP);
-          p.textSize(12);
-          var pct2 = (values[idx] / total) * 100;
-          p.text(labels[idx], bx + 10, by + 10);
-          p.text(values[idx] + " resorts (" + pct2.toFixed(1) + "%)", bx + 10, by + 28);
+      function colorForContinent(continent) {
+        if (continent === "Europe") return [52, 152, 219];
+        if (continent === "North America") return [231, 76, 60];
+        if (continent === "Asia") return [46, 204, 113];
+        if (continent === "Oceania") return [241, 196, 15];
+        if (continent === "South America") return [155, 89, 182];
+        if (continent === "Africa") return [230, 126, 34];
+        return [120, 120, 120];
+      }
+
+      p.push();
+      p.background(242, 248, 252);
+
+      var margin = {
+        top: 60,
+        right: 40,
+        bottom: 130,
+        left: 80
+      };
+
+      var chartX = margin.left;
+      var chartY = margin.top;
+      var chartW = p.width - margin.left - margin.right;
+      var chartH = p.height - margin.top - margin.bottom;
+
+      var sliderX = chartX;
+      var sliderY = p.height - 48;
+      var sliderW = chartW;
+      var knobR = 9;
+
+      function valueToSliderX(val) {
+        return p.map(val, minPrice, maxPrice, sliderX, sliderX + sliderW);
+      }
+
+      function sliderXToValue(x) {
+        return p.map(x, sliderX, sliderX + sliderW, minPrice, maxPrice);
+      }
+
+      var knobX = valueToSliderX(manager._boxSliderValue);
+      var overKnob = p.dist(p.mouseX, p.mouseY, knobX, sliderY) <= knobR + 4;
+      var overTrack =
+        p.mouseX >= sliderX &&
+        p.mouseX <= sliderX + sliderW &&
+        p.mouseY >= sliderY - 10 &&
+        p.mouseY <= sliderY + 10;
+
+      if (p.mouseIsPressed && !manager._boxSliderLock && (overKnob || overTrack)) {
+        manager._boxSliderDragging = true;
+        manager._boxSliderLock = true;
+      }
+
+      if (!p.mouseIsPressed) {
+        manager._boxSliderDragging = false;
+        manager._boxSliderLock = false;
+      }
+
+      if (manager._boxSliderDragging) {
+        var clampedX = Math.max(sliderX, Math.min(sliderX + sliderW, p.mouseX));
+        manager._boxSliderValue = sliderXToValue(clampedX);
+      }
+
+      var activeMaxPrice = manager._boxSliderValue;
+
+      var filtered = [];
+      for (var m = 0; m < cleaned.length; m++) {
+        if (cleaned[m].Price <= activeMaxPrice) {
+          filtered.push(cleaned[m]);
         }
       }
+
+      var grouped = {};
+      for (var n = 0; n < continents.length; n++) {
+        grouped[continents[n]] = [];
+      }
+
+      for (var o = 0; o < filtered.length; o++) {
+        if (grouped[filtered[o].Continent]) {
+          grouped[filtered[o].Continent].push(filtered[o].Price);
+        }
+      }
+
+      var yMin = 0;
+      var yMax = maxPrice;
+      var yPad = (yMax - yMin) * 0.05;
+      yMax += yPad;
+
+      function yScale(val) {
+        return p.map(val, yMin, yMax, chartY + chartH, chartY);
+      }
+
+      p.fill(25);
+      p.textAlign(p.CENTER, p.TOP);
+      p.textSize(20);
+      p.text("Resort Price Distribution by Continent", p.width / 2, 18);
+
+      p.stroke(220, 228, 235);
+      p.strokeWeight(1);
+      var ticks = 5;
+      for (var gy = 0; gy <= ticks; gy++) {
+        var yy = chartY + (gy / ticks) * chartH;
+        p.line(chartX, yy, chartX + chartW, yy);
+      }
+
+      p.stroke(70, 90, 110);
+      p.strokeWeight(1.2);
+      p.line(chartX, chartY, chartX, chartY + chartH);
+      p.line(chartX, chartY + chartH, chartX + chartW, chartY + chartH);
+
+      p.noStroke();
+      p.fill(35);
+      p.textSize(11);
+      p.textAlign(p.RIGHT, p.CENTER);
+      for (var ty = 0; ty <= ticks; ty++) {
+        var yVal = yMin + ((ticks - ty) / ticks) * (yMax - yMin);
+        var yPos = chartY + (ty / ticks) * chartH;
+        p.text(Math.round(yVal), chartX - 8, yPos);
+      }
+
+      p.push();
+      p.translate(22, chartY + chartH / 2);
+      p.rotate(-p.HALF_PI);
+      p.textAlign(p.CENTER, p.TOP);
+      p.textSize(13);
+      p.fill(25);
+      p.text("Price", 0, 0);
+      p.pop();
+
+      p.textAlign(p.CENTER, p.TOP);
+      p.textSize(13);
+      p.fill(25);
+      p.text("Continent", chartX + chartW / 2, chartY + chartH + 48);
+
+      var bandW = chartW / continents.length;
+      var boxW = Math.min(60, bandW * 0.55);
+
+      for (var q = 0; q < continents.length; q++) {
+        var continent = continents[q];
+        var values = grouped[continent];
+        var stats = computeBoxStats(values);
+        var centerX = chartX + q * bandW + bandW / 2;
+
+        p.noStroke();
+        p.fill(25);
+        p.textAlign(p.CENTER, p.TOP);
+        p.textSize(11);
+        p.text(continent, centerX, chartY + chartH + 10);
+
+        if (!stats) {
+          p.fill(120);
+          p.textSize(10);
+          p.text("n=0", centerX, chartY - 18);
+          continue;
+        }
+
+        var col = colorForContinent(continent);
+        var yQ1 = yScale(stats.q1);
+        var yMedian = yScale(stats.median);
+        var yQ3 = yScale(stats.q3);
+        var yMinW = yScale(stats.whiskerMin);
+        var yMaxW = yScale(stats.whiskerMax);
+
+        p.stroke(80, 95, 110);
+        p.strokeWeight(1.5);
+        p.line(centerX, yQ3, centerX, yMaxW);
+        p.line(centerX, yQ1, centerX, yMinW);
+        p.line(centerX - 12, yMaxW, centerX + 12, yMaxW);
+        p.line(centerX - 12, yMinW, centerX + 12, yMinW);
+
+        p.fill(col[0], col[1], col[2], 180);
+        p.stroke(80, 95, 110);
+        p.rectMode(p.CORNER);
+        p.rect(centerX - boxW / 2, yQ3, boxW, yQ1 - yQ3);
+
+        p.stroke(25);
+        p.strokeWeight(2);
+        p.line(centerX - boxW / 2, yMedian, centerX + boxW / 2, yMedian);
+
+        p.noStroke();
+        p.fill(50, 50, 50, 180);
+        for (var r = 0; r < stats.outliers.length; r++) {
+          p.circle(centerX, yScale(stats.outliers[r]), 5);
+        }
+
+        p.fill(25);
+        p.textSize(10);
+        p.text("n=" + stats.count, centerX, chartY - 18);
+      }
+
+      p.fill(25);
+      p.textAlign(p.LEFT, p.CENTER);
+      p.textSize(12);
+      p.text("Max price filter", sliderX, sliderY - 22);
+
+      p.stroke(185, 195, 205);
+      p.strokeWeight(4);
+      p.line(sliderX, sliderY, sliderX + sliderW, sliderY);
+
+      p.stroke(45, 85, 125);
+      p.strokeWeight(5);
+      p.line(sliderX, sliderY, valueToSliderX(activeMaxPrice), sliderY);
+
+      p.noStroke();
+      p.fill(35);
+      p.textAlign(p.LEFT, p.TOP);
+      p.textSize(10);
+      p.text(Math.round(minPrice), sliderX, sliderY + 10);
+
+      p.textAlign(p.RIGHT, p.TOP);
+      p.text(Math.round(maxPrice), sliderX + sliderW, sliderY + 10);
+
+      var drawKnobX = valueToSliderX(activeMaxPrice);
+      p.fill(45, 85, 125);
+      p.stroke(255);
+      p.strokeWeight(1.5);
+      p.circle(drawKnobX, sliderY, knobR * 2);
+
+      p.noStroke();
+      p.fill(25);
+      p.textAlign(p.CENTER, p.BOTTOM);
+      p.textSize(11);
+      p.text(Math.round(activeMaxPrice), drawKnobX, sliderY - 10);
+
+      p.textAlign(p.LEFT, p.TOP);
+      p.textSize(12);
+      p.fill(25);
+      p.text(
+        "Showing resorts with price ≤ " + Math.round(activeMaxPrice) +
+        "   |   Resorts shown: " + filtered.length,
+        chartX,
+        42
+      );
 
       p.pop();
     }
