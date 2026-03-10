@@ -20,7 +20,7 @@
       if (total === 0) return;
 
       p.push();
-      p.background(255);
+      p.background(242, 248, 252);
 
       p.fill(25);
       p.textAlign(p.CENTER, p.TOP);
@@ -33,6 +33,11 @@
 
       var values = [low, med, high];
       var labels = ["Low (< 0.40)", "Medium (0.40–0.70)", "High (> 0.70)"];
+      var colors = [
+        [34, 139, 34],  
+        [255, 215, 0],   
+        [255, 140, 0]     
+      ];
 
       var start = -p.HALF_PI;
       var anim = Math.max(0, Math.min(1, progress));
@@ -45,8 +50,8 @@
 
         var drawEnd = Math.min(end, endLimit);
         if (drawEnd > start) {
-          var shade = 60 + s * 60;
-          p.fill(shade);
+          var c = colors[s];
+          p.fill(c[0], c[1], c[2]);
           p.noStroke();
           p.arc(cx, cy, radius * 2, radius * 2, start, drawEnd, p.PIE);
         }
@@ -54,7 +59,7 @@
       }
 
       p.noFill();
-      p.stroke(30);
+      p.stroke(45, 85, 125);
       p.strokeWeight(1);
       p.circle(cx, cy, radius * 2);
 
@@ -66,9 +71,9 @@
 
       for (var j = 0; j < values.length; j++) {
         var pct = (values[j] / total) * 100;
-        var shade2 = 60 + j * 60;
+        var c2 = colors[j];
 
-        p.fill(shade2);
+        p.fill(c2[0], c2[1], c2[2]);
         p.rect(lx, ly + j * 28, 14, 14, 2);
 
         p.fill(25);
@@ -100,9 +105,10 @@
           var by = Math.min(p.height - boxH - 12, Math.max(12, p.mouseY - boxH - 12));
 
           p.noStroke();
-          p.fill(255);
+          p.fill(250, 253, 255);
           p.rect(bx, by, boxW, boxH, 8);
-          p.stroke(30);
+
+          p.stroke(120, 150, 180);
           p.noFill();
           p.rect(bx, by, boxW, boxH, 8);
 
